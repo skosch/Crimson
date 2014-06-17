@@ -10314,14 +10314,13 @@ StartChar: Lcaron
 Encoding: 317 317 348
 Width: 583
 VWidth: 0
-Flags: W
-HStem: 0 30<-1.08435 69.1056 158.472 356.306> 482 187 633 29<119.909 179.552 270.997 341.019>
-VStem: 416 68<563.578 650.614>
+Flags: WO
+HStem: 0 30<-1.08435 69.1056 158.472 356.306> 507 187 633 29<119.909 179.552 270.997 341.019>
+VStem: 416 68<588.578 675.614>
 LayerCount: 2
 Fore
 Refer: 43 76 N 1 0 0 1 0 0 2
-Refer: 271 789 N 1 0 0 1 243 17 2
-Validated: 1
+Refer: 271 789 S 1 0 0 1 243 42 2
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 5-1" lcaron.sc
 EndChar
 

@@ -197,7 +197,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 36 36 14
+WinInfo: 36 36 16
 BeginPrivate: 10
 BlueValues 39 [-10 0 442 442 642 643 661 667 690 692]
 OtherBlues 11 [-228 -226]
@@ -7812,7 +7812,7 @@ StartChar: Lcaron
 Encoding: 317 317 300
 Width: 563
 VWidth: 0
-Flags: W
+Flags: WO
 HStem: -1 31<-3.625 64.689> -1 40<184.293 389.585> 441 225 629 33<118.109 174.875 292.311 361.188>
 VStem: 413 90<544.974 634.355> 434 69<524 647.669>
 LayerCount: 2
