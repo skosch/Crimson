@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273891947
-ModificationTime: 1375668575
+ModificationTime: 1403041131
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -200,7 +200,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 56 8 4
+WinInfo: 33 33 14
 BeginPrivate: 10
 BlueValues 39 [-11 0 449 449 641 642 662 667 695 697]
 OtherBlues 11 [-220 -218]
@@ -215,18 +215,18 @@ ExpansionFactor 4 0.06
 EndPrivate
 Grid
 -255 -201.5 m 24
- -255 908.5 l 24
+ -255 908.5 l 1048
 0 1229 m 0
- 0 -819 l 0
+ 0 -819 l 1024
 502 642 m 25
  0 642 l 25
  502 642 l 25
 789 -227 m 25
- 1195 -227 l 25
+ 1195 -227 l 1049
 0 662 m 25
- 560 662 l 25
+ 560 662 l 1049
 0 670 m 25
- 560 670 l 25
+ 560 670 l 1049
 555 -218 m 25
  0 -218 l 25
  555 -218 l 25
@@ -596,7 +596,7 @@ SplineSet
 211 19 m 25
  306 521 l 25
  294.499 39.166 l 25
- 383 504 l 25
+ 383 504 l 1049
 EndSplineSet
 Fore
 SplineSet
@@ -631,7 +631,7 @@ LayerCount: 2
 Back
 SplineSet
 195 116 m 0
- 200 10 146 -95 27 -162 c 0
+ 200 10 146 -95 27 -162 c 1024
 EndSplineSet
 Fore
 SplineSet
@@ -3012,7 +3012,7 @@ SplineSet
  355.84 89.748 359.916 78 370.316 78 c 0
  392.156 78 438.316 133 441.316 139 c 1
  448.316 139 455.316 118.179 455.316 112 c 1
- 438.316 80 350 -7.57129 295.54 -7.57129 c 0
+ 438.316 80 350 -7.57129 295.54 -7.57129 c 1024
 EndSplineSet
 Fore
 SplineSet
@@ -3578,7 +3578,7 @@ LayerCount: 2
 Back
 SplineSet
 120 352 m 0
- 159 352 187 314 253 314 c 0
+ 159 352 187 314 253 314 c 1024
 EndSplineSet
 Fore
 SplineSet
@@ -3758,9 +3758,9 @@ LayerCount: 2
 Back
 SplineSet
 197 -92 m 1
- 466 642 l 1
+ 466 642 l 1025
 140 -92 m 1
- 409 642 l 1
+ 409 642 l 1025
 EndSplineSet
 Fore
 SplineSet
@@ -4840,9 +4840,9 @@ LayerCount: 2
 Back
 SplineSet
 420 497 m 25
- 130 100 l 25
+ 130 100 l 1049
 480 471 m 25
- 190 74 l 25
+ 190 74 l 1049
 EndSplineSet
 Fore
 SplineSet
@@ -5302,7 +5302,7 @@ LayerCount: 2
 Back
 SplineSet
 306 309 m 3
- 306 398 446 422 446 566 c 3
+ 306 398 446 422 446 566 c 1027
 EndSplineSet
 Fore
 SplineSet
@@ -8714,14 +8714,13 @@ StartChar: Lcaron
 Encoding: 317 317 322
 Width: 565
 VWidth: 0
-Flags: W
+Flags: WO
 HStem: -3 37<-4.59805 62.512> -2 44<208.668 404.762> 468 227 625 37<117.587 169.999 315.002 381.598>
-VStem: 521 97<573.974 659.787> 542 76<553 678.339>
+VStem: 431 97<573.974 659.787> 452 76<553 678.339>
 LayerCount: 2
 Fore
-Refer: 255 789 N 1 0 0 1 377 14 2
+Refer: 255 789 S 1 0 0 1 287 14 2
 Refer: 44 76 N 1 0 0 1 -0 0 2
-Validated: 1
 EndChar
 
 StartChar: lcaron

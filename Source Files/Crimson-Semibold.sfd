@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1316567991
-ModificationTime: 1375667851
+ModificationTime: 1403040589
 PfmFamily: 17
 TTFWeight: 600
 TTFWidth: 5
@@ -192,7 +192,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 19 19 7
+WinInfo: 33 33 15
 BeginPrivate: 10
 BlueValues 39 [-11 0 437 443 638 645 661 667 694 698]
 OtherBlues 11 [-223 -222]
@@ -5352,7 +5352,7 @@ VStem: 102 104<36.3778 342.871> 155 282 379 104<36.0252 341.83>
 LayerCount: 2
 Fore
 SplineSet
-366 703 m 24,124,-1
+366 703 m 1048,124,-1
 EndSplineSet
 Refer: 229 771 N 1 0 0 1 99 -8 2
 Refer: 78 110 N 1 0 0 1 -0 0 3
@@ -7935,12 +7935,11 @@ Width: 591
 VWidth: 0
 Flags: W
 HStem: -3 33<40.75 108.999> -1 41<236.479 459.191> 473 211 629 33<40.75 108.779 236.221 304.25>
-VStem: 116 114<54.5929 621.26> 500 66<547.807 639.5>
+VStem: 116 114<54.5929 621.26> 390 66<547.807 639.5>
 LayerCount: 2
 Fore
-Refer: 255 789 N 1 0 0 1 382 14 2
+Refer: 255 789 S 1 0 0 1 272 14 2
 Refer: 44 76 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: lcaron
