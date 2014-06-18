@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1319393633
-ModificationTime: 1403040571
+ModificationTime: 1403117665
 PfmFamily: 17
 TTFWeight: 600
 TTFWidth: 5
@@ -197,7 +197,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 36 36 16
+WinInfo: 36 36 14
 BeginPrivate: 10
 BlueValues 39 [-10 0 442 442 642 643 661 667 690 692]
 OtherBlues 11 [-228 -226]
@@ -7213,13 +7213,12 @@ Encoding: 271 271 264
 Width: 483
 VWidth: 0
 Flags: W
-HStem: -6 73<72.5 159.52 277 361> 394 48<224.723 289.507> 507 225 632 25<284.696 341.211> 670 20<433 446.5>
-VStem: 15 100<75.0665 220.816> 345 105<550.109 675> 522 90<610.974 700.355> 543 69<590 713.669>
+HStem: -6 73<72.5 159.52 277 361> 394 48<224.723 289.507> 467 225 632 25<284.696 341.211> 670 20<433 446.5>
+VStem: 15 100<75.0665 220.816> 345 105<550.109 675> 476 90<570.974 660.355> 497 69<550 673.669>
 LayerCount: 2
 Fore
-Refer: 240 789 N 1 0 0 1 378 51 2
+Refer: 240 789 S 1 0 0 1 332 11 2
 Refer: 67 100 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Emacron
@@ -7813,7 +7812,7 @@ StartChar: Lcaron
 Encoding: 317 317 300
 Width: 563
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -1 31<-3.625 64.689> -1 40<184.293 389.585> 441 225 629 33<118.109 174.875 292.311 361.188>
 VStem: 413 90<544.974 634.355> 434 69<524 647.669>
 LayerCount: 2
@@ -7828,12 +7827,11 @@ Width: 270
 VWidth: 0
 Flags: W
 HStem: -7 70<68 155> 466 225 632 25<76.6956 133.211> 670 20<225 238.5>
-VStem: 33 99<27.5218 179.891> 138 105<552.133 675> 298 90<569.974 659.355> 319 69<549 672.669>
+VStem: 33 99<27.5218 179.891> 138 105<552.133 675> 262 90<569.974 659.355> 283 69<549 672.669>
 LayerCount: 2
 Fore
-Refer: 240 789 N 1 0 0 1 154 10 2
+Refer: 240 789 S 1 0 0 1 118 10 2
 Refer: 75 108 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Ldot
@@ -8179,13 +8177,12 @@ Encoding: 357 357 328
 Width: 290
 VWidth: 0
 Flags: W
-HStem: -7 70<83.5 171> 377 42<46.2066 108 210 295.023> 480 225
-VStem: 48 99<27.877 182.578> 320 90<583.974 673.355> 341 69<563 686.669>
+HStem: -7 70<83.5 171> 377 42<46.2066 108 210 295.023> 468 225
+VStem: 48 99<27.877 182.578> 284 90<571.974 661.355> 305 69<551 674.669>
 LayerCount: 2
 Fore
-Refer: 240 789 N 1 0 0 1 176 24 2
+Refer: 240 789 S 1 0 0 1 140 12 2
 Refer: 83 116 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: Utilde
