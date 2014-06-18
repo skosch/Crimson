@@ -9,46 +9,46 @@ Version: 0.8
 ItalicAngle: -11
 UnderlinePosition: -102
 UnderlineWidth: 51
-Ascent: 717
-Descent: 307
+Ascent: 742
+Descent: 282
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 XUID: [1021 85 519305545 10852408]
 FSType: 0
-OS2Version: 0
+OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273443993
-ModificationTime: 1375669011
+ModificationTime: 1403057981
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 92
+LineGap: 256
 VLineGap: 0
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
-OS2TypoDescent: 0
-OS2TypoDOffset: 1
-OS2TypoLinegap: 92
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
+OS2TypoAscent: 742
+OS2TypoAOffset: 0
+OS2TypoDescent: -282
+OS2TypoDOffset: 0
+OS2TypoLinegap: 256
+OS2WinAscent: 948
+OS2WinAOffset: 0
+OS2WinDescent: 332
+OS2WinDOffset: 0
+HheadAscent: 742
+HheadAOffset: 0
+HheadDescent: -282
+HheadDOffset: 0
 OS2SubXSize: 665
-OS2SubYSize: 716
-OS2SubXOff: 27
-OS2SubYOff: 143
+OS2SubYSize: 614
+OS2SubXOff: -16
+OS2SubYOff: 76
 OS2SupXSize: 665
-OS2SupYSize: 716
-OS2SupXOff: -93
-OS2SupYOff: 491
+OS2SupYSize: 614
+OS2SupXOff: 76
+OS2SupYOff: 358
 OS2StrikeYSize: 51
-OS2StrikeYPos: 265
+OS2StrikeYPos: 261
 OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "'ccmp' Turkish i"  {"'ccmp' Turkish i-1"  } ['ccmp' ('latn' <'TRK ' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 5"  {"'onum' Oldstyle Figures in Latin lookup 5-1" ("onum" ) } ['onum' ('DFLT' <'dflt' > 'latn' <'TRK ' 'dflt' > ) ]
@@ -773,7 +773,7 @@ NameList: AMS Names
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 143 13 6
+WinInfo: 0 24 10
 BeginPrivate: 8
 BlueValues 39 [-10 0 434 437 641 644 658 668 685 695]
 BlueScale 8 0.039625
@@ -786,22 +786,22 @@ ExpansionFactor 4 0.06
 EndPrivate
 Grid
 -255 -201.5 m 24
- -255 908.5 l 24
+ -255 908.5 l 1048
 109 89 m 1
  224 680 l 1
  288 670 l 1
  173 80 l 1
  109 89 l 1
 -1024 408 m 0
- 2048 408 l 0
+ 2048 408 l 1024
 88 631 m 25
- 384 631 l 25
+ 384 631 l 1049
 -76 -233 m 25
- 468 -233 l 25
+ 468 -233 l 1049
 28 694 m 25
- 542 694 l 25
+ 542 694 l 1049
 28 435 m 17
- 542 435 l 9
+ 542 435 l 1033
 EndSplineSet
 BeginChars: 65757 1095
 
@@ -1944,7 +1944,7 @@ SplineSet
 417 630 m 2
  337 630 l 2
  326 630 276 629 271 619 c 0
- 263 603 256 574 251 547 c 2
+ 263 603 256 574 251 547 c 1026
 EndSplineSet
 Fore
 SplineSet
@@ -2706,7 +2706,7 @@ SplineSet
  222.402 657 244.402 660 282.402 662 c 1
  283.402 656 278.402 634 274.402 633 c 1
  267.402 633 217.402 628 212.402 600 c 0
- 208.402 578 226.402 362 242.402 161 c 1
+ 208.402 578 226.402 362 242.402 161 c 1025
 EndSplineSet
 Fore
 SplineSet
@@ -2938,7 +2938,7 @@ SplineSet
  31 -114 27.2618 -111.508 27.2618 -105.133 c 0
  27.2618 -88.58 46.9951 -74.0039 47 -74 c 2
  47 -74 93 -57 143 -57 c 0
- 149 -57 152 -49 152 -49 c 1
+ 149 -57 152 -49 152 -49 c 1025
 EndSplineSet
 Fore
 SplineSet

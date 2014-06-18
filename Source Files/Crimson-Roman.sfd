@@ -8,47 +8,47 @@ Version: 0.8
 ItalicAngle: 0
 UnderlinePosition: -112
 UnderlineWidth: 47
-Ascent: 717
-Descent: 307
+Ascent: 742
+Descent: 282
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 XUID: [1021 559 149143806 1270264]
 FSType: 0
-OS2Version: 0
+OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1270926789
-ModificationTime: 1375663905
+ModificationTime: 1403057826
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 92
+LineGap: 256
 VLineGap: 0
 Panose: 2 0 5 3 0 0 0 0 0 0
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
-OS2TypoDescent: 0
-OS2TypoDOffset: 1
-OS2TypoLinegap: 307
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
-OS2SubXSize: 666
-OS2SubYSize: 716
+OS2TypoAscent: 742
+OS2TypoAOffset: 0
+OS2TypoDescent: -282
+OS2TypoDOffset: 0
+OS2TypoLinegap: 256
+OS2WinAscent: 948
+OS2WinAOffset: 0
+OS2WinDescent: 332
+OS2WinDOffset: 0
+HheadAscent: 742
+HheadAOffset: 0
+HheadDescent: -282
+HheadDOffset: 0
+OS2SubXSize: 665
+OS2SubYSize: 614
 OS2SubXOff: 0
-OS2SubYOff: 143
-OS2SupXSize: 666
-OS2SupYSize: 716
+OS2SubYOff: 76
+OS2SupXSize: 665
+OS2SupYSize: 614
 OS2SupXOff: 0
-OS2SupYOff: 490
-OS2StrikeYSize: 50
-OS2StrikeYPos: 264
+OS2SupYOff: 358
+OS2StrikeYSize: 47
+OS2StrikeYPos: 258
 OS2FamilyClass: 258
 OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "'ccmp' Turkish i"  {"'ccmp' Turkish i-1"  } ['ccmp' ('latn' <'TRK ' > ) ]
@@ -862,12 +862,12 @@ GaspTable: 1 65535 15 1
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
-NameList: Adobe Glyph List
+NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 78
-WinInfo: 36 9 5
+WinInfo: 19 19 9
 BeginPrivate: 9
 BlueValues 39 [-10 0 429 439 641 644 658 670 693 696]
 OtherBlues 11 [-228 -226]
@@ -881,12 +881,12 @@ ExpansionFactor 4 0.06
 EndPrivate
 Grid
 -1024 642 m 0
- 2048 642 l 0
+ 2048 642 l 1024
   Named: "nums" 
 253 -227 m 25
- 504 -227 l 25
+ 504 -227 l 1049
 -1024 826 m 0
- 2048 826 l 0
+ 2048 826 l 1024
   Named: "ssups_nums" 
 EndSplineSet
 TeXData: 1 0 0 204800 102400 68266 442368 1048576 68266 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -2230,7 +2230,7 @@ EndChar
 StartChar: I
 Encoding: 73 73 40
 Width: 324
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252 211.748 282.596> 633 29<42.4037 113.252 211.748 282.596>
 VStem: 119 87<32.7426 626.257>
 LayerCount: 2
@@ -2256,7 +2256,6 @@ SplineSet
  41 638 40 657 45 662 c 1
  86 660 124 657 163 657 c 0
 EndSplineSet
-Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" i.sc
 EndChar
 
@@ -3261,7 +3260,7 @@ SplineSet
  387 273 382 256 363 255 c 0
  332 253 123 248 111 248 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" e.sc
 EndChar
 
@@ -5438,56 +5437,52 @@ EndChar
 StartChar: Igrave
 Encoding: 204 204 137
 Width: 324
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252 211.748 282.596> 633 29<42.4037 113.252 211.748 282.596> 728 133
 VStem: 37 185 119 87<32.7426 626.257>
 LayerCount: 2
 Fore
 Refer: 40 73 N 1 0 0 1 0 0 3
 Refer: 487 -1 N 1 0 0 1 390 0 2
-Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" igrave.sc
 EndChar
 
 StartChar: Iacute
 Encoding: 205 205 138
 Width: 324
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252 211.748 282.596> 633 29<42.4037 113.252 211.748 282.596> 728 133
 VStem: 115 185 119 87<32.7426 626.257>
 LayerCount: 2
 Fore
 Refer: 40 73 N 1 0 0 1 -0 0 3
 Refer: 488 -1 N 1 0 0 1 465 0 2
-Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" iacute.sc
 EndChar
 
 StartChar: Icircumflex
 Encoding: 206 206 139
 Width: 324
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252 211.748 282.596> 633 29<42.4037 113.252 211.748 282.596> 704 132
 VStem: 56 229 119 87<32.7426 626.257>
 LayerCount: 2
 Fore
 Refer: 40 73 N 1 0 0 1 -0 0 3
 Refer: 489 -1 N 1 0 0 1 426 -24 2
-Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" icircumflex.sc
 EndChar
 
 StartChar: Idieresis
 Encoding: 207 207 140
 Width: 324
-Flags: W
+Flags: HW
 HStem: -3 29<43.4037 114.252 212.748 283.596> 633 29<43.4037 114.252 212.748 283.596> 728 100<36.4375 119.562 217.438 300.562>
 VStem: 28 100<736.438 819.562> 120 87<32.7426 626.257> 209 100<736.438 819.562>
 LayerCount: 2
 Fore
 Refer: 501 -1 N 1 0 0 1 -1 16 2
 Refer: 40 73 N 1 0 0 1 1 0 3
-Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" idieresis.sc
 EndChar
 
@@ -7094,14 +7089,13 @@ EndChar
 StartChar: Itilde
 Encoding: 296 296 229
 Width: 324
-Flags: W
+Flags: HW
 HStem: -3 29<41.4037 112.252 210.748 281.596> 633 29<41.4037 112.252 210.748 281.596> 721 44<186.929 285.924> 767 44<60.7954 161.088>
 VStem: 33 282 118 87<32.7426 626.257>
 LayerCount: 2
 Fore
 Refer: 40 73 N 1 0 0 1 -1 0 3
 Refer: 491 -1 N 1 0 0 1 420 -7 2
-Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" itilde.sc
 EndChar
 
@@ -7122,14 +7116,13 @@ EndChar
 StartChar: Imacron
 Encoding: 298 298 231
 Width: 324
-Flags: W
+Flags: HW
 HStem: -3 29<43.4037 114.252 212.748 283.596> 633 29<43.4037 114.252 212.748 283.596> 756 42<45.5379 295.521>
 VStem: 120 87<32.7426 626.257>
 LayerCount: 2
 Fore
 Refer: 40 73 N 1 0 0 1 1 0 3
 Refer: 492 -1 N 1 0 0 1 427 28 2
-Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" imacron.sc
 EndChar
 
@@ -7150,14 +7143,13 @@ EndChar
 StartChar: Ibreve
 Encoding: 300 300 233
 Width: 324
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252 211.748 282.596> 633 29<42.4037 113.252 211.748 282.596> 725 46<106.539 229.461>
 VStem: 119 87<32.7426 626.257> 255 22<809.776 826.806>
 LayerCount: 2
 Fore
 Refer: 40 73 N 1 0 0 1 -0 0 3
 Refer: 493 -1 N 1 0 0 1 423 -3 2
-Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ibreve.sc
 EndChar
 
@@ -7238,14 +7230,13 @@ EndChar
 StartChar: Idotaccent
 Encoding: 304 304 237
 Width: 324
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252 211.748 282.596> 633 29<42.4037 113.252 211.748 282.596> 728 100<121.438 204.562>
 VStem: 113 100<736.438 819.562> 119 87<32.7426 626.257>
 LayerCount: 2
 Fore
 Refer: 40 73 N 1 0 0 1 -0 0 3
 Refer: 495 -1 N 1 0 0 1 418 0 2
-Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" Idotaccent.sc
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" Idotaccent.sc
 EndChar
@@ -7285,14 +7276,13 @@ EndChar
 StartChar: IJ
 Encoding: 306 306 239
 Width: 571
-Flags: W
+Flags: HW
 HStem: -227 47<217.5 324.264> -3 29<41.4037 112.252 210.748 281.596> 633 29<41.4037 112.252 210.748 281.596 295.404 366.252 464.748 535.596>
 VStem: 118 87<32.7426 626.257> 372 87<-53.3294 626.257>
 LayerCount: 2
 Fore
 Refer: 41 74 N 1 0 0 1 258 0 2
 Refer: 40 73 N 1 0 0 1 -1 0 2
-Validated: 1
 EndChar
 
 StartChar: ij
@@ -7841,10 +7831,10 @@ Back
 SplineSet
 358 633 m 0
  208 633 148 484 148 350 c 0
- 148 195 234 24 389 24 c 0
+ 148 195 234 24 389 24 c 1024
 373 -10 m 0
  197 -10 49 130 49 328 c 0
- 49 515 197 667 373 667 c 0
+ 49 515 197 667 373 667 c 1024
 EndSplineSet
 Fore
 SplineSet
@@ -13949,14 +13939,13 @@ EndChar
 StartChar: uni01CF
 Encoding: 463 463 510
 Width: 324
-Flags: W
+Flags: HW
 HStem: -3 29<41.4037 112.252 210.748 281.596> 633 29<41.4037 112.252 210.748 281.596> 727 132
 VStem: 55 229 118 87<32.7426 626.257>
 LayerCount: 2
 Fore
 Refer: 40 73 N 1 0 0 1 -1 0 3
 Refer: 502 -1 N 1 0 0 1 33 0 2
-Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" uni01D0.sc
 EndChar
 
@@ -15023,7 +15012,7 @@ SplineSet
  329 20 334.37 163.461 335.703 297.85 c 1
  235 303 162 366 119 491 c 0
  98.4268 550.806 68 616 30 616 c 0
- 20 616 13 615 1 609 c 1
+ 20 616 13 615 1 609 c 1025
 EndSplineSet
 Fore
 SplineSet
@@ -15570,14 +15559,13 @@ EndChar
 StartChar: uni1E2C
 Encoding: 7724 7724 594
 Width: 324
-Flags: W
+Flags: HW
 HStem: -156 45<134.642 225.434> -109 45<20.7853 111.438> -3 29<4.40366 75.2515 173.748 244.596> 633 29<4.40366 75.2515 173.748 244.596>
 VStem: -3 255 81 87<32.7426 626.257>
 LayerCount: 2
 Fore
 Refer: 335 771 N 1 0 0 1 372 -654 2
 Refer: 40 73 N 1 0 0 1 -38 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1E2D
@@ -15596,14 +15584,13 @@ EndChar
 StartChar: uni1E2E
 Encoding: 7726 7726 596
 Width: 324
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252 211.748 282.596> 633 29<42.4037 113.252 211.748 282.596> 728 100<35.4375 118.562 216.438 299.562> 855 133
 VStem: -246 185 27 100<736.438 819.562> 119 87<32.7426 626.257> 208 100<736.438 819.562>
 LayerCount: 2
 Fore
 Refer: 488 -1 N 1 0 0 1 104 127 2
 Refer: 140 207 N 1 0 0 1 -1 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1E2F
@@ -17502,14 +17489,13 @@ EndChar
 StartChar: uni1EC8
 Encoding: 7880 7880 736
 Width: 324
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252 211.748 282.596> 633 29<42.4037 113.252 211.748 282.596> 949 58<-369.641 -324.625> 1072 21<-348.191 -310.228>
 VStem: -372 48<955.208 997.301> -304 52<1012.09 1071.37> 119 87<32.7426 626.257>
 LayerCount: 2
 Fore
 Refer: 498 -1 N 1 0 0 1 -80 221 2
 Refer: 40 73 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1EC9
@@ -17528,14 +17514,13 @@ EndChar
 StartChar: uni1ECA
 Encoding: 7882 7882 738
 Width: 324
-Flags: W
+Flags: HW
 HStem: -164 100<120.438 203.562> -3 29<41.4037 112.252 210.748 281.596> 633 29<41.4037 112.252 210.748 281.596>
 VStem: 112 100<-155.562 -72.4375> 118 87<32.7426 626.257>
 LayerCount: 2
 Fore
 Refer: 496 -1 N 1 0 0 1 15 -28 2
 Refer: 40 73 N 1 0 0 1 -1 0 3
-Validated: 1
 EndChar
 
 StartChar: uni1ECB
@@ -24929,26 +24914,24 @@ EndChar
 StartChar: afii10055
 Encoding: 1030 1030 1063
 Width: 327
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252 211.748 282.596> 633 29<42.4037 113.252 211.748 282.596>
 VStem: 119 87<32.7426 626.257>
 LayerCount: 2
 Fore
 Refer: 40 73 S 1 0 0 1 -0 0 2
-Validated: 1
 EndChar
 
 StartChar: afii10056
 Encoding: 1031 1031 1064
 Width: 327
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252 211.748 282.596> 633 29<42.4037 113.252 211.748 282.596> 728 100<33.4375 116.562 214.438 297.562>
 VStem: 25 100<736.438 819.562> 119 87<32.7426 626.257> 206 100<736.438 819.562>
 LayerCount: 2
 Fore
 Refer: 501 -1 N 1 0 0 1 -4 16 2
 Refer: 1063 1030 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: afii10057
@@ -24995,7 +24978,7 @@ Back
 SplineSet
 300 633 m 1
  288 633 234 628 231 617 c 0
- 226 601 226 573 226 543 c 2
+ 226 601 226 573 226 543 c 1026
 EndSplineSet
 Fore
 SplineSet
@@ -31882,7 +31865,7 @@ SplineSet
  414 373 388 436 374 436 c 0
  372 436 363 428 363 422 c 0
  363 408 356 352 334 290 c 0
- 306.485351562 212.45703125 274 156 238 83 c 1
+ 306.485351562 212.45703125 274 156 238 83 c 1025
 604 83 m 1
  604 88 602.325195312 142.029296875 601 155 c 0
  587 292 548 432 459 433 c 0
@@ -31890,7 +31873,7 @@ SplineSet
  366 347 372 334 378 334 c 1
  385 343 418 362 444 362 c 0
  488 362 551.416992188 340.631835938 573 132 c 0
- 576 103 578 44 578 40 c 1
+ 576 103 578 44 578 40 c 1025
 EndSplineSet
 Fore
 SplineSet

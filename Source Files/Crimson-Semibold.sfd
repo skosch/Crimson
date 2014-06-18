@@ -9,46 +9,46 @@ Version: 0.8
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
-Ascent: 717
-Descent: 307
+Ascent: 742
+Descent: 282
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 XUID: [1021 732 1356305489 5808660]
 FSType: 0
-OS2Version: 0
+OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1316567991
-ModificationTime: 1375667851
+ModificationTime: 1403058094
 PfmFamily: 17
 TTFWeight: 600
 TTFWidth: 5
-LineGap: 92
+LineGap: 256
 VLineGap: 0
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
-OS2TypoDescent: 0
-OS2TypoDOffset: 1
-OS2TypoLinegap: 92
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
+OS2TypoAscent: 742
+OS2TypoAOffset: 0
+OS2TypoDescent: -282
+OS2TypoDOffset: 0
+OS2TypoLinegap: 256
+OS2WinAscent: 948
+OS2WinAOffset: 0
+OS2WinDescent: 332
+OS2WinDOffset: 0
+HheadAscent: 742
+HheadAOffset: 0
+HheadDescent: -282
+HheadDOffset: 0
 OS2SubXSize: 665
-OS2SubYSize: 716
+OS2SubYSize: 614
 OS2SubXOff: 0
-OS2SubYOff: 143
+OS2SubYOff: 76
 OS2SupXSize: 665
-OS2SupYSize: 716
+OS2SupYSize: 614
 OS2SupXOff: 0
-OS2SupYOff: 491
-OS2StrikeYSize: 51
-OS2StrikeYPos: 265
+OS2SupYOff: 358
+OS2StrikeYSize: 50
+OS2StrikeYPos: 262
 OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "'ccmp' Turkish i"  {"'ccmp' Turkish i-1"  } ['ccmp' ('latn' <'TRK ' > ) ]
 Lookup: 1 0 0 "'pnum' Proportional Numbers lookup 12"  {"'pnum' Proportional Numbers lookup 12-1" ("prop" ) } ['pnum' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'TRK ' 'dflt' > ) ]
@@ -5352,7 +5352,7 @@ VStem: 102 104<36.3778 342.871> 155 282 379 104<36.0252 341.83>
 LayerCount: 2
 Fore
 SplineSet
-366 703 m 24,124,-1
+366 703 m 1048,124,-1
 EndSplineSet
 Refer: 229 771 N 1 0 0 1 99 -8 2
 Refer: 78 110 N 1 0 0 1 -0 0 3
