@@ -19,7 +19,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1270926789
-ModificationTime: 1403116878
+ModificationTime: 1403124825
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -7462,13 +7462,13 @@ StartChar: Lcaron
 Encoding: 317 317 250
 Width: 582
 VWidth: 0
-Flags: W
-HStem: -3 29<42.4037 113.252> 0 34<212.612 437.392> 454 213 633 29<42.4037 113.252 211.748 282.596>
-VStem: 119 87<44.2685 626.257> 369 58<522.479 621.5>
+Flags: WO
+HStem: -3 29<42.4037 113.252> 0 34<212.612 437.392> 464 213 633 29<42.4037 113.252 211.748 282.596>
+VStem: 119 87<44.2685 626.257> 369 58<532.479 631.5>
 LayerCount: 2
 Fore
 Refer: 43 76 N 1 0 0 1 0 0 2
-Refer: 346 789 S 1 0 0 1 614 -7 2
+Refer: 346 789 N 1 0 0 1 614 3 2
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" lcaron.sc
 EndChar
 
