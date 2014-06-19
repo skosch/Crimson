@@ -5,21 +5,34 @@
 \usepackage{polyglossia}
 \setdefaultlanguage{english}
 \setotherlanguage{slovak}
+\usepackage{xcolor}
 \usepackage[left=1in,top=1in,right=1in,bottom=1.25in,bindingoffset=0.25in]{geometry}
+%
+\def\kernpairsLcaron{Ľa Ľu ĽA ĽB ĽC ĽD ĽK ĽO ĽU ĽV}
+\def\kernpairsdltcaron{ďk ľk ťk}
+\def\slovakaccentedalpha{á ä č ď é í ĺ ľ ň ó ô ŕ š ť ú ý ž}
+\def\slovakaccentedAlpha{Á Ä Č Ď É Í Ĺ Ľ Ň Ó Ô Ŕ Š Ť Ú Ý Ž}
+\newcommand\testallweights[1]{\begin{tabular}{@{}l@{\enskip}l@{}}
+#1 & \textit{#1}\\
+\textbf{#1} & \textit{\textbf{#1}}\\
+{\crimsonbold #1} & {\crimsonbold\textit{#1}}\\
+\textsc{#1} & \textsc{\textit{#1}}\\
+\textsc{\textbf{#1}} & \textsc{\textit{\textbf{#1}}}\\
+\textsc{\crimsonbold #1} & \textsc{\crimsonbold\textit{#1}}\\
+\end{tabular}}
+\newcommand{\red}[1]{{\color{red} #1}}
+%
 \begin{document}
-\section{Crimson specimen}
-\subsection{Letter combinations from Slovak language}
+\section{Crimson font specimen}
+\subsection{Letters and letter pairs from Slovak language}
+\subsubsection{Accented characters}
 \begin{slovak}
-\noindent Ľa Ľu ĽK ĽA ĽD* ĽE ĽO ĽV ĽU \textit{Ľa Ľu ĽK ĽA ĽD* ĽE ĽO ĽV ĽU}\\
-\textbf{Ľa Ľu ĽK ĽA ĽD* ĽE ĽO ĽV ĽU} \textit{\textbf{Ľa Ľu ĽK ĽA ĽD* ĽE ĽO ĽV ĽU}}\\
-{\crimsonbold Ľa Ľu ĽK ĽA ĽD* ĽE ĽO ĽV ĽU} {\crimsonbold\textit{Ľa Ľu ĽK ĽA ĽD* ĽE ĽO ĽV ĽU}}\end{slovak}\\
-(*) this combination is not from the language, it tests kerning with capital letters which are composed of vertical line\\
-\begin{slovak}
-\noindent ďk ťk ľk \textit{ďk ťk ľk}\\
-\textbf{ďk ťk ľk} \textit{\textbf{ďk ťk ľk}}\\
-{\crimsonbold ďk ťk ľk} {\crimsonbold\textit{ďk ťk ľk}}
-\medskip\\
-Sample words in use:\\
-Ľvov ĽVOV Ľan ĽAN Ľubica ĽUBICA Ľubľana ĽUBĽANA Maťko Paľko Aďka SĽUK
+\testallweights{\slovakaccentedalpha}\\
+\testallweights{\slovakaccentedAlpha}
+\subsubsection{Letter pairs}
+\testallweights{\kernpairsLcaron}
+\testallweights{\kernpairsdltcaron}
+\subsubsection{Sample words in use}
+Bu\red{ľv}a BU\red{ĽV}A \red{Ľv}ov \red{ĽV}OV \red{Ľa}n \red{ĽA}N \red{Ľu}bica \red{ĽU}BICA \red{Ľu}b\red{ľa}na \red{ĽU}B\red{ĽA}NA Ma\red{ťk}o Pa\red{ľk}o A\red{ďk}a S\red{ĽU}K Ve\red{ľk}ý VE\red{ĽK}Ý K\red{ľa}k K\red{ĽA}K I\red{ľk}o I\red{ĽK}O \red{ľo}ľo \red{ĽO}ĽO ma\red{ľb}a MA\red{ĽB}A Je\red{ľc}in JE\red{ĽC}IN Ve\red{ľd}ielo VE\red{ĽD}IELO
 \end{slovak}
 \end{document}
