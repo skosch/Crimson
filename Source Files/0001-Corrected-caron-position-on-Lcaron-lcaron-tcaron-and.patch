@@ -1,0 +1,389 @@
+From 69f0182df191b1340d0ee690b15fedc6b287fb36 Mon Sep 17 00:00:00 2001
+From: LRjunior <lr@rsw.sk>
+Date: Thu, 19 Jun 2014 11:42:54 +0200
+Subject: [PATCH] Corrected caron position on Lcaron, lcaron, tcaron, and
+ dcaron. Copied modified lines from modified files.
+
+---
+ Source Files/Crimson-Bold.sfd           | 22 +++++++++++-----------
+ Source Files/Crimson-BoldItalic.sfd     | 18 +++++++++---------
+ Source Files/Crimson-Italic.sfd         | 20 ++++++++++----------
+ Source Files/Crimson-Roman.sfd          | 22 +++++++++++-----------
+ Source Files/Crimson-Semibold.sfd       | 20 ++++++++++----------
+ Source Files/Crimson-SemiboldItalic.sfd | 20 ++++++++++----------
+ 6 files changed, 61 insertions(+), 61 deletions(-)
+
+diff --git a/Source Files/Crimson-Bold.sfd b/Source Files/Crimson-Bold.sfd
+index 487b826..1962781 100644
+--- a/Source Files/Crimson-Bold.sfd	
++++ b/Source Files/Crimson-Bold.sfd	
+@@ -8245,11 +8245,11 @@ Encoding: 271 271 289
+ Width: 578
+ VWidth: 0
+ Flags: W
+-HStem: -8 64<165 294.956> 28 32<478.435 525.823> 395 51<210.607 324.309> 434 241 624 32<269.328 326.529> 675 20<463.5 468>
+-VStem: 32 142<121.851 297.682> 339 130<70.4709 378.4 444.011 614.125> 567 79<527.648 623.5>
++HStem: -8 64<165 294.956> 28 32<478.435 525.823> 395 51<210.607 324.309> 474 241 624 32<269.328 326.529> 675 20<463.5 468>
++VStem: 32 142<121.851 297.682> 339 130<70.4709 378.4 444.011 614.125> 547 79<567.648 663.5>
+ LayerCount: 2
+ Fore
+-Refer: 274 789 S 1 0 0 1 473 15 2
++Refer: 274 789 S 1 0 0 1 453 55 2
+ Refer: 68 100 N 1 0 0 1 0 0 2
+ Validated: 1
+ Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" dcaron.sc
+@@ -8707,10 +8707,10 @@ Width: 606
+ VWidth: 0
+ Flags: W
+ HStem: -3 37<35.7205 102.369> -2 44<257.273 468.133> 434 241 625 37<35.7205 101.998 258.002 324.279>
+-VStem: 110 140<50.3979 616.734> 510 79<527.648 623.5>
++VStem: 110 140<50.3979 616.734> 400 79<527.648 623.5>
+ LayerCount: 2
+ Fore
+-Refer: 274 789 N 1 0 0 1 416 15 2
++Refer: 274 789 S 1 0 0 1 306 15 2
+ Refer: 44 76 N 1 0 0 1 -0 0 2
+ Validated: 1
+ EndChar
+@@ -8720,11 +8720,11 @@ Encoding: 318 318 324
+ Width: 342
+ VWidth: 0
+ Flags: W
+-HStem: -4 37<13.7205 79.9985 226.002 292.279> 434 241 624 32<18.3281 75.5286> 675 20<212.5 217>
+-VStem: 88 130<41.2661 615.244> 338 79<527.648 623.5>
++HStem: -4 37<13.7205 79.9985 226.002 292.279> 474 241 624 32<18.3281 75.5286> 675 20<212.5 217>
++VStem: 88 130<41.2661 615.244> 298 79<567.648 663.5>
+ LayerCount: 2
+ Fore
+-Refer: 274 789 N 1 0 0 1 244 15 2
++Refer: 274 789 S 1 0 0 1 204 55 2
+ Refer: 76 108 N 1 0 0 1 -0 0 2
+ Validated: 1
+ Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" lcaron.sc
+@@ -9154,11 +9154,11 @@ Encoding: 357 357 356
+ Width: 342
+ VWidth: 0
+ Flags: W
+-HStem: -7 64<181 277.975> 381 47<14.9586 82 212 328.039> 434 241
+-VStem: 82 130<68.9375 381 428 500.009> 359 79<527.648 623.5>
++HStem: -7 64<181 277.975> 381 47<14.9586 82 212 328.039> 474 241
++VStem: 82 130<68.9375 381 428 500.009> 299 79<567.648 663.5>
+ LayerCount: 2
+ Fore
+-Refer: 274 789 N 1 0 0 1 265 15 2
++Refer: 274 789 S 1 0 0 1 205 55 2
+ Refer: 84 116 N 1 0 0 1 0 0 2
+ Validated: 1
+ Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" tcaron.sc
+diff --git a/Source Files/Crimson-BoldItalic.sfd b/Source Files/Crimson-BoldItalic.sfd
+index 72f7f29..32a210f 100644
+--- a/Source Files/Crimson-BoldItalic.sfd	
++++ b/Source Files/Crimson-BoldItalic.sfd	
+@@ -8264,10 +8264,10 @@ Width: 500
+ VWidth: 0
+ Flags: W
+ HStem: -7 88<68 189 287 383> 394 55<261 310> 468 227 632 29<280.833 338.927> 676 20<453 466.5>
+-VStem: 10 126<86.0352 222.076> 341 129<557.234 680> 545 97<573.974 659.787> 566 76<553 678.339>
++VStem: 10 126<86.0352 222.076> 341 129<557.234 680> 505 97<573.974 659.787> 526 76<553 678.339>
+ LayerCount: 2
+ Fore
+-Refer: 255 789 N 1 0 0 1 401 14 2
++Refer: 255 789 S 1 0 0 1 361 14 2
+ Refer: 68 100 N 1 0 0 1 0 0 2
+ Validated: 1
+ EndChar
+@@ -8715,11 +8715,11 @@ Encoding: 317 317 322
+ Width: 565
+ VWidth: 0
+ Flags: W
+-HStem: -3 37<-4.59805 62.512> -2 44<208.668 404.762> 468 227 625 37<117.587 169.999 315.002 381.598>
+-VStem: 521 97<573.974 659.787> 542 76<553 678.339>
++HStem: -3 37<-4.59805 62.512> -2 44<208.668 404.762> 443 227 625 37<117.587 169.999 315.002 381.598>
++VStem: 421 97<548.974 634.787> 442 76<528 653.339>
+ LayerCount: 2
+ Fore
+-Refer: 255 789 N 1 0 0 1 377 14 2
++Refer: 255 789 S 1 0 0 1 277 -11 2
+ Refer: 44 76 N 1 0 0 1 -0 0 2
+ Validated: 1
+ EndChar
+@@ -8730,10 +8730,10 @@ Width: 279
+ VWidth: 0
+ Flags: W
+ HStem: -8 86<77.5 179> 468 227 632 29<73.8327 131.927> 676 20<246 259.5>
+-VStem: 31 123<34.1714 191.016> 134 129<558.971 680> 312 97<573.974 659.787> 333 76<553 678.339>
++VStem: 31 123<34.1714 191.016> 134 129<558.971 680> 294 97<573.974 659.787> 315 76<553 678.339>
+ LayerCount: 2
+ Fore
+-Refer: 255 789 N 1 0 0 1 168 14 2
++Refer: 255 789 S 1 0 0 1 150 14 2
+ Refer: 76 108 N 1 0 0 1 0 0 2
+ Validated: 1
+ EndChar
+@@ -9148,10 +9148,10 @@ Width: 306
+ VWidth: 0
+ Flags: W
+ HStem: -8 86<96.5 198> 378 46<44.3211 109 234 324.431> 468 227
+-VStem: 50 123<34.1714 190.195> 357 97<573.974 659.787> 378 76<553 678.339>
++VStem: 50 123<34.1714 190.195> 317 97<573.974 659.787> 338 76<553 678.339>
+ LayerCount: 2
+ Fore
+-Refer: 255 789 N 1 0 0 1 213 14 2
++Refer: 255 789 S 1 0 0 1 173 14 2
+ Refer: 84 116 N 1 0 0 1 0 0 2
+ Validated: 1
+ EndChar
+diff --git a/Source Files/Crimson-Italic.sfd b/Source Files/Crimson-Italic.sfd
+index f718999..700d1b1 100644
+--- a/Source Files/Crimson-Italic.sfd	
++++ b/Source Files/Crimson-Italic.sfd	
+@@ -9686,11 +9686,11 @@ Width: 466
+ VWidth: 0
+ Flags: W
+ HStem: -5 58<76.4454 158.959 287 328.674> 395 40<222.947 290.664> 509 187 631 21<287.307 343.742> 665 20<412 425.5>
+-VStem: 19 74<65.1712 219.36> 243 75<21.7226 163.305> 348 81<544.516 666.737> 544 68<590.578 677.614>
++VStem: 19 74<65.1712 219.36> 243 75<21.7226 163.305> 348 81<544.516 666.737> 472 68<590.578 677.614>
+ LayerCount: 2
+ Fore
+ Refer: 67 100 N 1 0 0 1 0 0 2
+-Refer: 271 789 N 1 0 0 1 371 44 2
++Refer: 271 789 S 1 0 0 1 299 44 2
+ Validated: 5
+ Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 3-1" dcaron.sc
+ EndChar
+@@ -10316,12 +10316,12 @@ Encoding: 317 317 348
+ Width: 583
+ VWidth: 0
+ Flags: W
+-HStem: 0 30<-1.08435 69.1056 158.472 356.306> 507 187 633 29<119.909 179.552 270.997 341.019>
+-VStem: 566 68<588.578 675.614>
++HStem: 0 30<-1.08435 69.1056 158.472 356.306> 482 187 633 29<119.909 179.552 270.997 341.019>
++VStem: 416 68<563.578 650.614>
+ LayerCount: 2
+ Fore
+ Refer: 43 76 N 1 0 0 1 0 0 2
+-Refer: 271 789 N 1 0 0 1 393 42 2
++Refer: 271 789 N 1 0 0 1 243 17 2
+ Validated: 1
+ Substitution2: "'c2sc' Capitals to Small Capitals lookup 5-1" lcaron.sc
+ EndChar
+@@ -10332,11 +10332,11 @@ Width: 260
+ VWidth: 0
+ Flags: W
+ HStem: -6 55<60 124.107> 507 187 631 21<82.307 138.742> 665 20<207 220.5>
+-VStem: 37 75<21.7226 176.133> 143 81<545.078 666.737> 324 68<588.578 675.614>
++VStem: 37 75<21.7226 176.133> 143 81<545.078 666.737> 264 68<588.578 675.614>
+ LayerCount: 2
+ Fore
+ Refer: 75 108 N 1 0 0 1 0 0 2
+-Refer: 271 789 N 1 0 0 1 151 42 2
++Refer: 271 789 S 1 0 0 1 91 42 2
+ Validated: 1
+ Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 3-1" lcaron.sc
+ EndChar
+@@ -10724,12 +10724,12 @@ Encoding: 357 357 377
+ Width: 275
+ VWidth: 0
+ Flags: W
+-HStem: -6 55<72.5 136.107> 376 37<50.1577 110 188 267.371> 507 187
+-VStem: 49 75<21.7226 177.312> 353 68<588.578 675.614>
++HStem: -6 55<72.5 136.107> 376 37<50.1577 110 188 267.371> 477 187
++VStem: 49 75<21.7226 177.312> 276 68<558.578 645.614>
+ LayerCount: 2
+ Fore
+ Refer: 83 116 N 1 0 0 1 0 0 2
+-Refer: 271 789 N 1 0 0 1 180 42 2
++Refer: 271 789 S 1 0 0 1 103 12 2
+ Validated: 1
+ Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 3-1" tcaron.sc
+ EndChar
+diff --git a/Source Files/Crimson-Roman.sfd b/Source Files/Crimson-Roman.sfd
+index 07d628c..62a21d2 100644
+--- a/Source Files/Crimson-Roman.sfd	
++++ b/Source Files/Crimson-Roman.sfd	
+@@ -6646,12 +6646,12 @@ Encoding: 271 271 204
+ Width: 532
+ VWidth: 0
+ Flags: W
+-HStem: -8 62<192.397 289.897> 20 27<438.72 496.784> 396 42<196.789 327.598> 502 213 628 26<283.899 341.828> 674 20<407 430.5>
+-VStem: 39 84<130.201 291.813> 351 77<70.6579 374.572 428.007 621.593> 534 58<570.479 669.5>
++HStem: -8 62<192.397 289.897> 20 27<438.72 496.784> 396 42<196.789 327.598> 492 213 628 26<283.899 341.828> 674 20<407 430.5>
++VStem: 39 84<130.201 291.813> 351 77<70.6579 374.572 428.007 621.593> 484 58<560.479 659.5>
+ LayerCount: 2
+ Fore
+ Refer: 67 100 N 1 0 0 1 0 0 2
+-Refer: 346 789 N 1 0 0 1 779 41 2
++Refer: 346 789 N 1 0 0 1 729 31 2
+ Validated: 1
+ Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" dcaron.sc
+ EndChar
+@@ -7464,12 +7464,12 @@ Encoding: 317 317 250
+ Width: 582
+ VWidth: 0
+ Flags: W
+-HStem: -3 29<42.4037 113.252> 0 34<212.612 437.392> 454 213 633 29<42.4037 113.252 211.748 282.596>
+-VStem: 119 87<44.2685 626.257> 489 58<522.479 621.5>
++HStem: -3 29<42.4037 113.252> 0 34<212.612 437.392> 464 213 633 29<42.4037 113.252 211.748 282.596>
++VStem: 119 87<44.2685 626.257> 369 58<532.479 631.5>
+ LayerCount: 2
+ Fore
+ Refer: 43 76 N 1 0 0 1 0 0 2
+-Refer: 346 789 N 1 0 0 1 734 -7 2
++Refer: 346 789 N 1 0 0 1 614 3 2
+ Validated: 1
+ Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" lcaron.sc
+ EndChar
+@@ -7479,12 +7479,12 @@ Encoding: 318 318 251
+ Width: 273
+ VWidth: 0
+ Flags: W
+-HStem: -3 29<18.4037 83.2898 171.71 236.596> 481 213 628 26<21.8986 79.8281> 674 20<145 168.5>
+-VStem: 89 77<32.4189 621.593> 277 58<549.479 648.5>
++HStem: -3 29<18.4037 83.2898 171.71 236.596> 495 213 628 26<21.8986 79.8281> 674 20<145 168.5>
++VStem: 89 77<32.4189 621.593> 227 58<563.479 662.5>
+ LayerCount: 2
+ Fore
+ Refer: 75 108 N 1 0 0 1 -0 0 2
+-Refer: 346 789 N 1 0 0 1 522 20 2
++Refer: 346 789 N 1 0 0 1 472 34 2
+ Validated: 1
+ Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" lcaron.sc
+ EndChar
+@@ -8168,11 +8168,11 @@ Encoding: 357 357 289
+ Width: 311
+ Flags: W
+ HStem: -7 54<176.456 252.292> 391 41<27.9629 83 160 292.375> 471 213
+-VStem: 83 77<62.1149 391 432 519.684> 315 58<539.479 638.5>
++VStem: 83 77<62.1149 391 432 519.684> 245 58<539.479 638.5>
+ LayerCount: 2
+ Fore
+ Refer: 83 116 N 1 0 0 1 0 0 3
+-Refer: 346 789 N 1 0 0 1 560 10 2
++Refer: 346 789 N 1 0 0 1 490 10 2
+ Validated: 1
+ Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" tcaron.sc
+ EndChar
+diff --git a/Source Files/Crimson-Semibold.sfd b/Source Files/Crimson-Semibold.sfd
+index 2725a02..9e685ae 100644
+--- a/Source Files/Crimson-Semibold.sfd	
++++ b/Source Files/Crimson-Semibold.sfd	
+@@ -7491,11 +7491,11 @@ Encoding: 271 271 270
+ Width: 549
+ VWidth: 0
+ Flags: W
+-HStem: -8 63<209.43 293.851> 24 30<459.609 511.881> 396 46<198.629 327.191> 501 211 626 29<278.243 337.081> 674 20<437 451>
+-VStem: 36 113<127.946 293.991> 346 104<70.7694 375.829 436.009 617.957> 562 66<575.807 667.5>
++HStem: -8 63<209.43 293.851> 24 30<459.609 511.881> 396 46<198.629 327.191> 483 211 626 29<278.243 337.081> 674 20<437 451>
++VStem: 36 113<127.946 293.991> 346 104<70.7694 375.829 436.009 617.957> 512 66<557.807 649.5>
+ LayerCount: 2
+ Fore
+-Refer: 255 789 N 1 0 0 1 444 42 2
++Refer: 255 789 S 1 0 0 1 394 24 2
+ Refer: 68 100 N 1 0 0 1 0 0 2
+ Validated: 1
+ EndChar
+@@ -7933,12 +7933,12 @@ StartChar: Lcaron
+ Encoding: 317 317 304
+ Width: 591
+ VWidth: 0
+-Flags: W
++Flags: WO
+ HStem: -3 33<40.75 108.999> -1 41<236.479 459.191> 473 211 629 33<40.75 108.779 236.221 304.25>
+-VStem: 116 114<54.5929 621.26> 500 66<547.807 639.5>
++VStem: 116 114<54.5929 621.26> 390 66<547.807 639.5>
+ LayerCount: 2
+ Fore
+-Refer: 255 789 N 1 0 0 1 382 14 2
++Refer: 255 789 S 1 0 0 1 272 14 2
+ Refer: 44 76 N 1 0 0 1 0 0 2
+ Validated: 1
+ EndChar
+@@ -7949,10 +7949,10 @@ Width: 299
+ VWidth: 0
+ Flags: W
+ HStem: -4 33<17.75 82.7813 200.219 265.25> 501 211 626 29<21.6549 81.048> 674 20<180 194>
+-VStem: 90 104<36.3778 618.938> 294 66<575.807 667.5>
++VStem: 90 104<36.3778 618.938> 254 66<575.807 667.5>
+ LayerCount: 2
+ Fore
+-Refer: 255 789 N 1 0 0 1 176 42 2
++Refer: 255 789 N 1 0 0 1 136 42 2
+ Refer: 76 108 N 1 0 0 1 0 0 2
+ Validated: 1
+ EndChar
+@@ -8367,10 +8367,10 @@ Width: 325
+ VWidth: 0
+ Flags: W
+ HStem: -7 59<171 264.351> 386 44<21.2377 83 187 310.628> 471 211
+-VStem: 83 104<64.7735 386 430 510.438> 342 66<545.807 637.5>
++VStem: 83 104<64.7735 386 430 510.438> 267 66<545.807 637.5>
+ LayerCount: 2
+ Fore
+-Refer: 255 789 N 1 0 0 1 224 12 2
++Refer: 255 789 S 1 0 0 1 149 12 2
+ Refer: 84 116 N 1 0 0 1 0 0 2
+ Validated: 1
+ EndChar
+diff --git a/Source Files/Crimson-SemiboldItalic.sfd b/Source Files/Crimson-SemiboldItalic.sfd
+index b055049..909c196 100644
+--- a/Source Files/Crimson-SemiboldItalic.sfd	
++++ b/Source Files/Crimson-SemiboldItalic.sfd	
+@@ -7208,11 +7208,11 @@ Encoding: 271 271 264
+ Width: 483
+ VWidth: 0
+ Flags: W
+-HStem: -6 73<72.5 159.52 277 361> 394 48<224.723 289.507> 507 225 632 25<284.696 341.211> 670 20<433 446.5>
+-VStem: 15 100<75.0665 220.816> 345 105<550.109 675> 522 90<610.974 700.355> 543 69<590 713.669>
++HStem: -6 73<72.5 159.52 277 361> 394 48<224.723 289.507> 467 225 632 25<284.696 341.211> 670 20<433 446.5>
++VStem: 15 100<75.0665 220.816> 345 105<550.109 675> 476 90<570.974 660.355> 497 69<550 673.669>
+ LayerCount: 2
+ Fore
+-Refer: 240 789 N 1 0 0 1 378 51 2
++Refer: 240 789 S 1 0 0 1 332 11 2
+ Refer: 67 100 N 1 0 0 1 0 0 2
+ Validated: 1
+ EndChar
+@@ -7810,10 +7810,10 @@ Width: 563
+ VWidth: 0
+ Flags: W
+ HStem: -1 31<-3.625 64.689> -1 40<184.293 389.585> 441 225 629 33<118.109 174.875 292.311 361.188>
+-VStem: 513 90<544.974 634.355> 534 69<524 647.669>
++VStem: 413 90<544.974 634.355> 434 69<524 647.669>
+ LayerCount: 2
+ Fore
+-Refer: 240 789 N 1 0 0 1 369 -15 2
++Refer: 240 789 S 1 0 0 1 269 -15 2
+ Refer: 43 76 N 1 0 0 1 0 0 2
+ Validated: 1
+ EndChar
+@@ -7824,10 +7824,10 @@ Width: 270
+ VWidth: 0
+ Flags: W
+ HStem: -7 70<68 155> 466 225 632 25<76.6956 133.211> 670 20<225 238.5>
+-VStem: 33 99<27.5218 179.891> 138 105<552.133 675> 298 90<569.974 659.355> 319 69<549 672.669>
++VStem: 33 99<27.5218 179.891> 138 105<552.133 675> 262 90<569.974 659.355> 283 69<549 672.669>
+ LayerCount: 2
+ Fore
+-Refer: 240 789 N 1 0 0 1 154 10 2
++Refer: 240 789 S 1 0 0 1 118 10 2
+ Refer: 75 108 N 1 0 0 1 0 0 2
+ Validated: 1
+ EndChar
+@@ -8175,11 +8175,11 @@ Encoding: 357 357 328
+ Width: 290
+ VWidth: 0
+ Flags: W
+-HStem: -7 70<83.5 171> 377 42<46.2066 108 210 295.023> 480 225
+-VStem: 48 99<27.877 182.578> 320 90<583.974 673.355> 341 69<563 686.669>
++HStem: -7 70<83.5 171> 377 42<46.2066 108 210 295.023> 468 225
++VStem: 48 99<27.877 182.578> 284 90<571.974 661.355> 305 69<551 674.669>
+ LayerCount: 2
+ Fore
+-Refer: 240 789 N 1 0 0 1 176 24 2
++Refer: 240 789 S 1 0 0 1 140 12 2
+ Refer: 83 116 N 1 0 0 1 0 0 2
+ Validated: 1
+ EndChar
+-- 
+1.8.4.msysgit.0
+

@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273891947
-ModificationTime: 1403116515
+ModificationTime: 1403058325
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -275,7 +275,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 24 24 12
+WinInfo: 32 8 4
 BeginPrivate: 10
 BlueValues 39 [-10 0 442 449 633 645 662 667 695 696]
 OtherBlues 11 [-219 -218]
@@ -8251,6 +8251,7 @@ LayerCount: 2
 Fore
 Refer: 274 789 S 1 0 0 1 453 55 2
 Refer: 68 100 N 1 0 0 1 0 0 2
+Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" dcaron.sc
 EndChar
 
@@ -8711,6 +8712,7 @@ LayerCount: 2
 Fore
 Refer: 274 789 S 1 0 0 1 306 15 2
 Refer: 44 76 N 1 0 0 1 -0 0 2
+Validated: 1
 EndChar
 
 StartChar: lcaron
@@ -8724,6 +8726,7 @@ LayerCount: 2
 Fore
 Refer: 274 789 S 1 0 0 1 204 55 2
 Refer: 76 108 N 1 0 0 1 -0 0 2
+Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" lcaron.sc
 EndChar
 
@@ -9157,6 +9160,7 @@ LayerCount: 2
 Fore
 Refer: 274 789 S 1 0 0 1 205 55 2
 Refer: 84 116 N 1 0 0 1 0 0 2
+Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" tcaron.sc
 EndChar
 

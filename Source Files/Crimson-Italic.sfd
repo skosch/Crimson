@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273443993
-ModificationTime: 1403117789
+ModificationTime: 1403057981
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -773,7 +773,7 @@ NameList: AMS Names
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 96 32 14
+WinInfo: 0 24 10
 BeginPrivate: 8
 BlueValues 39 [-10 0 434 437 641 644 658 668 685 695]
 BlueScale 8 0.039625
@@ -9691,6 +9691,7 @@ LayerCount: 2
 Fore
 Refer: 67 100 N 1 0 0 1 0 0 2
 Refer: 271 789 S 1 0 0 1 299 44 2
+Validated: 5
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 3-1" dcaron.sc
 EndChar
 
@@ -10314,13 +10315,14 @@ StartChar: Lcaron
 Encoding: 317 317 348
 Width: 583
 VWidth: 0
-Flags: WO
-HStem: 0 30<-1.08435 69.1056 158.472 356.306> 507 187 633 29<119.909 179.552 270.997 341.019>
-VStem: 416 68<588.578 675.614>
+Flags: W
+HStem: 0 30<-1.08435 69.1056 158.472 356.306> 482 187 633 29<119.909 179.552 270.997 341.019>
+VStem: 416 68<563.578 650.614>
 LayerCount: 2
 Fore
 Refer: 43 76 N 1 0 0 1 0 0 2
-Refer: 271 789 S 1 0 0 1 243 42 2
+Refer: 271 789 N 1 0 0 1 243 17 2
+Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 5-1" lcaron.sc
 EndChar
 
@@ -10335,6 +10337,7 @@ LayerCount: 2
 Fore
 Refer: 75 108 N 1 0 0 1 0 0 2
 Refer: 271 789 S 1 0 0 1 91 42 2
+Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 3-1" lcaron.sc
 EndChar
 
@@ -10727,6 +10730,7 @@ LayerCount: 2
 Fore
 Refer: 83 116 N 1 0 0 1 0 0 2
 Refer: 271 789 S 1 0 0 1 103 12 2
+Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 3-1" tcaron.sc
 EndChar
 

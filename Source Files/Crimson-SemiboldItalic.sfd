@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1319393633
-ModificationTime: 1403117665
+ModificationTime: 1403058220
 PfmFamily: 17
 TTFWeight: 600
 TTFWidth: 5
@@ -197,7 +197,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 36 36 16
+WinInfo: 42 21 6
 BeginPrivate: 10
 BlueValues 39 [-10 0 442 442 642 643 661 667 690 692]
 OtherBlues 11 [-228 -226]
@@ -2089,11 +2089,6 @@ Width: 639
 Flags: W
 HStem: -4 33<-54.2492 17.9703 113.664 174.583 327.355 380.558 535.941 592.075> 629 33<97.9229 149.423 299.473 355.084 478.936 533.198 633.883 697.499>
 LayerCount: 2
-Back
-SplineSet
-325.12 592.5 m 1
- 348.12 592.5 452.62 406.5 471.62 407.5 c 1025
-EndSplineSet
 Fore
 SplineSet
 231 656 m 0
@@ -7219,6 +7214,7 @@ LayerCount: 2
 Fore
 Refer: 240 789 S 1 0 0 1 332 11 2
 Refer: 67 100 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Emacron
@@ -7812,13 +7808,14 @@ StartChar: Lcaron
 Encoding: 317 317 300
 Width: 563
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: -1 31<-3.625 64.689> -1 40<184.293 389.585> 441 225 629 33<118.109 174.875 292.311 361.188>
 VStem: 413 90<544.974 634.355> 434 69<524 647.669>
 LayerCount: 2
 Fore
 Refer: 240 789 S 1 0 0 1 269 -15 2
 Refer: 43 76 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: lcaron
@@ -7832,6 +7829,7 @@ LayerCount: 2
 Fore
 Refer: 240 789 S 1 0 0 1 118 10 2
 Refer: 75 108 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Ldot
@@ -8183,6 +8181,7 @@ LayerCount: 2
 Fore
 Refer: 240 789 S 1 0 0 1 140 12 2
 Refer: 83 116 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: Utilde
