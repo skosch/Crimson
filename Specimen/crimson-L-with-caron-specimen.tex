@@ -15,7 +15,10 @@
 \newcommand\testallweights[1]{\begin{tabular}{@{}l@{\enskip}l@{}}
 #1 & \textit{#1}\\
 \textbf{#1} & \textit{\textbf{#1}}\\
-{\crimsonbold #1} & {\crimsonbold\textit{#1}}
+{\crimsonbold #1} & {\crimsonbold\textit{#1}}\\
+\textsc{#1} & \textsc{\textit{#1}}\\
+\textsc{\textbf{#1}} & \textsc{\textit{\textbf{#1}}}\\
+\textsc{\crimsonbold #1} & \textsc{\crimsonbold\textit{#1}}\\
 \end{tabular}}
 \newcommand{\red}[1]{{\color{red} #1}}
 %
