@@ -9686,11 +9686,11 @@ Width: 466
 VWidth: 0
 Flags: W
 HStem: -5 58<76.4454 158.959 287 328.674> 395 40<222.947 290.664> 509 187 631 21<287.307 343.742> 665 20<412 425.5>
-VStem: 19 74<65.1712 219.36> 243 75<21.7226 163.305> 348 81<544.516 666.737> 544 68<590.578 677.614>
+VStem: 19 74<65.1712 219.36> 243 75<21.7226 163.305> 348 81<544.516 666.737> 472 68<590.578 677.614>
 LayerCount: 2
 Fore
 Refer: 67 100 N 1 0 0 1 0 0 2
-Refer: 271 789 N 1 0 0 1 371 44 2
+Refer: 271 789 S 1 0 0 1 299 44 2
 Validated: 5
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 3-1" dcaron.sc
 EndChar
@@ -10316,12 +10316,12 @@ Encoding: 317 317 348
 Width: 583
 VWidth: 0
 Flags: W
-HStem: 0 30<-1.08435 69.1056 158.472 356.306> 507 187 633 29<119.909 179.552 270.997 341.019>
-VStem: 566 68<588.578 675.614>
+HStem: 0 30<-1.08435 69.1056 158.472 356.306> 482 187 633 29<119.909 179.552 270.997 341.019>
+VStem: 416 68<563.578 650.614>
 LayerCount: 2
 Fore
 Refer: 43 76 N 1 0 0 1 0 0 2
-Refer: 271 789 N 1 0 0 1 393 42 2
+Refer: 271 789 N 1 0 0 1 243 17 2
 Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 5-1" lcaron.sc
 EndChar
@@ -10332,11 +10332,11 @@ Width: 260
 VWidth: 0
 Flags: W
 HStem: -6 55<60 124.107> 507 187 631 21<82.307 138.742> 665 20<207 220.5>
-VStem: 37 75<21.7226 176.133> 143 81<545.078 666.737> 324 68<588.578 675.614>
+VStem: 37 75<21.7226 176.133> 143 81<545.078 666.737> 264 68<588.578 675.614>
 LayerCount: 2
 Fore
 Refer: 75 108 N 1 0 0 1 0 0 2
-Refer: 271 789 N 1 0 0 1 151 42 2
+Refer: 271 789 S 1 0 0 1 91 42 2
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 3-1" lcaron.sc
 EndChar
@@ -10724,12 +10724,12 @@ Encoding: 357 357 377
 Width: 275
 VWidth: 0
 Flags: W
-HStem: -6 55<72.5 136.107> 376 37<50.1577 110 188 267.371> 507 187
-VStem: 49 75<21.7226 177.312> 353 68<588.578 675.614>
+HStem: -6 55<72.5 136.107> 376 37<50.1577 110 188 267.371> 477 187
+VStem: 49 75<21.7226 177.312> 276 68<558.578 645.614>
 LayerCount: 2
 Fore
 Refer: 83 116 N 1 0 0 1 0 0 2
-Refer: 271 789 N 1 0 0 1 180 42 2
+Refer: 271 789 S 1 0 0 1 103 12 2
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 3-1" tcaron.sc
 EndChar
