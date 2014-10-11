@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273891947
-ModificationTime: 1413032616
+ModificationTime: 1413033912
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -54,10 +54,9 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2FamilyClass: 258
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 3" { "'onum' Oldstyle Figures in Latin lookup 3-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'smcp' Lowercase to Small Capitals in Latin lookup 0" { "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ("sc") } ['smcp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'c2sc' Capitals to Small Capitals in Latin lookup 0" { "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable"  } ['c2sc' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"  } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1" [153,0,0] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 118+ 91 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
@@ -278,7 +277,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 33 13
+WinInfo: 759 33 13
 BeginPrivate: 10
 BlueValues 39 [-10 0 442 449 633 645 662 667 695 696]
 OtherBlues 11 [-219 -218]
@@ -380,7 +379,6 @@ SplineSet
  36 650 60 700 98 700 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" quotedbl.sc
 EndChar
 
 StartChar: numbersign
@@ -395,30 +393,29 @@ SplineSet
 408 339 m 1
  249 339 249 339 79 339 c 1
  67 339 82 402 95 406 c 9
- 421 406 l 17
+ 95 406 421 406 421 406 c 17
  435 406 421 345 408 339 c 1
 380 148 m 1
  221 148 221 148 51 148 c 1
  39 148 55 211 68 215 c 9
- 394 215 l 17
+ 68 215 394 215 394 215 c 17
  408 215 393 154 380 148 c 1
 379 528 m 1
- 300 36 l 2
+ 379 528 300 36 300 36 c 2
  299 32 284 23 269 23 c 0
  259 23 258 27 258 27 c 1
- 337 518 l 1
+ 258 27 337 518 337 518 c 1
  340 527 347 531 366 531 c 0
  375 531 376 530 379 528 c 1
 218 528 m 1
- 138 36 l 2
+ 218 528 138 36 138 36 c 2
  137 32 123 23 108 23 c 0
  98 23 97 27 97 27 c 1
- 176 518 l 1
+ 97 27 176 518 176 518 c 1
  179 527 186 531 205 531 c 0
  214 531 215 530 218 528 c 1
 EndSplineSet
 Validated: 549
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" numbersign.sc
 EndChar
 
 StartChar: dollar
@@ -457,7 +454,6 @@ SplineSet
  174 -31 288 668 288 668 c 17
 EndSplineSet
 Validated: 517
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" dollar.sc
 EndChar
 
 StartChar: percent
@@ -499,7 +495,6 @@ SplineSet
  616 645 623 640 623 635 c 1
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" percent.sc
 EndChar
 
 StartChar: ampersand
@@ -546,7 +541,6 @@ SplineSet
  139 580 201 645 295 645 c 0
 EndSplineSet
 Validated: 545
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ampersand.sc
 EndChar
 
 StartChar: quotesingle
@@ -568,7 +562,6 @@ SplineSet
  33 671 64 711 106 711 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" quotesingle.sc
 EndChar
 
 StartChar: parenleft
@@ -656,7 +649,6 @@ SplineSet
  262 552 255 582 287 618 c 0
 EndSplineSet
 Validated: 545
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" asterisk.sc
 EndChar
 
 StartChar: plus
@@ -672,23 +664,22 @@ SplineSet
 241 474 m 1
  252 483 279 485 283 485 c 0
  293 485 299 483 299 476 c 2
- 298 275 l 5
- 502 275 l 6
+ 299 476 298 275 298 275 c 5
+ 298 275 502 275 502 275 c 6
  508 275 511 267 511 261 c 4
  511 240 505 227 497 217 c 5
- 299 217 l 5
- 299 19 l 1
+ 497 217 299 217 299 217 c 5
+ 299 217 299 19 299 19 c 1
  287 11 262 8 252 8 c 0
  246 8 241 12 241 16 c 2
- 241 217 l 5
- 37 217 l 6
+ 241 16 241 217 241 217 c 5
+ 241 217 37 217 37 217 c 6
  32 217 31 223 31 233 c 4
  31 237 33 263 41 275 c 5
- 240 275 l 5
- 241 474 l 1
+ 41 275 240 275 240 275 c 5
+ 240 275 241 474 241 474 c 1
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" plus.sc
 EndChar
 
 StartChar: comma
@@ -711,7 +702,6 @@ SplineSet
  42 84 57 139 119 139 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" comma.sc
 EndChar
 
 StartChar: hyphen
@@ -733,7 +723,6 @@ SplineSet
  56 229 64 252 71 267 c 1
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" hyphen.sc
 EndChar
 
 StartChar: period
@@ -753,7 +742,6 @@ SplineSet
  76 -11 42 23 42 66 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" period.sc
 EndChar
 
 StartChar: slash
@@ -766,10 +754,10 @@ Fore
 SplineSet
 374 761 m 0
  388 761 392 757 393 753 c 1
- 97 -14 l 2
+ 393 753 97 -14 97 -14 c 2
  95 -21 82 -35 47 -35 c 0
  32 -35 29 -28 29 -28 c 1
- 325 739 l 1
+ 29 -28 325 739 325 739 c 1
  329 747 344 761 374 761 c 0
 EndSplineSet
 Validated: 1
@@ -798,9 +786,6 @@ SplineSet
  25.5 485 128.5 625 248.5 625 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" zero.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" zero.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" zero.onum
 EndChar
 
 StartChar: one
@@ -814,16 +799,16 @@ Back
 Fore
 SplineSet
 196.387695312 145 m 2
- 196.387695312 482 l 2
+ 196.387695312 145 196.387695312 482 196.387695312 482 c 2
  196.387695312 526 191.387695312 535 175.387695312 535 c 0
  166.387695312 535 124.387695312 524 103.387695312 512 c 1
  95.3876953125 516 90.3876953125 525 90.3876953125 531 c 0
  90.3876953125 533 89.3876953125 542 92.3876953125 543 c 0
  207.387695312 592 318.387695312 643 321.387695312 643 c 2
- 323.387695312 643 l 2
+ 321.387695312 643 323.387695312 643 323.387695312 643 c 2
  329.387695312 643 334.387695312 629 335.387695312 624 c 1
  335.387695312 624 326.387695312 595 326.387695312 530 c 2
- 326.387695312 145 l 2
+ 326.387695312 530 326.387695312 145 326.387695312 145 c 2
  326.387695312 102 326.387695312 71 334.387695312 51 c 0
  339.387695312 38 385.387695312 34 398.387695312 33 c 1
  403.387695312 26 402.387695312 2 398.387695312 -4 c 1
@@ -834,9 +819,6 @@ SplineSet
  196.387695312 71 196.387695312 102 196.387695312 145 c 2
 EndSplineSet
 Validated: 545
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" one.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" one.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" one.onum
 EndChar
 
 StartChar: two
@@ -851,7 +833,7 @@ Fore
 SplineSet
 462.5 192 m 1
  451.5 145 408.5 19 402.5 0 c 9
- 38.5 0 l 1
+ 402.5 0 38.5 0 38.5 0 c 1
  33.5 5 30.5 13 29.5 18 c 1
  106.5 103 167.5 161 237.5 271 c 0
  283.5 344 295.5 404 295.5 449 c 0
@@ -862,15 +844,12 @@ SplineSet
  348.5 642 426.5 582 426.5 474 c 0
  426.5 413 396.5 354 350.5 300 c 0
  295.5 236 231.5 165 162.5 102 c 1
- 334.5 102 l 2
+ 162.5 102 334.5 102 334.5 102 c 2
  394.5 102 412.5 155 428.5 191 c 0
  430.5 196 436.5 198 442.5 198 c 0
  449.5 198 457.5 196 462.5 192 c 1
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" two.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" two.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" two.onum
 EndChar
 
 StartChar: three
@@ -905,9 +884,6 @@ SplineSet
  117 593 182 642 262 642 c 0xf0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" three.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" three.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" three.onum
 EndChar
 
 StartChar: four
@@ -922,28 +898,25 @@ Fore
 SplineSet
 385 644 m 0
  391 644 412 628 412 616 c 10
- 412 242 l 25
- 457 242 l 2
+ 412 616 412 242 412 242 c 25
+ 412 242 457 242 457 242 c 2
  464 242 471 224 471 195 c 0
  471 180 462 174 462 174 c 9
- 412 174 l 25
- 412 4 l 17
+ 462 174 412 174 412 174 c 25
+ 412 174 412 4 412 4 c 17
  412 4 386 -5 344 -5 c 0
  310 -5 286 -1 286 8 c 2
- 286 174 l 25
- 32 174 l 17
+ 286 8 286 174 286 174 c 25
+ 286 174 32 174 32 174 c 17
  24 178 21 186 21 199 c 1
  141 348 259 498 365 630 c 0
  372 638 377 644 385 644 c 0
 286 466 m 17
  251 421 126 262 107 242 c 1
  100 242 236 242 286 242 c 1
- 286 466 l 17
+ 286 242 286 466 286 466 c 17
 EndSplineSet
 Validated: 549
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" four.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" four.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" four.onum
 EndChar
 
 StartChar: five
@@ -979,9 +952,6 @@ SplineSet
  169.5 416 213.5 423 250.5 423 c 0xe8
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" five.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" five.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" five.onum
 EndChar
 
 StartChar: six
@@ -1011,9 +981,6 @@ SplineSet
  214.5 395 245.5 405 270.5 405 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" six.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" six.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" six.onum
 EndChar
 
 StartChar: seven
@@ -1030,11 +997,11 @@ SplineSet
  398.5 637 447.5 641 453.5 641 c 0
  459.5 641 460.5 631 460.5 626 c 0
  460.5 617 449.5 598 433.5 565 c 2
- 161.5 -8 l 1
+ 433.5 565 161.5 -8 161.5 -8 c 1
  157.5 -11 146.5 -11 144.5 -11 c 0
  137.5 -11 100.5 -6 100.5 13 c 1
  142.5 73 286.5 344 377.5 536 c 1
- 146.5 536 l 2
+ 377.5 536 146.5 536 146.5 536 c 2
  96.5 536 80.5 490 67.5 452 c 0
  66.5 449 65.5 447 55.5 446 c 0
  45.5 445 35.5 450 31.5 454 c 1
@@ -1042,9 +1009,6 @@ SplineSet
  91.5 636 363.5 637 363.5 637 c 2
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" seven.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" seven.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" seven.onum
 EndChar
 
 StartChar: eight
@@ -1084,9 +1048,6 @@ SplineSet
  51.5 574 149.5 633 243.5 633 c 27
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" eight.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" eight.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" eight.onum
 EndChar
 
 StartChar: nine
@@ -1116,9 +1077,6 @@ SplineSet
  73.5 0 72.5 10 74.5 20 c 1
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" nine.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" nine.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" nine.onum
 EndChar
 
 StartChar: colon
@@ -1185,15 +1143,15 @@ SplineSet
 444 45 m 0
  444 38 434 -15 428 -15 c 0
  427 -15 425 -14 423 -13 c 2
- 48 177 l 2
+ 423 -13 48 177 48 177 c 2
  33 185 30 200 30 217 c 0
  30 228 38 236 48 241 c 2
- 421 428 l 2
+ 48 241 421 428 421 428 c 2
  423 429 425 430 426 430 c 0
  429 430 436 410 443 373 c 0
  444 367 440 364 440 364 c 1
- 122 209 l 1
- 441 51 l 1
+ 440 364 122 209 122 209 c 1
+ 122 209 441 51 441 51 c 1
  441 51 444 50 444 45 c 0
 EndSplineSet
 Validated: 1
@@ -1212,12 +1170,12 @@ SplineSet
 477 134 m 1
  316 134 243 134 71 134 c 1
  59 134 73 188 87 193 c 9
- 490 193 l 17
+ 87 193 490 193 490 193 c 17
  504 193 491 141 477 134 c 1
 477 278 m 1
  316 278 243 278 71 278 c 1
  59 278 73 332 87 337 c 9
- 490 337 l 17
+ 87 337 490 337 490 337 c 17
  504 337 491 285 477 278 c 1
 EndSplineSet
 Validated: 33
@@ -1234,15 +1192,15 @@ Fore
 SplineSet
 51 45 m 0
  51 50 54 51 54 51 c 1
- 373 209 l 1
- 55 364 l 1
+ 54 51 373 209 373 209 c 1
+ 373 209 55 364 55 364 c 1
  55 364 51 367 52 373 c 0
  59 410 66 430 69 430 c 0
  70 430 72 429 74 428 c 2
- 447 241 l 2
+ 74 428 447 241 447 241 c 2
  457 236 465 228 465 217 c 0
  465 200 462 185 447 177 c 2
- 72 -13 l 2
+ 447 177 72 -13 72 -13 c 2
  70 -14 68 -15 67 -15 c 0
  61 -15 51 38 51 45 c 0
 EndSplineSet
@@ -1373,7 +1331,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" a.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" a.sc
 EndChar
 
 StartChar: B
@@ -1420,7 +1377,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" b.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" b.sc
 EndChar
 
 StartChar: C
@@ -1451,7 +1407,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" c.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" c.sc
 EndChar
 
 StartChar: D
@@ -1465,7 +1420,7 @@ Back
 Fore
 SplineSet
 250 547 m 2
- 250 141 l 2
+ 250 547 250 141 250 141 c 2
  250 135 250 82 258 62 c 0
  264 48 295 39 321 39 c 0
  484 39 559 130 559 325 c 0
@@ -1479,7 +1434,7 @@ SplineSet
  34 3 33 27 38 34 c 1
  51 35 97 38 102 51 c 0
  110 71 110 102 110 145 c 2
- 110 513 l 2
+ 110 145 110 513 110 513 c 2
  110 556 110 587 102 607 c 0
  97 620 51 622 38 623 c 1
  33 630 34 654 38 660 c 1
@@ -1487,7 +1442,6 @@ SplineSet
  223 657 275 659 334 660 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" d.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" d.sc
 EndChar
 
@@ -1543,7 +1497,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" e.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" e.sc
 EndChar
 
 StartChar: F
@@ -1562,22 +1515,22 @@ SplineSet
  532 513 519 511 512 511 c 0
  505 511 498 514 496 519 c 0
  475 574 449 620 388 620 c 2
- 305 620 l 0
+ 388 620 305 620 305 620 c 0
  282 620 260 619 255 608 c 0
  250 596 250 576 250 547 c 2
- 250 364 l 2
+ 250 547 250 364 250 364 c 2
  250 358 271 353 293 353 c 2
- 346 353 l 2
+ 293 353 346 353 346 353 c 2
  405 353 418 365 434 423 c 0
  435 428 439 431 446 431 c 0
  453 431 462 429 465 426 c 1
- 465 234 l 1
+ 465 426 465 234 465 234 c 1
  463 232 454 230 447 230 c 0
  440 230 434 233 433 238 c 0
  421 286 407 295 398 299 c 0
  386 304 360 306 322 306 c 0
  294 306 250 304 250 292 c 2
- 250 145 l 2
+ 250 292 250 145 250 145 c 2
  250 102 250 71 258 51 c 0
  263 38 318 34 331 33 c 1
  336 26 335 2 331 -4 c 1
@@ -1586,14 +1539,13 @@ SplineSet
  34 2 33 26 38 33 c 1
  51 34 97 38 102 51 c 0
  110 71 110 102 110 145 c 2
- 110 513 l 2
+ 110 145 110 513 110 513 c 2
  110 556 110 587 102 607 c 0
  97 620 51 622 38 623 c 1
  33 630 34 654 38 660 c 1
  83 657 139 657 181 657 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" f.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" f.sc
 EndChar
 
@@ -1635,7 +1587,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" g.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" g.sc
 EndChar
 
 StartChar: H
@@ -1653,12 +1604,12 @@ SplineSet
  326 656 327 632 322 625 c 1
  309 624 263 620 258 607 c 0
  250 587 250 556 250 513 c 2
- 250 371 l 1
+ 250 513 250 371 250 371 c 1
  250 369 252 368 252 368 c 1
  291 367 328 365 373 365 c 0
  410 365 454 367 490 368 c 1
  490 368 492 370 492 372 c 0
- 491 513 l 2
+ 492 372 491 513 491 513 c 2
  491 556 491 587 483 607 c 0
  478 620 432 624 419 625 c 1
  414 632 415 656 419 662 c 1
@@ -1667,7 +1618,7 @@ SplineSet
  707 656 708 632 703 625 c 1
  690 624 644 620 639 607 c 0
  631 587 631 556 631 513 c 2
- 631 145 l 2
+ 631 513 631 145 631 145 c 2
  631 102 631 71 639 51 c 0
  644 38 690 34 703 33 c 1
  708 26 707 2 703 -4 c 1
@@ -1676,12 +1627,12 @@ SplineSet
  415 2 414 26 419 33 c 1
  432 34 478 38 483 51 c 0
  491 71 491 102 491 145 c 2
- 491 310 l 0
+ 491 145 491 310 491 310 c 0
  491 312 489 315 489 315 c 1
  452 316 414 317 373 317 c 0
  262 317 254 315 251 313 c 1
  250 312 250 309 250 309 c 1
- 250 145 l 2
+ 250 309 250 145 250 145 c 2
  250 102 250 71 258 51 c 0
  263 38 309 34 322 33 c 1
  327 26 326 2 322 -4 c 1
@@ -1690,14 +1641,13 @@ SplineSet
  34 2 33 26 38 33 c 1
  51 34 97 38 102 51 c 0
  110 71 110 102 110 145 c 2
- 110 513 l 2
+ 110 145 110 513 110 513 c 2
  110 556 110 587 102 607 c 0
  97 620 51 624 38 625 c 1
  33 632 34 656 38 662 c 1
  77 658 139 655 181 655 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" h.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" h.sc
 EndChar
 
@@ -1716,7 +1666,7 @@ SplineSet
  326 656 327 632 322 625 c 1
  309 624 263 620 258 607 c 0
  250 587 250 556 250 513 c 2
- 250 145 l 2
+ 250 513 250 145 250 145 c 2
  250 102 250 71 258 51 c 0
  263 38 309 34 322 33 c 1
  327 26 326 2 322 -4 c 1
@@ -1725,14 +1675,13 @@ SplineSet
  34 2 33 26 38 33 c 1
  51 34 97 38 102 51 c 0
  110 71 110 102 110 145 c 2
- 110 513 l 2
+ 110 145 110 513 110 513 c 2
  110 556 110 587 102 607 c 0
  97 620 51 624 38 625 c 1
  33 632 34 656 38 662 c 1
  77 658 139 655 181 655 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" i.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" i.sc
 EndChar
 
@@ -1751,7 +1700,7 @@ SplineSet
  320 656 321 632 316 625 c 1
  303 624 257 620 252 607 c 0
  244 587 244 556 244 513 c 2
- 244 143 l 2
+ 244 513 244 143 244 143 c 2
  244 -85 130 -218 -52 -218 c 3
  -71 -218 -100 -207 -109 -200 c 1
  -116 -189 -125 -178 -125 -157 c 3
@@ -1759,14 +1708,13 @@ SplineSet
  -43 -90 -24 -106 -8 -123 c 0
  9 -140 23 -157 39 -157 c 3
  102 -157 104 -31 104 135 c 2
- 104 513 l 2
+ 104 135 104 513 104 513 c 2
  104 556 104 587 96 607 c 0
  91 620 45 624 32 625 c 1
  27 632 28 656 32 662 c 1
  71 658 133 655 175 655 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" j.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" j.sc
 EndChar
 
@@ -1822,7 +1770,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" k.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" k.sc
 EndChar
 
 StartChar: L
@@ -1862,7 +1809,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" l.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" l.sc
 EndChar
 
 StartChar: M
@@ -1896,13 +1842,13 @@ SplineSet
  597 33 646 38 655 52 c 0
  660 60 663 77 663 87 c 0
  663 97 663 130 662 148 c 2
- 652 497 l 2
+ 662 148 652 497 652 497 c 2
  652 500 652 523 645 523 c 0
  643 523 642 521 640 516 c 2
- 464 40 l 2
+ 640 516 464 40 464 40 c 2
  461 31 439 -2 421 -2 c 0
  418 -2 415 -1 412 0 c 1
- 189 523 l 1
+ 412 0 189 523 189 523 c 1
  182 315 182 291 176 134 c 0
  175 112 178 72 180 65 c 0
  186 44 259 33 267 33 c 1
@@ -1919,7 +1865,6 @@ SplineSet
  109 660 125 656 171 656 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" m.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" m.sc
 EndChar
 
@@ -1968,7 +1913,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" n.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" n.sc
 EndChar
 
 StartChar: O
@@ -1994,7 +1938,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" o.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" o.sc
 EndChar
 
 StartChar: P
@@ -2017,7 +1960,7 @@ SplineSet
  416 547 372 620 305 620 c 0
  282 620 260 619 255 608 c 0
  250 596 250 576 250 547 c 2
- 250 145 l 2
+ 250 547 250 145 250 145 c 2
  250 102 250 71 258 51 c 0
  263 38 309 34 322 33 c 1
  327 26 326 2 322 -4 c 1
@@ -2026,7 +1969,7 @@ SplineSet
  34 2 33 26 38 33 c 1
  51 34 97 38 102 51 c 0
  110 71 110 102 110 145 c 2
- 110 513 l 2
+ 110 145 110 513 110 513 c 2
  110 556 110 587 102 607 c 0
  97 620 51 622 38 623 c 1
  33 630 34 654 38 660 c 1
@@ -2035,7 +1978,6 @@ SplineSet
  460 660 565 596 565 482 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" p.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" p.sc
 EndChar
 
@@ -2068,7 +2010,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" q.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" q.sc
 EndChar
 
 StartChar: R
@@ -2089,10 +2030,10 @@ SplineSet
  734 26 730 -2 729 -4 c 1
  700 -6 639 -8 598 -8 c 0
  521 -8 470 33 445 67 c 0
- 283 284 l 0
+ 445 67 283 284 283 284 c 0
  283 284 273 299 265 299 c 0
- 250 299 l 9
- 250 145 l 2
+ 265 299 250 299 250 299 c 9
+ 250 299 250 145 250 145 c 2
  250 102 250 71 258 51 c 0
  263 38 309 34 322 33 c 1
  327 26 326 2 322 -4 c 1
@@ -2101,7 +2042,7 @@ SplineSet
  34 2 33 26 38 33 c 1
  51 34 97 38 102 51 c 0
  110 71 110 102 110 145 c 2
- 110 513 l 2
+ 110 145 110 513 110 513 c 2
  110 556 110 587 102 607 c 0
  97 620 51 622 38 623 c 1
  33 630 34 654 38 660 c 1
@@ -2111,12 +2052,11 @@ SplineSet
  405 547 387 620 305 620 c 0
  282 620 260 619 255 608 c 0
  250 596 250 576 250 547 c 2
- 250 338 l 17
- 296 338 l 0
+ 250 547 250 338 250 338 c 17
+ 250 338 296 338 296 338 c 0
  353 338 405 391 405 468 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" r.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" r.sc
 EndChar
 
@@ -2152,7 +2092,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" s.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" s.sc
 EndChar
 
 StartChar: T
@@ -2169,12 +2108,12 @@ SplineSet
 483 657 m 0
  555 657 569 676 587 676 c 0
  595 676 595 675 599 673 c 1
- 626 489 l 1
+ 599 673 626 489 626 489 c 1
  623 486 606 482 597 482 c 0
  592 482 588 483 587 487 c 0
  577 552 531 613 480 613 c 2
- 387 613 l 1
- 387 145 l 2
+ 480 613 387 613 387 613 c 1
+ 387 613 387 145 387 145 c 2
  387 102 387 71 395 51 c 0
  400 38 446 34 459 33 c 1
  464 26 463 2 459 -4 c 1
@@ -2183,18 +2122,17 @@ SplineSet
  171 2 170 26 175 33 c 1
  188 34 234 38 239 51 c 0
  247 71 247 102 247 145 c 2
- 247 613 l 1
- 154 613 l 2
+ 247 145 247 613 247 613 c 1
+ 247 613 154 613 154 613 c 2
  103 613 57 552 47 487 c 0
  46 483 42 482 37 482 c 0
  28 482 11 486 8 489 c 1
- 35 673 l 1
+ 8 489 35 673 35 673 c 1
  39 675 39 676 47 676 c 0
  65 676 79 657 151 657 c 0
  240 657 394 657 483 657 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" t.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" t.sc
 EndChar
 
@@ -2213,11 +2151,11 @@ SplineSet
  310 656 311 632 306 625 c 1
  293 624 247 620 242 607 c 0
  234 587 234 556 234 513 c 2
- 234 330 l 2
+ 234 513 234 330 234 330 c 2
  234 262 236 212 259 159 c 0
  297 71 372 63 411 63 c 0
  491 63 573 134 573 309 c 2
- 573 479 l 2
+ 573 309 573 479 573 479 c 2
  573 522 567 581 559 601 c 0
  551 620 497 624 484 625 c 1
  479 632 480 656 484 662 c 1
@@ -2226,18 +2164,17 @@ SplineSet
  730 656 731 632 726 625 c 1
  713 624 657 622 649 601 c 0
  641 581 635 523 635 480 c 2
- 635 286 l 2
+ 635 480 635 286 635 286 c 2
  635 82 505 -9 361 -9 c 0
  277 -9 198 19 150 79 c 0
  111 128 94 197 94 301 c 2
- 94 513 l 2
+ 94 301 94 513 94 513 c 2
  94 556 94 587 86 607 c 0
  81 620 35 624 22 625 c 1
  17 632 18 656 22 662 c 1
  61 658 123 655 165 655 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" u.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" u.sc
 EndChar
 
@@ -2268,14 +2205,13 @@ SplineSet
  505 323 457 215 380 30 c 0
  372 12 344 -11 332 -11 c 0
  323 -11 323 -4 318 3 c 1
- 100 510 l 2
+ 318 3 100 510 100 510 c 2
  88 539 74 572 65 592 c 0
  53 618 10 624 -3 625 c 1
  -8 632 -7 656 -3 662 c 1
  36 658 98 655 140 655 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" v.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" v.sc
 EndChar
 
@@ -2310,18 +2246,17 @@ SplineSet
  788 335 749 225 686 40 c 0
  677 15 658 -11 646 -11 c 0
  637 -11 632 -4 627 3 c 1
- 462 418 l 1
+ 627 3 462 418 462 418 c 1
  462 418 384 188 335 44 c 0
  331 33 312 -11 300 -11 c 0
  291 -11 286 -4 281 3 c 1
- 101 510 l 2
+ 281 3 101 510 101 510 c 2
  91 540 75 572 66 592 c 0
  54 618 11 624 -2 625 c 1
  -8 632 -6 656 -2 662 c 1
  37 658 99 655 141 655 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" w.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" w.sc
 EndChar
 
@@ -2339,7 +2274,7 @@ SplineSet
  322 656 323 625 318 625 c 1
  304 625 266 619 265 604 c 0
  265 598 269 588 273 582 c 2
- 384 414 l 1
+ 273 582 384 414 384 414 c 1
  428 471 499 551 514 584 c 0
  516 588 517 591 517 594 c 0
  517 611 477 625 443 625 c 1
@@ -2348,7 +2283,7 @@ SplineSet
  627 655 666 658 695 662 c 1
  698 656 699 625 694 625 c 1
  686 625 625 623 582 572 c 2
- 411 369 l 1
+ 582 572 411 369 411 369 c 1
  495 242 597 93 612 76 c 0
  641 41 697 33 711 33 c 1
  715 24 716 4 711 -4 c 1
@@ -2357,7 +2292,7 @@ SplineSet
  388 1 390 33 395 33 c 0
  406 33 451 43 451 61 c 0
  451 64 450 69 448 72 c 2
- 315 273 l 1
+ 448 72 315 273 315 273 c 1
  300 253 205 130 177 83 c 0
  172 75 169 69 169 66 c 0
  169 42 222 33 252 33 c 1
@@ -2366,15 +2301,14 @@ SplineSet
  71 2 35 -2 -5 -4 c 1
  -10 2 -10 26 -5 33 c 1
  3 33 72 35 104 79 c 2
- 282 322 l 1
- 142 537 l 2
+ 104 79 282 322 282 322 c 1
+ 282 322 142 537 142 537 c 2
  124 564 102 600 88 610 c 0
  74 620 32 625 20 625 c 1
  15 625 15 657 20 662 c 1
  69 660 127 656 176 656 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" x.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" x.sc
 EndChar
 
@@ -2389,7 +2323,7 @@ Back
 Fore
 SplineSet
 233 145 m 2
- 233 284 l 0
+ 233 145 233 284 233 284 c 0
  233 291 232 296 228 304 c 0
  203 359 102 537 102 537 c 2
  87 565 83 572 71 592 c 0
@@ -2400,7 +2334,7 @@ SplineSet
  291 656 292 632 287 625 c 1
  274 624 226 623 226 598 c 0
  226 594 229 589 233 582 c 2
- 353 361 l 1
+ 233 582 353 361 353 361 c 1
  358 356 436 498 479 578 c 0
  483 586 484 594 484 601 c 0
  484 619 423 624 410 625 c 1
@@ -2411,7 +2345,7 @@ SplineSet
  622 624 576 623 561 600 c 0
  541 571 408 357 379 298 c 0
  376 291 373 285 373 279 c 0
- 373 145 l 2
+ 373 279 373 145 373 145 c 2
  373 102 373 71 381 51 c 0
  386 38 432 34 445 33 c 1
  450 26 449 2 445 -4 c 1
@@ -2422,7 +2356,6 @@ SplineSet
  233 71 233 102 233 145 c 2
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" y.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" y.sc
 EndChar
 
@@ -2458,7 +2391,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" z.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" z.sc
 EndChar
 
 StartChar: bracketleft
@@ -2475,18 +2407,18 @@ SplineSet
  301 786 305 783 305 777 c 0
  305 764 297 752 295 751 c 0
  265 736 209 730 182 724 c 9
- 182 -76 l 1
+ 182 724 182 -76 182 -76 c 1
  209 -82 265 -88 295 -103 c 0
  297 -104 305 -116 305 -129 c 0
  305 -135 301 -138 299 -138 c 1
  263 -131 197 -122 94 -122 c 0
  81 -121 75 -110 75 -99 c 0
- 75 747 l 0
+ 75 -99 75 747 75 747 c 0
  75 758 81 769 94 770 c 0
 EndSplineSet
 Validated: 513
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" bracketleft.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" bracketleft.taboldstyle
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" bracketleft.sc
 EndChar
 
 StartChar: backslash
@@ -2507,7 +2439,7 @@ SplineSet
 EndSplineSet
 Validated: 513
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" backslash.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" backslash.taboldstyle
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" backslash.sc
 EndChar
 
 StartChar: bracketright
@@ -2521,13 +2453,13 @@ Fore
 SplineSet
 215 770 m 0
  228 769 234 758 234 747 c 0
- 234 -99 l 0
+ 234 747 234 -99 234 -99 c 0
  234 -110 228 -121 215 -122 c 0
  112 -122 46 -131 10 -138 c 1
  8 -138 4 -135 4 -129 c 0
  4 -116 12 -104 14 -103 c 0
  44 -88 100 -82 127 -76 c 1
- 127 724 l 17
+ 127 -76 127 724 127 724 c 17
  100 730 44 736 14 751 c 0
  12 752 4 764 4 777 c 0
  4 783 8 786 10 786 c 1
@@ -2535,7 +2467,7 @@ SplineSet
 EndSplineSet
 Validated: 513
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" bracketright.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" bracketright.taboldstyle
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" bracketright.sc
 EndChar
 
 StartChar: asciicircum
@@ -2573,11 +2505,11 @@ Fore
 SplineSet
 8 -33 m 1
  8 -33 13 13 23 13 c 2
- 472 13 l 2
+ 23 13 472 13 472 13 c 2
  474 13 476 12 476 8 c 0
  476 -1 472 -15 466 -37 c 0
  464 -43 460 -43 460 -43 c 1
- 15 -43 l 1
+ 460 -43 15 -43 15 -43 c 1
  15 -43 8 -43 8 -33 c 1
 EndSplineSet
 Validated: 1
@@ -2660,14 +2592,14 @@ SplineSet
  99 15 87 11 80 8 c 1
  77 8 56 26 56 33 c 1
  63 51 68 86 68 152 c 2
- 68 558 l 2
+ 68 152 68 558 68 558 c 2
  68 575 68 589 61 606 c 0
  56 618 13 624 1 624 c 1
  -3 624 -4 652 1 656 c 1
  113 666 191 695 194 695 c 1
  200 694 208 683 209 678 c 1
  209 678 198 633 198 577 c 2
- 198 415 l 2
+ 198 577 198 415 198 415 c 2
  198 410 198 397 204 402 c 0
  219 414 269 449 303 449 c 0
  419 449 511 359 511 236 c 0
@@ -2675,7 +2607,7 @@ SplineSet
 253 375 m 0
  225 375 210 363 201 353 c 0
  198 350 198 347 198 344 c 2
- 198 98 l 2
+ 198 344 198 98 198 98 c 2
  198 64 222 36 264 36 c 0
  328 36 367 122 367 196 c 0
  367 333 315 375 253 375 c 0
@@ -2809,7 +2741,7 @@ SplineSet
  347 428 349 420 349 415 c 0
  349 406 336 388 326 381 c 1
  296 381 262 381 229 381 c 1
- 229 145 l 2
+ 229 381 229 145 229 145 c 2
  229 102 229 71 237 51 c 0
  242 38 288 34 301 33 c 1
  306 26 305 2 301 -4 c 1
@@ -2823,7 +2755,7 @@ SplineSet
  23 383 23 390 23 394 c 1
  33 408 43 418 55 428 c 1
  68 428 89 428 99 428 c 9
- 99 443 l 2
+ 99 428 99 443 99 443 c 2
  99 580 231 698 306 698 c 0
 EndSplineSet
 Validated: 33
@@ -2890,7 +2822,7 @@ Fore
 SplineSet
 367 446 m 0
  481 446 503 368 503 210 c 2
- 503 145 l 2
+ 503 210 503 145 503 145 c 2
  503 102 503 71 511 51 c 0
  516 38 562 34 575 33 c 1
  580 26 579 2 575 -4 c 1
@@ -2899,10 +2831,10 @@ SplineSet
  309 2 308 26 313 33 c 1
  326 34 360 38 365 51 c 0
  373 71 373 102 373 145 c 2
- 373 224 l 2
+ 373 145 373 224 373 224 c 2
  373 296 359 365 306 365 c 0
  266 365 218 329 218 309 c 2
- 218 145 l 2
+ 218 309 218 145 218 145 c 2
  218 108 218 71 226 51 c 0
  231 38 270 34 283 33 c 1
  288 26 287 2 283 -4 c 1
@@ -2911,14 +2843,14 @@ SplineSet
  12 2 11 26 16 33 c 1
  29 34 75 38 80 51 c 0
  88 71 88 102 88 145 c 2
- 88 558 l 2
+ 88 145 88 558 88 558 c 2
  88 575 88 589 81 606 c 0
  76 618 33 624 21 624 c 1
  17 624 16 652 21 656 c 1
  133 666 211 695 214 695 c 1
  220 694 228 683 229 678 c 1
  229 678 218 616 218 576 c 0
- 218 372 l 0
+ 218 576 218 372 218 372 c 0
  218 369 218 367 219 366 c 1
  221 366 224 369 226 371 c 0
  254 403 321 446 367 446 c 0
@@ -3019,14 +2951,14 @@ SplineSet
  12 2 11 26 16 33 c 1
  29 34 75 38 80 51 c 0
  88 71 88 102 88 145 c 2
- 88 558 l 2
+ 88 145 88 558 88 558 c 2
  88 575 88 589 81 606 c 0
  76 618 33 624 21 624 c 1
  17 624 16 652 21 656 c 1
  133 666 211 695 214 695 c 1
  220 694 228 683 229 678 c 1
  229 678 218 616 218 576 c 0
- 217 236 l 1
+ 218 576 217 236 217 236 c 1
  234 242 257 257 292 287 c 0
  362 347 380 368 380 383 c 0
  380 395 334 404 316 405 c 1
@@ -3043,7 +2975,7 @@ SplineSet
  428 -6 379 18 349 53 c 2
  349 53 280 127 231 188 c 0
  227 194 218 201 218 201 c 1
- 218 145 l 2
+ 218 201 218 145 218 145 c 2
 EndSplineSet
 Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" k.sc
@@ -3066,7 +2998,7 @@ SplineSet
  133 666 211 695 214 695 c 1
  220 694 228 683 229 678 c 1
  229 678 218 616 218 576 c 0
- 218 145 l 18
+ 218 576 218 145 218 145 c 18
  218 102 218 71 226 51 c 0
  231 38 277 34 290 33 c 1
  295 26 294 2 290 -4 c 1
@@ -3075,7 +3007,7 @@ SplineSet
  12 2 11 26 16 33 c 1
  29 34 75 38 80 51 c 0
  88 71 88 102 88 145 c 2
- 88 558 l 2
+ 88 145 88 558 88 558 c 2
 EndSplineSet
 Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" l.sc
@@ -3276,14 +3208,14 @@ SplineSet
  192 394 174 314 174 243 c 0
  174 160 199 56 276 56 c 0
  312 56 336 76 336 80 c 2
- 336 344 l 2
+ 336 80 336 344 336 344 c 2
  336 354 314 394 262 394 c 0
 300 446 m 0
  338 446 388 423 418 423 c 0
  439 423 448 428 454 430 c 1
  460 428 478 412 478 405 c 1
  473 393 466 360 466 291 c 2
- 466 -69 l 2
+ 466 291 466 -69 466 -69 c 2
  466 -112 466 -143 474 -163 c 0
  479 -176 525 -180 538 -181 c 1
  543 -188 542 -212 538 -218 c 1
@@ -3292,7 +3224,7 @@ SplineSet
  260 -212 259 -188 264 -181 c 1
  277 -180 323 -176 328 -163 c 0
  336 -143 336 -112 336 -69 c 2
- 336 17 l 2
+ 336 -69 336 17 336 17 c 2
  336 23 336 35 330 30 c 0
  315 19 263 -8 216 -8 c 0
  115 -8 32 84 32 192 c 0
@@ -3391,14 +3323,14 @@ SplineSet
  330 428 332 420 332 415 c 0
  332 406 319 388 309 381 c 1
  279 381 245 381 212 381 c 1
- 212 133 l 2
+ 212 381 212 133 212 133 c 2
  212 80 229 57 266 57 c 0
  290 57 316 78 319 81 c 1
  321 79 326 72 326 67 c 0
  326 62 320 50 318 48 c 0
  309 38 264 -7 212 -7 c 0
  150 -7 82 27 82 139 c 2
- 82 381 l 1
+ 82 139 82 381 82 381 c 1
  55 381 37 381 11 381 c 1
  6 383 6 390 6 394 c 1
  16 408 26 418 38 428 c 1
@@ -3481,7 +3413,7 @@ SplineSet
  472 436 519 441 534 443 c 1
  538 438 539 413 534 406 c 1
  522 406 467 402 453 373 c 2
- 299 45 l 2
+ 453 373 299 45 299 45 c 2
  279 6 266 -11 254 -11 c 0
  251 -11 245 -6 242 -3 c 1
  184 117 130 230 63 368 c 1
@@ -3557,7 +3489,7 @@ SplineSet
  286 438 286 412 281 406 c 1
  269 406 233 401 233 384 c 0
  233 381 239 375 243 370 c 10
- 307 288 l 17
+ 243 370 307 288 307 288 c 17
  336 319 384 370 384 379 c 0
  384 404 321 406 313 406 c 1
  308 411 308 436 312 443 c 1
@@ -3574,7 +3506,7 @@ SplineSet
  279 1 279 27 284 33 c 1
  296 33 332 38 332 55 c 0
  332 58 326 64 322 69 c 10
- 251 156 l 17
+ 322 69 251 156 251 156 c 17
  229 132 192 97 176 75 c 0
  171 68 168 63 168 60 c 0
  168 35 231 33 239 33 c 1
@@ -3643,19 +3575,19 @@ Back
 Fore
 SplineSet
 150 428 m 2
- 288 428 l 2
+ 150 428 288 428 288 428 c 2
  342 428 376 431 417 436 c 1
  422 428 420 417 420 412 c 1
- 177 46 l 25
- 291 46 l 2
+ 420 412 177 46 177 46 c 25
+ 177 46 291 46 291 46 c 2
  352 46 388 109 396 147 c 0
  397 152 405 154 409 154 c 0
  420 154 433 145 434 144 c 1
  421 105 394 0 394 0 c 1
- 39 0 l 1
+ 394 0 39 0 39 0 c 1
  39 0 29 8 29 17 c 0
  29 22 31 30 33 34 c 2
- 257 381 l 1
+ 33 34 257 381 257 381 c 1
  257 381 185 382 153 382 c 0
  102 382 83 323 72 288 c 0
  71 284 59 281 49 281 c 0
@@ -3715,11 +3647,11 @@ SplineSet
 127 -108 m 2
  127 -116 81 -123 79 -123 c 0
  72 -123 74 -119 74 -115 c 2
- 74 757 l 1
+ 74 -115 74 757 74 757 c 1
  74 757 73 763 79 765 c 0
  96 770 115 770 118 770 c 0
  127 770 126 764 126 764 c 1
- 127 -108 l 2
+ 126 764 127 -108 127 -108 c 2
 EndSplineSet
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" bar.sc
@@ -3783,7 +3715,6 @@ SplineSet
  338 239 296 259 261 273 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" asciitilde.sc
 EndChar
 
 StartChar: uni00A0
@@ -3834,9 +3765,9 @@ Fore
 SplineSet
 281 481 m 17
  289 481 316 480 316 473 c 1
- 233 -38 l 1
+ 316 473 233 -38 233 -38 c 1
  224 -38 201 -35 198 -29 c 9
- 281 481 l 17
+ 198 -29 281 481 281 481 c 17
 425 382 m 0
  425 408 414 420 405 430 c 1
  394 437 359 448 304 448 c 0
@@ -3853,7 +3784,6 @@ SplineSet
  403 320 425 353 425 382 c 0
 EndSplineSet
 Validated: 517
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" cent.sc
 EndChar
 
 StartChar: sterling
@@ -3895,7 +3825,6 @@ SplineSet
  41 313 58 349 67 349 c 1
 EndSplineSet
 Validated: 549
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" sterling.sc
 EndChar
 
 StartChar: currency
@@ -3914,24 +3843,24 @@ SplineSet
  224 456 190 394 190 319 c 0
  190 227 236 160 288 160 c 0
 393 455 m 1
- 452 510 l 2
+ 393 455 452 510 452 510 c 2
  460 518 486 490 493 466 c 1
- 433 410 l 1
+ 493 466 433 410 433 410 c 1
  451 380 462 344 462 307 c 0
  462 267 450 230 429 199 c 1
- 483 141 l 2
+ 429 199 483 141 483 141 c 2
  491 133 463 107 439 100 c 1
- 387 155 l 1
+ 439 100 387 155 387 155 c 1
  357 133 321 120 281 120 c 0
  238 120 198 135 167 160 c 1
- 114 110 l 2
+ 167 160 114 110 114 110 c 2
  106 102 80 130 73 154 c 1
- 127 205 l 1
+ 73 154 127 205 127 205 c 1
  108 235 97 270 97 307 c 0
  97 351 111 391 135 423 c 1
- 83 479 l 2
+ 135 423 83 479 83 479 c 2
  75 487 103 513 127 520 c 1
- 179 465 l 1
+ 127 520 179 465 179 465 c 1
  208 485 243 496 281 496 c 0
  324 496 362 481 393 455 c 1
 EndSplineSet
@@ -3951,15 +3880,15 @@ SplineSet
 182 191 m 1
  198 191 487 191 498 191 c 1
  512 180 494 153 488 149 c 1
- 162 149 l 17
+ 488 149 162 149 162 149 c 17
  156 155 173 191 182 191 c 1
 182 271 m 1
  198 271 487 271 498 271 c 1
  512 260 494 233 488 229 c 1
- 162 229 l 17
+ 488 229 162 229 162 229 c 17
  156 235 173 271 182 271 c 1
 261 145 m 2
- 261 264 l 2
+ 261 145 261 264 261 264 c 2
  261 265 260 275 258 280 c 0
  237 328 130 518 130 518 c 2
  115 546 111 553 99 573 c 0
@@ -3970,7 +3899,7 @@ SplineSet
  319 637 320 613 315 606 c 1
  302 605 254 604 254 579 c 0
  254 575 257 570 261 563 c 2
- 381 342 l 1
+ 261 563 381 342 381 342 c 1
  386 337 464 479 507 559 c 0
  511 567 512 575 512 582 c 0
  512 600 451 605 438 606 c 1
@@ -3981,7 +3910,7 @@ SplineSet
  650 605 604 604 589 581 c 0
  569 551 434 336 407 278 c 0
  404 271 402 261 402 259 c 2
- 401 145 l 2
+ 402 259 401 145 401 145 c 2
  401 102 401 71 409 51 c 0
  414 38 460 34 473 33 c 1
  478 26 477 2 473 -4 c 1
@@ -3992,7 +3921,6 @@ SplineSet
  261 71 261 102 261 145 c 2
 EndSplineSet
 Validated: 549
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" yen.sc
 EndChar
 
 StartChar: brokenbar
@@ -4007,22 +3935,21 @@ SplineSet
 132 400 m 2
  132 392 86 385 84 385 c 0
  77 385 79 389 79 393 c 2
- 79 757 l 1
+ 79 393 79 757 79 757 c 1
  79 757 78 763 84 765 c 0
  101 770 121 770 124 770 c 0
  133 770 132 764 132 764 c 1
- 132 400 l 2
+ 132 764 132 400 132 400 c 2
 79 -115 m 2
- 79 249 l 1
+ 79 -115 79 249 79 249 c 1
  79 249 78 255 84 257 c 0
  101 262 121 262 124 262 c 0
  133 262 132 256 132 256 c 1
- 132 -108 l 2
+ 132 256 132 -108 132 -108 c 2
  132 -116 86 -123 84 -123 c 0
  77 -123 79 -119 79 -115 c 2
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" brokenbar.sc
 EndChar
 
 StartChar: section
@@ -4069,7 +3996,6 @@ SplineSet
  342 -5 258 -92 146 -92 c 0
 EndSplineSet
 Validated: 517
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" section.sc
 EndChar
 
 StartChar: dieresis
@@ -4133,7 +4059,6 @@ SplineSet
  175 38 53 160 53 311 c 4
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" copyright.sc
 EndChar
 
 StartChar: ordfeminine
@@ -4175,7 +4100,6 @@ SplineSet
  71 514 137 557 201 557 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ordfeminine.sc
 EndChar
 
 StartChar: guillemotleft
@@ -4206,7 +4130,6 @@ SplineSet
  29 237 26 243 26 248 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" guillemotleft.sc
 EndChar
 
 StartChar: logicalnot
@@ -4220,14 +4143,14 @@ Back
 Fore
 SplineSet
 520 420 m 17
- 520 169 l 1
+ 520 420 520 169 520 169 c 1
  519 168 483 160 461 160 c 0
  451 160 448 167 448 167 c 1
  448 167 448 326 448 362 c 1
- 52 362 l 1
+ 448 362 52 362 52 362 c 1
  52 362 46 362 46 372 c 1
  46 372 51 420 61 420 c 2
- 520 420 l 17
+ 61 420 520 420 520 420 c 17
 EndSplineSet
 Validated: 1
 EndChar
@@ -4250,10 +4173,10 @@ SplineSet
  477 248 475 235 475 234 c 5
  463 233 446 232 430 232 c 4
  399 232 382 245 364 268 c 4
- 304 349 l 4
+ 364 268 304 349 304 349 c 4
  304 349 300 355 297 355 c 4
- 291 355 l 13
- 291 295 l 6
+ 297 355 291 355 291 355 c 13
+ 291 355 291 295 291 295 c 6
  291 278 291 266 294 258 c 4
  296 253 315 250 320 250 c 5
  322 247 322 236 320 234 c 5
@@ -4262,7 +4185,7 @@ SplineSet
  201 236 201 247 203 250 c 5
  208 250 227 253 229 258 c 4
  232 266 232 278 232 295 c 6
- 232 441 l 6
+ 232 295 232 441 232 441 c 6
  232 458 232 470 229 478 c 4
  227 483 208 484 203 484 c 5
  201 487 201 499 203 501 c 5
@@ -4272,8 +4195,8 @@ SplineSet
  355 456 340 482 313 482 c 4
  304 482 295 482 293 478 c 4
  291 473 291 465 291 453 c 6
- 291 374 l 21
- 307 374 l 4
+ 291 453 291 374 291 374 c 21
+ 291 374 307 374 307 374 c 4
  333 374 355 393 355 424 c 4
 98 361 m 4
  98 235 200 133 326 133 c 4
@@ -4287,7 +4210,6 @@ SplineSet
  175 89 53 211 53 362 c 4
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" registered.sc
 EndChar
 
 StartChar: macron
@@ -4302,11 +4224,11 @@ Fore
 SplineSet
 562 556 m 0
  562 558 563 597 574 597 c 2
- 789 597 l 2
+ 574 597 789 597 789 597 c 2
  791 597 794 596 794 590 c 0
  794 585 793 572 788 554 c 0
  786 548 781 547 781 547 c 1
- 568 547 l 1
+ 781 547 568 547 568 547 c 1
  568 547 562 546 562 556 c 0
 EndSplineSet
 Validated: 1
@@ -4334,7 +4256,6 @@ SplineSet
  84 425 34 476 34 537 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" degree.sc
 EndChar
 
 StartChar: plusminus
@@ -4348,27 +4269,27 @@ Back
 Fore
 SplineSet
 61 67 m 1
- 522 67 l 2
+ 61 67 522 67 522 67 c 2
  528 67 531 59 531 53 c 0
  531 32 524 19 516 9 c 1
- 56 9 l 2
+ 516 9 56 9 56 9 c 2
  51 9 50 15 50 25 c 0
  50 29 53 55 61 67 c 1
 61 364 m 1
- 260 364 l 1
- 260 563 l 1
+ 61 364 260 364 260 364 c 1
+ 260 364 260 563 260 563 c 1
  271 572 298 574 302 574 c 0
  312 574 318 572 318 565 c 2
- 318 364 l 1
- 522 364 l 2
+ 318 565 318 364 318 364 c 1
+ 318 364 522 364 522 364 c 2
  528 364 531 356 531 350 c 0
  531 329 524 316 516 306 c 1
- 318 306 l 1
- 318 108 l 1
+ 516 306 318 306 318 306 c 1
+ 318 306 318 108 318 108 c 1
  306 100 281 97 271 97 c 0
  265 97 260 101 260 105 c 2
- 260 306 l 1
- 56 306 l 2
+ 260 105 260 306 260 306 c 1
+ 260 306 56 306 56 306 c 2
  51 306 50 312 50 322 c 0
  50 326 53 352 61 364 c 1
 EndSplineSet
@@ -4387,7 +4308,7 @@ Fore
 SplineSet
 310 382 m 1
  303 353 276 265 272 254 c 9
- 45 254 l 1
+ 272 254 45 254 45 254 c 1
  42 257 39 265 38 268 c 1
  86 321 109 347 157 409 c 0
  192 454 204 487 204 525 c 0
@@ -4398,7 +4319,7 @@ SplineSet
  253 642 299 607 299 538 c 0
  299 484 256 438 218 403 c 0
  188 376 160 352 123 325 c 1
- 235 325 l 2
+ 123 325 235 325 235 325 c 2
  265 325 275 358 285 380 c 0
  286 383 292 385 296 385 c 0
  300 385 307 384 310 382 c 1
@@ -4463,7 +4384,7 @@ EndChar
 StartChar: uni00B5
 Encoding: 181 181 115
 Width: 521
-Flags: HW
+Flags: W
 HStem: -8 122<293.892 385.523> -4 108<500.449 579.192> 426 20G<189 200 448 459>
 VStem: 158 103<-204.804 3.83203> 167 107<269.229 424> 424 112<329.63 423.537> 433 53<161.665 276.288>
 LayerCount: 2
@@ -4551,7 +4472,6 @@ SplineSet
  424 304 412 300 404 299 c 1x9d
 EndSplineSet
 Validated: 545
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" paragraph.sc
 EndChar
 
 StartChar: periodcentered
@@ -4596,7 +4516,7 @@ SplineSet
  219 -65 209 -68 199 -72 c 1
  196 -72 186 -63 186 -57 c 1
  195 -42 208 -17 214 -2 c 1
- 246 -2 l 1
+ 214 -2 246 -2 246 -2 c 1
  246 -2 238 -16 233 -25 c 1
 EndSplineSet
 Validated: 1
@@ -4618,10 +4538,10 @@ SplineSet
  45 543 39 554 39 562 c 0
  39 563 39 568 40 569 c 1
  111 599 194 641 196 641 c 2
- 197 641 l 2
+ 196 641 197 641 197 641 c 2
  201 641 212 624 213 621 c 1
  210 610 201 575 201 536 c 2
- 201 346 l 2
+ 201 536 201 346 201 346 c 2
  201 328 204 298 211 291 c 0
  219 282 253 278 258 278 c 1
  260 278 259 253 258 252 c 1
@@ -4630,7 +4550,7 @@ SplineSet
  53 255 53 278 56 278 c 1
  64 278 97 284 104 292 c 0
  109 298 114 336 114 347 c 2
- 114 511 l 2
+ 114 347 114 511 114 511 c 2
 EndSplineSet
 Validated: 1
 EndChar
@@ -4657,7 +4577,6 @@ SplineSet
  35 484 108 553 202 553 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ordmasculine.sc
 EndChar
 
 StartChar: guillemotright
@@ -4688,7 +4607,6 @@ SplineSet
  473 259 476 253 476 248 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" guillemotright.sc
 EndChar
 
 StartChar: onequarter
@@ -4703,24 +4621,24 @@ Fore
 SplineSet
 644 386 m 4
  648 386 664 377 664 367 c 14
- 664 138 l 29
- 689 138 l 21
+ 664 367 664 138 664 138 c 29
+ 664 138 689 138 689 138 c 21
  702 126 705 110 699 92 c 5
- 664 92 l 29
- 664 2 l 21
+ 699 92 664 92 664 92 c 29
+ 664 92 664 2 664 2 c 21
  664 2 644 -3 617 -3 c 4
  595 -3 577 0 577 5 c 6
- 577 92 l 29
- 424 92 l 21
+ 577 5 577 92 577 92 c 29
+ 577 92 424 92 424 92 c 21
  419 94 412 101 412 109 c 5
  487 199 566 298 631 378 c 4
  635 383 639 386 644 386 c 4
 577 138 m 5
- 577 262 l 21
+ 577 138 577 262 577 262 c 21
  554 235 487 152 475 138 c 5
  470 138 545 138 577 138 c 5
 194 536 m 2
- 194 346 l 2
+ 194 536 194 346 194 346 c 2
  194 328 197 298 204 291 c 0
  212 282 246 278 251 278 c 1
  253 278 252 253 251 252 c 1
@@ -4729,7 +4647,7 @@ SplineSet
  46 255 46 278 49 278 c 1
  57 278 90 284 97 292 c 0
  102 298 107 336 107 347 c 2
- 107 511 l 2
+ 107 347 107 511 107 511 c 2
  107 538 100 558 88 558 c 0
  79 558 54 547 43 542 c 1
  38 543 32 568 33 569 c 1
@@ -4738,10 +4656,10 @@ SplineSet
  203 610 194 575 194 536 c 2
 219 -34 m 0
  204 -37 202 -25 202 -25 c 1
- 547 663 l 1
+ 202 -25 547 663 547 663 c 1
  553 672 566 680 583 684 c 0
  592 686 600 682 601 677 c 1
- 256 -11 l 2
+ 601 677 256 -11 256 -11 c 2
  253 -18 236 -30 219 -34 c 0
 EndSplineSet
 Validated: 37
@@ -4761,12 +4679,12 @@ SplineSet
  657 386 703 351 703 282 c 0
  703 228 660 182 622 147 c 0
  592 120 564 96 527 69 c 1
- 639 69 l 2
+ 527 69 639 69 639 69 c 2
  669 69 679 102 689 124 c 0
  690 127 696 129 700 129 c 0
  704 129 711 128 714 126 c 1
  707 97 680 9 676 -2 c 9
- 449 -2 l 1
+ 676 -2 449 -2 449 -2 c 1
  446 1 443 9 442 12 c 1
  490 65 513 91 561 153 c 0
  596 198 608 231 608 269 c 0
@@ -4775,7 +4693,7 @@ SplineSet
  470 284 457 286 457 298 c 1
  468 321 517 386 587 386 c 0
 195 536 m 2
- 195 346 l 2
+ 195 536 195 346 195 346 c 2
  195 328 198 298 205 291 c 0
  213 282 247 278 252 278 c 1
  254 278 253 253 252 252 c 1
@@ -4784,7 +4702,7 @@ SplineSet
  47 255 47 278 50 278 c 1
  58 278 91 284 98 292 c 0
  103 298 108 336 108 347 c 2
- 108 511 l 2
+ 108 347 108 511 108 511 c 2
  108 538 101 558 89 558 c 0
  80 558 55 547 44 542 c 1
  39 543 32 562 34 569 c 1
@@ -4792,10 +4710,10 @@ SplineSet
  197 635 206 624 207 621 c 1
  204 610 195 575 195 536 c 2
 580 677 m 1
- 235 -11 l 2
+ 580 677 235 -11 235 -11 c 2
  232 -18 215 -30 198 -34 c 0
  183 -37 181 -25 181 -25 c 1
- 526 663 l 1
+ 181 -25 526 663 526 663 c 1
  532 672 545 680 562 684 c 0
  571 686 579 682 580 677 c 1
 EndSplineSet
@@ -5291,11 +5209,11 @@ Back
 Fore
 SplineSet
 196 248 m 1
- 54 390 l 1
+ 196 248 54 390 54 390 c 1
  54 404 73 431 82 431 c 0
  85 431 87 431 89 429 c 2
  89 429 234 289 236 287 c 9
- 379 429 l 2
+ 236 287 379 429 379 429 c 2
  380 430 382 431 385 431 c 0
  394 431 411 397 411 387 c 1
  411 387 276 253 273 250 c 1
@@ -5303,7 +5221,7 @@ SplineSet
  411 92 396 64 385 64 c 0
  383 64 380 64 378 66 c 2
  378 66 234 210 233 211 c 1
- 86 64 l 2
+ 233 211 86 64 86 64 c 2
  84 62 82 62 80 62 c 0
  71 62 54 97 54 107 c 1
  54 107 192 244 196 248 c 1
@@ -5324,9 +5242,9 @@ Fore
 SplineSet
 541 676 m 17
  549 673 581 662 579 655 c 9
- 202 -18 l 17
+ 579 655 202 -18 202 -18 c 17
  194 -15 162 -3 164 4 c 9
- 541 676 l 17
+ 164 4 541 676 541 676 c 17
 EndSplineSet
 Refer: 47 79 N 1 0 0 1 0 0 2
 Validated: 37
@@ -5476,7 +5394,7 @@ SplineSet
  367 456 384 479 384 525 c 0
  384 582 361 651 303 651 c 0
  263 651 224 586 224 486 c 0
- 224 145 l 2
+ 224 486 224 145 224 145 c 2
  224 102 224 71 232 51 c 0
  237 38 262 34 275 33 c 1
  280 26 279 2 275 -4 c 1
@@ -5490,7 +5408,7 @@ SplineSet
  30 383 30 390 30 394 c 1
  40 408 50 418 62 428 c 1
  75 428 84 428 94 428 c 9
- 94 443 l 2
+ 94 428 94 443 94 443 c 2
  94 580 223 698 328 698 c 0
 EndSplineSet
 Validated: 33
@@ -5785,9 +5703,9 @@ Fore
 SplineSet
 367 708 m 17
  372 702 393 679 388 674 c 9
- 135 502 l 17
+ 388 674 135 502 135 502 c 17
  129 509 110 532 115 537 c 9
- 367 708 l 17
+ 115 537 367 708 367 708 c 17
 264 406 m 0
  193 406 171 303 171 212 c 0
  171 96 226 36 265 36 c 0
@@ -5921,10 +5839,10 @@ SplineSet
 63 223 m 1
  58 223 57 229 57 239 c 0
  57 243 59 269 68 281 c 1
- 528 281 l 2
+ 68 281 528 281 528 281 c 2
  534 281 537 273 537 267 c 0
  537 246 531 233 523 223 c 1
- 63 223 l 1
+ 523 223 63 223 63 223 c 1
 EndSplineSet
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" divide.sc
@@ -5942,9 +5860,9 @@ Fore
 SplineSet
 373 455 m 21
  381 452 407 443 405 436 c 13
- 152 -16 l 21
+ 405 436 152 -16 152 -16 c 21
  144 -13 118 -3 120 4 c 13
- 373 455 l 21
+ 120 4 373 455 373 455 c 21
 EndSplineSet
 Refer: 79 111 N 1 0 0 1 0 0 2
 Validated: 37
@@ -6041,7 +5959,7 @@ SplineSet
  503 81 368 -8 258 -8 c 0
  230 -8 204 1 200 1 c 1
  197 1 197 -3 197 -15 c 2
- 197 -69 l 2
+ 197 -15 197 -69 197 -69 c 2
  197 -112 197 -143 205 -163 c 0
  210 -176 256 -180 269 -181 c 1
  274 -188 273 -212 269 -218 c 1
@@ -6050,7 +5968,7 @@ SplineSet
  -9 -212 -10 -188 -5 -181 c 1
  8 -180 54 -176 59 -163 c 0
  67 -143 67 -112 67 -69 c 2
- 67 558 l 2
+ 67 -69 67 558 67 558 c 2
  67 575 67 589 60 606 c 0
  55 618 12 624 0 624 c 1
  -4 624 -5 652 0 656 c 1
@@ -6063,7 +5981,7 @@ SplineSet
  231 420 276 448 307 448 c 0
 252 375 m 0
  215 375 197 352 197 347 c 2
- 197 96 l 2
+ 197 347 197 96 197 96 c 2
  197 56 230 36 265 36 c 0
  298 36 359 83 359 199 c 0
  359 302 333 375 252 375 c 0
@@ -6229,11 +6147,11 @@ Fore
 SplineSet
 56 203 m 0
  56 205 59 268 70 268 c 2
- 495 268 l 2
+ 70 268 495 268 495 268 c 2
  497 268 501 267 501 259 c 0
  501 241 493 205 492 201 c 0
  490 195 485 194 485 194 c 1
- 62 194 l 1
+ 485 194 62 194 62 194 c 1
  62 194 56 193 56 203 c 0
 EndSplineSet
 Validated: 1
@@ -6250,11 +6168,11 @@ Fore
 SplineSet
 58 203 m 0
  58 205 61 268 72 268 c 2
- 497 268 l 2
+ 72 268 497 268 497 268 c 2
  499 268 503 267 503 259 c 0
  503 241 495 205 494 201 c 0
  492 195 487 194 487 194 c 1
- 64 194 l 1
+ 487 194 64 194 64 194 c 1
  64 194 58 193 58 203 c 0
 EndSplineSet
 Validated: 1
@@ -6271,11 +6189,11 @@ Fore
 SplineSet
 58 203 m 0
  58 205 61 268 72 268 c 2
- 882 268 l 2
+ 72 268 882 268 882 268 c 2
  884 268 888 267 888 259 c 0
  888 241 880 205 879 201 c 0
  877 195 872 194 872 194 c 1
- 64 194 l 1
+ 872 194 64 194 64 194 c 1
  64 194 58 193 58 203 c 0
 EndSplineSet
 Validated: 1
@@ -6292,11 +6210,11 @@ Fore
 SplineSet
 58 203 m 0
  58 205 61 268 72 268 c 2
- 1076 268 l 2
+ 72 268 1076 268 1076 268 c 2
  1078 268 1082 267 1082 259 c 0
  1082 241 1074 205 1073 201 c 0
  1071 195 1066 194 1066 194 c 1
- 64 194 l 1
+ 1066 194 64 194 64 194 c 1
  64 194 58 193 58 203 c 0
 EndSplineSet
 Validated: 1
@@ -6806,11 +6724,11 @@ Fore
 SplineSet
 127 744 m 4
  127 746 130 806 141 806 c 6
- 723 806 l 6
+ 141 806 723 806 723 806 c 6
  725 806 729 805 729 797 c 4
  729 779 722 745 721 741 c 4
  719 735 713 734 713 734 c 5
- 133 734 l 5
+ 713 734 133 734 133 734 c 5
  133 734 127 734 127 744 c 4
 EndSplineSet
 Validated: 1
@@ -6829,12 +6747,12 @@ SplineSet
 60 294 m 1
  76 294 422 294 433 294 c 1
  447 283 429 256 423 252 c 1
- 40 252 l 17
+ 423 252 40 252 40 252 c 17
  34 258 51 294 60 294 c 1
 60 400 m 1
  76 400 422 400 433 400 c 1
  447 389 429 362 423 358 c 1
- 40 358 l 17
+ 423 358 40 358 40 358 c 17
  34 364 51 400 60 400 c 1
 670 185 m 1
  670 174 645 44 630 38 c 0
@@ -6866,13 +6784,13 @@ Fore
 SplineSet
 275 397 m 0
  275 389 255 370 201 318 c 0
- 165 284 l 1
- 734 284 l 1
+ 201 318 165 284 165 284 c 1
+ 165 284 734 284 734 284 c 1
  734 284 741 284 741 274 c 0
  741 256 734 221 733 217 c 0
  731 211 726 210 726 210 c 1
- 164 210 l 1
- 200 176 l 0
+ 726 210 164 210 164 210 c 1
+ 164 210 200 176 200 176 c 0
  254 124 274 105 274 97 c 0
  274 85 245 73 239 72 c 1
  238 74 180 131 33 226 c 1
@@ -6895,12 +6813,12 @@ Back
 Fore
 SplineSet
 233 576 m 1
- 233 6 l 1
+ 233 576 233 6 233 6 c 1
  233 6 233 0 223 0 c 0
  205 0 171 7 167 8 c 0
  161 10 159 14 159 14 c 1
- 159 577 l 1
- 126 540 l 0
+ 159 14 159 577 159 577 c 1
+ 159 577 126 540 126 540 c 0
  74 486 54 466 46 466 c 0
  34 466 23 496 22 502 c 1
  24 503 81 561 176 708 c 1
@@ -6909,7 +6827,7 @@ SplineSet
  295 575 368 505 372 500 c 1
  371 494 358 466 346 466 c 0
  338 466 320 486 268 540 c 0
- 233 576 l 1
+ 268 540 233 576 233 576 c 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -6924,7 +6842,7 @@ Back
 Fore
 SplineSet
 605 284 m 1
- 569 318 l 0
+ 605 284 569 318 569 318 c 0
  515 370 495 389 495 397 c 0
  495 409 524 421 530 422 c 1
  535 418 605 346 736 267 c 1
@@ -6933,12 +6851,12 @@ SplineSet
  590 131 532 74 531 72 c 1
  525 73 496 85 496 97 c 0
  496 105 516 124 570 176 c 0
- 606 210 l 1
- 44 210 l 1
+ 570 176 606 210 606 210 c 1
+ 606 210 44 210 44 210 c 1
  44 210 39 211 37 217 c 0
  36 221 29 256 29 274 c 0
  29 284 36 284 36 284 c 1
- 605 284 l 1
+ 36 284 605 284 605 284 c 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -6954,12 +6872,12 @@ Back
 Fore
 SplineSet
 162 138 m 1
- 162 708 l 1
+ 162 138 162 708 162 708 c 1
  162 708 162 714 172 714 c 0
  190 714 224 707 228 706 c 0
  234 704 236 700 236 700 c 1
- 236 137 l 1
- 269 174 l 0
+ 236 700 236 137 236 137 c 1
+ 236 137 269 174 269 174 c 0
  321 228 341 248 349 248 c 0
  361 248 372 218 373 212 c 1
  371 211 314 153 219 6 c 1
@@ -6968,7 +6886,7 @@ SplineSet
  100 139 27 209 23 214 c 1
  24 220 37 248 49 248 c 0
  57 248 75 228 127 174 c 0
- 162 138 l 1
+ 127 174 162 138 162 138 c 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -7026,19 +6944,19 @@ Back
 Fore
 SplineSet
 491 83 m 6
- 311 443 l 5
+ 491 83 311 443 311 443 c 5
  307 446 302 447 299 441 c 6
- 116 87 l 5
+ 299 441 116 87 116 87 c 5
  114 80 119 76 124 76 c 6
- 488 76 l 6
+ 124 76 488 76 488 76 c 6
  492 76 493 79 491 83 c 6
 345 613 m 5
- 647 14 l 5
+ 345 613 647 14 647 14 c 5
  647 14 641 8 639 0 c 5
- 28 0 l 5
+ 639 0 28 0 28 0 c 5
  24 6 23 9 19 16 c 5
- 328 613 l 5
- 345 613 l 5
+ 19 16 328 613 328 613 c 5
+ 328 613 345 613 345 613 c 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -7053,19 +6971,19 @@ Back
 Fore
 SplineSet
 183 559 m 2
- 363 199 l 1
+ 183 559 363 199 363 199 c 1
  367 196 372 195 375 201 c 2
- 558 555 l 1
+ 375 201 558 555 558 555 c 1
  560 562 555 566 550 566 c 2
- 186 566 l 2
+ 550 566 186 566 186 566 c 2
  182 566 181 563 183 559 c 2
 329 29 m 1
- 27 628 l 1
+ 329 29 27 628 27 628 c 1
  27 628 33 634 35 642 c 1
- 646 642 l 1
+ 35 642 646 642 646 642 c 1
  650 636 651 633 655 626 c 1
- 346 29 l 1
- 329 29 l 1
+ 655 626 346 29 346 29 c 1
+ 346 29 329 29 329 29 c 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -7082,22 +7000,22 @@ Fore
 SplineSet
 409 220 m 0
  409 193 401 189 400 189 c 2
- 128 189 l 2
+ 400 189 128 189 128 189 c 2
  127 189 122 188 123 185 c 0
  135 122 178 71 245 71 c 2
- 433 71 l 2
+ 245 71 433 71 433 71 c 2
  433 71 448 64 448 29 c 0
  448 20 441 11 441 11 c 1
- 247 11 l 2
+ 441 11 247 11 247 11 c 2
  135 11 49 109 49 221 c 0
  49 330 128 430 237 430 c 2
- 441 430 l 1
+ 237 430 441 430 441 430 c 1
  441 430 448 421 448 409 c 0
  448 378 433 370 433 370 c 1
- 237 370 l 2
+ 433 370 237 370 237 370 c 2
  174 370 134 317 123 255 c 0
  123 252 125 250 128 250 c 2
- 401 250 l 1
+ 128 250 401 250 401 250 c 1
  401 249 409 237 409 220 c 0
 EndSplineSet
 Validated: 1
@@ -7213,11 +7131,11 @@ Fore
 SplineSet
 66 219 m 1
  66 219 70 283 80 283 c 2
- 537 283 l 2
+ 80 283 537 283 537 283 c 2
  540 283 544 283 544 276 c 0
  544 268 540 232 535 215 c 0
  533 209 528 209 528 209 c 1
- 72 209 l 1
+ 528 209 72 209 72 209 c 1
  72 209 66 209 66 219 c 1
 EndSplineSet
 Validated: 1
@@ -7234,38 +7152,38 @@ Back
 Fore
 SplineSet
 332 210 m 2
- 332 26 l 1
+ 332 210 332 26 332 26 c 1
  332 26 317 16 272 10 c 0
  269 10 268 10 266 10 c 0
  260 10 260 13 260 17 c 2
- 260 208 l 2
+ 260 17 260 208 260 208 c 2
  260 210 259 213 254 213 c 2
- 63 213 l 1
+ 254 213 63 213 63 213 c 1
  63 213 57 213 57 223 c 0
  57 227 58 256 65 280 c 0
  67 286 72 285 72 285 c 1
- 255 285 l 2
+ 72 285 255 285 255 285 c 2
  258 285 260 289 260 291 c 2
- 260 473 l 1
+ 260 291 260 473 260 473 c 1
  260 473 259 478 265 480 c 0
  289 487 318 488 322 488 c 0
  332 488 332 482 332 482 c 1
- 332 290 l 2
+ 332 482 332 290 332 290 c 2
  332 287 333 285 336 285 c 2
- 528 285 l 2
+ 336 285 528 285 528 285 c 2
  532 285 536 285 536 278 c 0
  536 269 532 241 526 219 c 0
  524 213 519 213 519 213 c 1
- 336 213 l 2
+ 519 213 336 213 336 213 c 2
  333 213 332 212 332 210 c 2
 520 590 m 1
  520 590 530 591 528 579 c 0
  521 531 515 521 512 518 c 1
- 64 518 l 1
+ 512 518 64 518 64 518 c 1
  64 518 56 517 58 531 c 0
  60 545 60 565 66 585 c 0
  68 591 73 590 73 590 c 1
- 520 590 l 1
+ 73 590 520 590 520 590 c 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -7284,14 +7202,14 @@ SplineSet
  44 235 146 312 160 324 c 0
  168 331 185 332 188 324 c 1
  198 292 200 280 211 254 c 2
- 300 47 l 1
+ 211 254 300 47 300 47 c 1
  308 90 448 791 448 791 c 1
- 506 784 l 1
+ 448 791 506 784 506 784 c 1
  506 784 345 -25 320 -153 c 1
  305 -171 277 -180 271 -180 c 0
  267 -180 263 -179 261 -175 c 2
- 94 196 l 1
- 14 150 l 1
+ 261 -175 94 196 94 196 c 1
+ 94 196 14 150 14 150 c 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -7335,7 +7253,7 @@ SplineSet
  664 112 666 101 666 90 c 3
  666 69 652 49 643 42 c 1
  512 42 441 162 430 162 c 2
- 429 162 l 1
+ 430 162 429 162 429 162 c 1
  376 99 315 37 217 37 c 0
  122 37 51 128 51 223 c 0
  51 332 141 426 250 426 c 0
@@ -7385,7 +7303,7 @@ SplineSet
  767 426 843 337 843 242 c 0
  843 132 750 39 640 39 c 0
  509 39 441 162 430 162 c 2
- 429 162 l 1
+ 430 162 429 162 429 162 c 1
  376 99 315 37 217 37 c 0
  122 37 51 128 51 223 c 0
  51 332 141 426 250 426 c 0
@@ -7403,38 +7321,38 @@ Back
 Fore
 SplineSet
 379 323 m 5
- 516 323 l 2
+ 379 323 516 323 516 323 c 2
  518 323 520 322 520 318 c 0
  520 309 516 279 510 257 c 0
  508 251 504 251 504 251 c 1
- 338 251 l 1
- 299 181 l 1
- 512 181 l 2
+ 504 251 338 251 338 251 c 1
+ 338 251 299 181 299 181 c 1
+ 299 181 512 181 512 181 c 2
  516 181 520 183 520 176 c 0
  520 167 516 137 510 115 c 0
  508 109 504 109 504 109 c 1
- 259 109 l 1
- 207 16 l 1
+ 504 109 259 109 259 109 c 1
+ 259 109 207 16 207 16 c 1
  204 14 201 14 197 14 c 0
  194 14 177 18 164 34 c 0
  160 38 159 41 159 41 c 1
- 197 109 l 1
- 59 109 l 1
+ 159 41 197 109 197 109 c 1
+ 197 109 59 109 59 109 c 1
  59 109 52 109 52 119 c 0
  52 123 54 152 61 176 c 0
  63 182 68 181 68 181 c 1
- 237 181 l 1
- 276 251 l 1
- 59 251 l 1
+ 68 181 237 181 237 181 c 1
+ 237 181 276 251 276 251 c 1
+ 276 251 59 251 59 251 c 1
  59 251 52 251 52 261 c 1
  52 261 55 303 62 318 c 0
  63 321 65 323 67 323 c 2
- 317 323 l 1
- 371 420 l 1
+ 67 323 317 323 317 323 c 1
+ 317 323 371 420 371 420 c 1
  371 420 376 423 380 423 c 0
  392 423 403 415 411 406 c 0
  416 401 419 395 419 395 c 1
- 379 323 l 5
+ 419 395 379 323 379 323 c 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -7451,23 +7369,23 @@ SplineSet
 432 62 m 1
  432 62 441 63 439 51 c 0
  432 3 427 9 424 6 c 1
- 42 6 l 1
+ 424 6 42 6 42 6 c 1
  42 6 33 5 35 19 c 0
  37 33 38 37 44 57 c 0
  46 63 51 62 51 62 c 1
- 432 62 l 1
+ 51 62 432 62 432 62 c 1
 447 136 m 0
  447 129 437 86 431 86 c 0
  430 86 428 87 426 88 c 2
- 51 279 l 2
+ 426 88 51 279 51 279 c 2
  36 287 33 301 33 318 c 0
  33 329 41 337 51 342 c 2
- 420 529 l 2
+ 51 342 420 529 420 529 c 2
  422 530 424 531 425 531 c 0
  428 531 435 521 442 484 c 0
  443 478 439 475 439 475 c 1
- 113 310 l 1
- 444 142 l 1
+ 439 475 113 310 113 310 c 1
+ 113 310 444 142 444 142 c 1
  444 142 447 141 447 136 c 0
 EndSplineSet
 Validated: 1
@@ -7485,23 +7403,23 @@ SplineSet
 72 483 m 0
  72 501 84 531 88 531 c 0
  89 531 91 530 93 529 c 2
- 463 342 l 2
+ 93 529 463 342 463 342 c 2
  473 337 480 329 480 318 c 0
  480 301 478 287 463 279 c 2
- 88 88 l 2
+ 463 279 88 88 88 88 c 2
  83 86 82 82 77 95 c 0
  71 110 66 132 66 136 c 0
  66 140 69 142 69 142 c 1
- 400 310 l 1
- 75 475 l 1
+ 69 142 400 310 400 310 c 1
+ 400 310 75 475 75 475 c 1
  75 475 72 476 72 483 c 0
 70 15 m 0
  70 16 74 62 85 62 c 2
- 468 62 l 2
+ 85 62 468 62 468 62 c 2
  470 62 474 61 474 54 c 0
  474 46 471 29 466 13 c 0
  464 7 459 6 459 6 c 1
- 77 6 l 1
+ 459 6 77 6 77 6 c 1
  77 6 70 5 70 15 c 0
 EndSplineSet
 Validated: 1
@@ -7520,16 +7438,16 @@ SplineSet
 237 370 m 2
  174 370 119 309 119 220 c 3
  119 130 178 71 245 71 c 2
- 433 71 l 2
+ 245 71 433 71 433 71 c 2
  433 71 448 64 448 29 c 0
  448 20 441 11 441 11 c 1
- 247 11 l 2
+ 441 11 247 11 247 11 c 2
  135 11 49 109 49 221 c 0
  49 330 128 430 237 430 c 2
- 441 430 l 1
+ 237 430 441 430 441 430 c 1
  441 430 448 421 448 409 c 0
  448 378 433 370 433 370 c 1
- 237 370 l 2
+ 433 370 237 370 237 370 c 2
 EndSplineSet
 Validated: 1
 EndChar
@@ -7545,7 +7463,7 @@ Back
 Fore
 SplineSet
 231 309 m 2
- 231 145 l 2
+ 231 309 231 145 231 145 c 2
  231 108 231 71 239 51 c 0
  244 38 283 34 296 33 c 1
  301 26 300 2 296 -4 c 1
@@ -7554,7 +7472,7 @@ SplineSet
  25 2 24 26 29 33 c 1
  42 34 88 38 93 51 c 0
  101 71 101 102 101 145 c 2
- 101 260 l 2
+ 101 145 101 260 101 260 c 2
  101 270 100 327 92 342 c 0
  84 357 36 362 29 362 c 1
  26 364 25 393 30 393 c 1
@@ -7662,10 +7580,10 @@ Fore
 SplineSet
 53 571 m 0
  53 596 65 608 68 608 c 2
- 331 608 l 2
+ 68 608 331 608 331 608 c 2
  333 608 337 606 337 598 c 0
  337 572 323 560 323 560 c 1
- 59 560 l 1
+ 323 560 59 560 59 560 c 1
  59 560 53 559 53 571 c 0
 EndSplineSet
 Validated: 1
@@ -7822,10 +7740,10 @@ Fore
 SplineSet
 59 757 m 4
  59 782 71 794 74 794 c 6
- 361 794 l 6
+ 74 794 361 794 361 794 c 6
  363 794 367 792 367 784 c 4
  367 758 353 746 353 746 c 5
- 65 746 l 5
+ 353 746 65 746 65 746 c 5
  65 746 59 745 59 757 c 4
 EndSplineSet
 Validated: 1
@@ -7900,7 +7818,7 @@ SplineSet
  236 -70 225 -73 214 -77 c 5
  211 -77 200 -67 200 -61 c 5
  210 -45 224 -18 230 -2 c 5
- 264 -2 l 5
+ 230 -2 264 -2 264 -2 c 5
  264 -2 255 -17 250 -27 c 5
 EndSplineSet
 Validated: 1
@@ -7984,11 +7902,11 @@ Fore
 SplineSet
 -16 744 m 0
  -16 746 -13 806 -2 806 c 2
- 580 806 l 2
+ -2 806 580 806 580 806 c 2
  582 806 586 805 586 797 c 0
  586 779 579 745 578 741 c 0
  576 735 570 734 570 734 c 1
- -10 734 l 1
+ 570 734 -10 734 -10 734 c 1
  -10 734 -16 734 -16 744 c 0
 EndSplineSet
 Validated: 1
@@ -8005,11 +7923,11 @@ Fore
 SplineSet
 -16 744 m 0
  -16 746 -13 806 -2 806 c 2
- 580 806 l 2
+ -2 806 580 806 580 806 c 2
  582 806 586 805 586 797 c 0
  586 779 579 745 578 741 c 0
  576 735 570 734 570 734 c 1
- -10 734 l 1
+ 570 734 -10 734 -10 734 c 1
  -10 734 -16 734 -16 744 c 0
 EndSplineSet
 Validated: 1
@@ -9843,7 +9761,7 @@ Back
 Fore
 SplineSet
 89 64 m 2
- 89 260 l 2
+ 89 64 89 260 89 260 c 2
  89 270 88 327 80 342 c 0
  72 357 24 362 17 362 c 1
  14 364 13 393 18 393 c 1
@@ -9851,7 +9769,7 @@ SplineSet
  220 444 230 432 230 429 c 1
  227 421 221 386 220 372 c 0
  219 350 219 315 219 309 c 2
- 219 120 l 2
+ 219 309 219 120 219 120 c 2
  219 36 208 -48 171 -102 c 0
  124 -170 36 -218 2 -218 c 1
  -5 -214 -12 -207 -12 -201 c 0
@@ -10117,10 +10035,10 @@ SplineSet
 685 535 m 2
  689 535 691 526 691 521 c 0
  691 515 689 498 685 489 c 1
- 42 489 l 2
+ 685 489 42 489 42 489 c 2
  38 489 37 499 37 504 c 0
  37 510 37 526 43 535 c 1
- 685 535 l 2
+ 43 535 685 535 685 535 c 2
 EndSplineSet
 Refer: 40 72 N 1 0 0 1 -0 0 2
 Validated: 5
@@ -10467,25 +10385,25 @@ SplineSet
  945 513 932 511 925 511 c 0
  918 511 911 514 909 519 c 0
  888 574 862 620 801 620 c 2
- 718 620 l 0
+ 801 620 718 620 718 620 c 0
  695 620 673 619 668 608 c 0
  663 596 663 576 663 547 c 2
- 663 368 l 2
+ 663 547 663 368 663 368 c 2
  663 362 684 357 706 357 c 2
- 759 357 l 2
+ 706 357 759 357 759 357 c 2
  818 357 831 369 847 427 c 0
  848 432 852 435 859 435 c 0
  866 435 875 433 878 430 c 1
- 878 238 l 1
+ 878 430 878 238 878 238 c 1
  876 236 867 234 860 234 c 0
  853 234 847 237 846 242 c 0
  834 290 820 299 811 303 c 0
  799 308 773 310 735 310 c 0
  707 310 663 308 663 296 c 2
- 663 141 l 2
+ 663 296 663 141 663 141 c 2
  663 135 663 82 671 62 c 0
  677 48 710 42 736 42 c 0
- 802 42 l 2
+ 736 42 802 42 802 42 c 2
  840 42 872 52 895 75 c 0
  916 96 932 125 949 170 c 0
  950 174 956 176 963 176 c 0
@@ -10502,7 +10420,7 @@ SplineSet
  191 210 249 37 398 37 c 1
  431 37 483 46 502 69 c 0
  516 86 523 106 523 149 c 2
- 523 481 l 2
+ 523 149 523 481 523 481 c 2
  523 524 510 561 490 582 c 0
  472 601 431 622 353 622 c 0
 EndSplineSet
@@ -10604,7 +10522,7 @@ SplineSet
 466 4 m 1
  435 -4 408 -5 374 -5 c 0
  223 -5 95 68 95 301 c 2
- 95 513 l 2
+ 95 301 95 513 95 513 c 2
  95 556 95 587 87 607 c 0
  82 620 36 624 23 625 c 1
  18 632 19 656 23 662 c 1
@@ -10613,11 +10531,11 @@ SplineSet
  311 656 312 632 307 625 c 1
  294 624 248 620 243 607 c 0
  235 587 235 556 235 513 c 2
- 235 330 l 2
+ 235 513 235 330 235 330 c 2
  235 262 237 212 260 159 c 0
  298 71 391 69 430 69 c 0
  524 69 593 122 593 286 c 2
- 593 513 l 2
+ 593 286 593 513 593 513 c 2
  593 556 593 587 585 607 c 0
  580 620 523 624 510 625 c 1
  505 632 506 656 510 662 c 1
@@ -10626,7 +10544,7 @@ SplineSet
  744 656 745 632 740 625 c 1
  727 624 668 620 663 607 c 0
  655 587 655 562 655 519 c 2
- 655 318 l 2
+ 655 519 655 318 655 318 c 2
  655 163 612 80 548 37 c 8
  491 -1 437 -57 437 -101 c 0
  437 -122 449 -148 486 -148 c 0
@@ -10721,7 +10639,6 @@ Fore
 Refer: 270 780 N 1 0 0 1 92 17 2
 Refer: 65 97 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01CE.sc
 EndChar
 
 StartChar: uni01CF
@@ -10750,7 +10667,6 @@ Fore
 Refer: 270 780 N 1 0 0 1 13 17 2
 Refer: 242 305 N 1 0 0 1 -0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01D0.sc
 EndChar
 
 StartChar: uni01D1
@@ -10779,7 +10695,6 @@ Fore
 Refer: 270 780 N 1 0 0 1 119 17 2
 Refer: 79 111 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01D2.sc
 EndChar
 
 StartChar: uni01D3
@@ -10808,7 +10723,6 @@ Fore
 Refer: 270 780 N 1 0 0 1 192 17 2
 Refer: 85 117 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01D4.sc
 EndChar
 
 StartChar: uni01D5
@@ -10837,7 +10751,6 @@ Fore
 Refer: 246 772 N 1 0 0 1 78 184 2
 Refer: 186 252 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01D6.sc
 EndChar
 
 StartChar: uni01D7
@@ -10866,7 +10779,6 @@ Fore
 Refer: 191 769 N 1 0 0 1 226 192 2
 Refer: 186 252 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01D8.sc
 EndChar
 
 StartChar: uni01D9
@@ -10895,7 +10807,6 @@ Fore
 Refer: 270 780 N 1 0 0 1 122 221 2
 Refer: 186 252 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01DA.sc
 EndChar
 
 StartChar: uni01DB
@@ -10924,7 +10835,6 @@ Fore
 Refer: 190 768 N 1 0 0 1 72 192 2
 Refer: 186 252 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01DC.sc
 EndChar
 
 StartChar: uni01DE
@@ -10981,7 +10891,6 @@ Fore
 Refer: 246 772 N 1 0 0 1 160 -20 2
 Refer: 164 230 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01E3.sc
 EndChar
 
 StartChar: Gcaron
@@ -11136,7 +11045,6 @@ Fore
 Refer: 191 769 N 1 0 0 1 184 246 2
 Refer: 163 229 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" aringacute.sc
 EndChar
 
 StartChar: AEacute
@@ -11165,7 +11073,6 @@ Fore
 Refer: 191 769 N 1 0 0 1 305 -12 2
 Refer: 164 230 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" aeacute.sc
 EndChar
 
 StartChar: Oslashacute
@@ -11194,7 +11101,6 @@ Fore
 Refer: 191 769 N 1 0 0 1 215 4 2
 Refer: 182 248 N 1 0 0 1 0 0 3
 Validated: 517
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" oslashacute.sc
 EndChar
 
 StartChar: Scommaaccent
@@ -11223,7 +11129,6 @@ Fore
 Refer: 273 806 N 1 0 0 1 116 0 2
 Refer: 83 115 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0219.sc
 EndChar
 
 StartChar: uni021A
@@ -11252,7 +11157,6 @@ Fore
 Refer: 273 806 N 1 0 0 1 113 0 2
 Refer: 84 116 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni021B.sc
 EndChar
 
 StartChar: uni021E
@@ -11478,7 +11382,6 @@ Fore
 Refer: 246 772 N 1 0 0 1 72 -52 2
 Refer: 89 121 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0233.sc
 EndChar
 
 StartChar: uni01EA
@@ -11753,7 +11656,7 @@ SplineSet
  135 239 171 311 224 436 c 0
  229 448 246 461 254 461 c 0
  260 461 264 457 267 450 c 2
- 416 114 l 2
+ 267 450 416 114 416 114 c 2
  425 95 437 72 443 59 c 0
  456 33 492 30 497 30 c 1
  502 22 503 0 499 -4 c 1
@@ -11763,7 +11666,7 @@ SplineSet
  271 30 290 34 300 42 c 0
  304 45 306 48 306 52 c 0
  306 63 298 85 288 105 c 2
- 277 128 l 17
+ 288 105 277 128 277 128 c 17
  276 128 274 130 272 130 c 0
  246 132 230 131 213 131 c 0
  185 131 172 131 148 130 c 0
@@ -11777,8 +11680,8 @@ SplineSet
  5 0 4 19 8 29 c 1
  16 29 48 40 55 51 c 0
 259 174 m 9
- 207 283 l 1
- 158 174 l 17
+ 259 174 207 283 207 283 c 1
+ 207 283 158 174 158 174 c 17
  158 173 159 172 160 172 c 0
  174 170 194 169 210 169 c 0
  231 169 236 169 257 171 c 0
@@ -11875,7 +11778,7 @@ Back
 Fore
 SplineSet
 228 367 m 2
- 228 100 l 2
+ 228 367 228 100 228 100 c 2
  228 96 228 62 233 49 c 0
  237 40 258 34 276 34 c 0
  388 34 440 95 440 222 c 0
@@ -11890,7 +11793,7 @@ SplineSet
  41 2 40 27 45 33 c 1
  54 34 89 35 92 44 c 0
  98 57 98 78 98 106 c 2
- 98 343 l 2
+ 98 106 98 343 98 343 c 2
  98 371 98 391 92 404 c 0
  89 413 54 414 45 415 c 1
  40 421 41 446 45 452 c 1
@@ -11911,22 +11814,22 @@ Back
 Fore
 SplineSet
 228 370 m 2
- 228 257 l 2
+ 228 370 228 257 228 257 c 2
  228 253 241 250 254 250 c 2
- 286 250 l 2
+ 254 250 286 250 286 250 c 2
  322 250 332 257 342 289 c 0
  343 292 345 294 352 294 c 0
  359 294 366 293 369 290 c 1
- 369 165 l 1
+ 369 290 369 165 369 165 c 1
  368 163 362 161 357 161 c 0
  352 161 346 163 345 166 c 0
  337 194 327 200 321 202 c 0
  313 205 300 206 275 206 c 0
  257 206 228 204 228 197 c 2
- 228 100 l 2
+ 228 197 228 100 228 100 c 2
  228 96 228 62 233 50 c 0
  237 41 259 38 276 38 c 0
- 320 38 l 2
+ 276 38 320 38 320 38 c 2
  345 38 365 45 380 59 c 0
  394 72 405 89 416 116 c 0
  417 118 423 119 428 119 c 0
@@ -11936,7 +11839,7 @@ SplineSet
  41 3 40 27 45 33 c 1
  54 34 89 35 92 44 c 0
  98 57 98 78 98 106 c 2
- 98 345 l 2
+ 98 106 98 345 98 345 c 2
  98 373 98 394 92 407 c 0
  89 416 54 417 45 418 c 1
  40 424 41 447 45 453 c 1
@@ -11946,7 +11849,7 @@ SplineSet
  415 351 407 350 402 350 c 0
  397 350 390 351 389 354 c 0
  375 387 357 416 317 416 c 2
- 264 416 l 0
+ 317 416 264 416 264 416 c 0
  249 416 234 415 231 408 c 0
  228 400 228 388 228 370 c 2
 EndSplineSet
@@ -11965,19 +11868,19 @@ Back
 Fore
 SplineSet
 228 370 m 2
- 228 253 l 2
+ 228 370 228 253 228 253 c 2
  228 249 241 246 254 246 c 2
- 286 246 l 2
+ 254 246 286 246 286 246 c 2
  322 246 330 253 340 285 c 0
  341 288 344 289 351 289 c 0
  358 289 366 287 369 284 c 1
- 369 161 l 1
+ 369 284 369 161 369 161 c 1
  368 159 362 157 357 157 c 0
  352 157 349 159 348 162 c 0
  340 190 331 196 325 198 c 0
  317 201 300 202 275 202 c 0
  257 202 228 201 228 193 c 2
- 228 104 l 2
+ 228 193 228 104 228 104 c 2
  228 77 227 57 232 44 c 0
  235 36 283 34 290 33 c 1
  295 27 294 2 290 -4 c 1
@@ -11986,7 +11889,7 @@ SplineSet
  41 2 40 27 45 33 c 1
  54 34 89 36 92 45 c 0
  98 58 98 79 98 107 c 2
- 98 343 l 2
+ 98 107 98 343 98 343 c 2
  98 371 98 392 92 405 c 0
  89 414 54 415 45 416 c 1
  40 422 41 447 45 453 c 1
@@ -11996,7 +11899,7 @@ SplineSet
  415 350 406 349 401 349 c 0
  396 349 392 351 391 354 c 0
  377 388 359 416 319 416 c 2
- 264 416 l 0
+ 319 416 264 416 264 416 c 0
  249 416 234 415 231 408 c 0
  228 400 228 388 228 370 c 2
 EndSplineSet
@@ -12054,7 +11957,7 @@ Back
 Fore
 SplineSet
 228 205 m 1
- 228 104 l 2
+ 228 205 228 104 228 104 c 2
  228 77 228 57 232 44 c 0
  235 36 271 34 278 33 c 1
  283 27 282 2 278 -4 c 1
@@ -12063,7 +11966,7 @@ SplineSet
  41 2 40 27 45 33 c 1
  54 34 89 36 92 45 c 0
  98 58 98 79 98 107 c 2
- 98 343 l 2
+ 98 107 98 343 98 343 c 2
  98 371 98 392 92 405 c 0
  89 414 54 416 45 417 c 1
  40 423 41 448 45 454 c 1
@@ -12072,12 +11975,12 @@ SplineSet
  283 448 284 423 279 417 c 1
  272 416 235 414 232 406 c 0
  228 393 228 373 228 346 c 2
- 228 259 l 1
+ 228 346 228 259 228 259 c 1
  228 258 229 258 229 258 c 1
  256 257 281 255 312 255 c 0
  337 255 367 257 392 258 c 1
  392 258 394 260 394 261 c 0
- 393 346 l 2
+ 394 261 393 346 393 346 c 2
  393 373 392 393 385 406 c 0
  380 414 344 416 332 417 c 1
  327 423 328 448 332 454 c 1
@@ -12086,7 +11989,7 @@ SplineSet
  579 448 580 423 575 417 c 1
  566 416 531 414 528 405 c 0
  522 392 523 371 523 343 c 2
- 523 107 l 2
+ 523 343 523 107 523 107 c 2
  523 79 522 58 528 45 c 0
  531 36 566 34 575 33 c 1
  580 27 579 2 575 -4 c 1
@@ -12095,7 +11998,7 @@ SplineSet
  327 2 326 27 331 33 c 1
  343 34 380 36 385 44 c 0
  392 57 393 76 393 103 c 2
- 393 204 l 0
+ 393 103 393 204 393 204 c 0
  393 205 391 207 391 207 c 1
  366 208 340 209 312 209 c 0
  236 209 230 209 228 208 c 1
@@ -12119,7 +12022,7 @@ SplineSet
  284 448 285 423 280 417 c 1
  271 416 236 414 233 405 c 0
  227 392 228 371 228 343 c 2
- 228 107 l 2
+ 228 343 228 107 228 107 c 2
  228 79 227 58 233 45 c 0
  236 36 271 34 280 33 c 1
  285 27 284 2 280 -4 c 1
@@ -12128,7 +12031,7 @@ SplineSet
  41 2 40 27 45 33 c 1
  54 34 89 36 92 45 c 0
  98 58 98 79 98 107 c 2
- 98 343 l 2
+ 98 107 98 343 98 343 c 2
  98 371 98 392 92 405 c 0
  89 414 54 416 45 417 c 1
  40 423 41 448 45 454 c 1
@@ -12156,14 +12059,14 @@ SplineSet
  294 448 295 423 290 417 c 1
  278 416 236 414 231 405 c 0
  223 392 224 370 224 341 c 2
- 224 95 l 2
+ 224 341 224 95 224 95 c 2
  224 -59 134 -149 -8 -149 c 3
  -23 -149 -55 -144 -62 -137 c 1
  -68 -130 -81 -110 -81 -87 c 3
  -81 -51 -53 -34 -31 -34 c 3
  0 -34 29 -97 50 -97 c 3
  93 -97 94 -10 94 99 c 2
- 94 344 l 2
+ 94 99 94 344 94 344 c 2
 EndSplineSet
 Validated: 33
 EndChar
@@ -12234,7 +12137,7 @@ SplineSet
 228 104 m 2
  228 100 228 65 233 52 c 0
  237 43 260 39 278 39 c 0
- 319 39 l 2
+ 278 39 319 39 319 39 c 2
  345 39 367 45 383 60 c 0
  397 74 408 93 420 122 c 0
  421 125 428 126 433 126 c 0
@@ -12244,7 +12147,7 @@ SplineSet
  41 3 40 28 45 34 c 1
  54 35 89 36 92 45 c 0
  98 58 98 79 98 107 c 2
- 98 343 l 2
+ 98 107 98 343 98 343 c 2
  98 371 98 392 92 405 c 0
  89 414 54 416 45 417 c 1
  40 423 41 448 45 454 c 1
@@ -12253,7 +12156,7 @@ SplineSet
  284 448 285 423 280 417 c 1
  271 416 236 413 233 405 c 0
  228 392 228 372 228 344 c 2
- 228 104 l 2
+ 228 344 228 104 228 104 c 2
 EndSplineSet
 Validated: 33
 EndChar
@@ -12331,8 +12234,8 @@ SplineSet
  484 54 486 34 488 -1 c 1
  486 -4 472 -5 470 -5 c 0
  464 -5 456 2 448 11 c 2
- 154 329 l 1
- 154 112 l 2
+ 448 11 154 329 154 329 c 1
+ 154 329 154 112 154 112 c 2
  154 88 155 60 159 49 c 0
  164 36 214 31 219 31 c 1
  225 22 223 2 221 -4 c 1
@@ -12348,7 +12251,7 @@ SplineSet
  70 452 89 448 124 448 c 0
  150 448 182 451 206 454 c 1
  231 402 355 288 435 193 c 1
- 435 338 l 2
+ 435 193 435 338 435 338 c 2
  435 362 434 390 430 401 c 0
  425 414 375 419 370 419 c 1
  364 428 366 448 368 454 c 1
@@ -12409,7 +12312,7 @@ SplineSet
  342 368 312 415 266 415 c 0
  250 415 234 414 231 407 c 0
  228 399 228 386 228 367 c 2
- 228 106 l 2
+ 228 367 228 106 228 106 c 2
  228 78 228 58 231 45 c 0
  233 36 277 34 283 33 c 1
  288 27 287 2 283 -4 c 1
@@ -12418,7 +12321,7 @@ SplineSet
  41 2 40 27 45 33 c 1
  54 34 89 36 92 45 c 0
  98 58 98 79 98 107 c 2
- 98 342 l 2
+ 98 107 98 342 98 342 c 2
  98 370 98 391 92 404 c 0
  89 413 54 414 45 415 c 1
  40 421 41 446 45 452 c 1
@@ -12447,7 +12350,7 @@ SplineSet
  442 -14 472 -39 543 -39 c 0
  578 -39 604 -26 610 -26 c 0
  617 -26 619 -34 619 -43 c 2
- 619 -45 l 1
+ 619 -43 619 -45 619 -45 c 1
  577 -72 514 -98 467 -98 c 0
 289 421 m 0
  213 421 188 327 188 248 c 0
@@ -12477,10 +12380,10 @@ SplineSet
  597 25 593 -1 592 -3 c 1
  570 -5 523 -7 492 -7 c 0
  433 -7 395 21 376 44 c 0
- 253 189 l 0
+ 376 44 253 189 253 189 c 0
  253 189 245 199 239 199 c 0
- 228 199 l 9
- 228 103 l 2
+ 239 199 228 199 228 199 c 9
+ 228 199 228 103 228 103 c 2
  228 75 227 56 231 43 c 0
  233 35 276 32 282 31 c 1
  287 25 286 2 282 -3 c 1
@@ -12489,7 +12392,7 @@ SplineSet
  41 2 40 25 45 31 c 1
  54 32 89 34 92 43 c 0
  98 56 98 77 98 105 c 2
- 98 342 l 2
+ 98 105 98 342 98 342 c 2
  98 370 98 391 92 404 c 0
  89 413 54 414 45 415 c 1
  40 421 41 446 45 452 c 1
@@ -12499,8 +12402,8 @@ SplineSet
  334 368 321 415 265 415 c 0
  249 415 234 414 231 407 c 0
  228 399 228 387 228 368 c 2
- 228 235 l 17
- 260 235 l 0
+ 228 368 228 235 228 235 c 17
+ 228 235 260 235 260 235 c 0
  299 235 334 269 334 318 c 0
 EndSplineSet
 Validated: 33
@@ -12553,12 +12456,12 @@ SplineSet
 404 450 m 0
  456 450 467 463 480 463 c 0
  486 463 485 462 488 461 c 1
- 513 335 l 1
+ 488 461 513 335 513 335 c 1
  510 333 495 331 487 331 c 0
  482 331 478 332 477 334 c 0
  471 373 444 409 413 409 c 2
- 334 409 l 1
- 334 103 l 2
+ 413 409 334 409 334 409 c 1
+ 334 409 334 103 334 103 c 2
  334 75 335 55 339 42 c 0
  342 34 386 31 393 30 c 1
  398 24 397 2 393 -4 c 1
@@ -12567,12 +12470,12 @@ SplineSet
  140 2 139 24 144 30 c 1
  154 31 194 34 198 42 c 0
  204 55 204 75 204 103 c 2
- 204 409 l 1
- 125 409 l 2
+ 204 103 204 409 204 409 c 1
+ 204 409 125 409 125 409 c 2
  90 409 58 373 51 334 c 0
  50 332 47 331 42 331 c 0
  34 331 18 333 15 335 c 1
- 41 461 l 1
+ 15 335 41 461 41 461 c 1
  44 462 43 463 49 463 c 0
  62 463 73 450 125 450 c 0
  190 450 339 450 404 450 c 0
@@ -12592,11 +12495,11 @@ Back
 Fore
 SplineSet
 491 327 m 2
- 491 203 l 2
+ 491 327 491 203 491 203 c 2
  491 65 379 -9 274 -9 c 0
  213 -9 156 14 123 56 c 0
  97 89 81 136 81 248 c 2
- 81 344 l 2
+ 81 248 81 344 81 344 c 2
  81 373 80 394 75 408 c 0
  72 417 38 419 29 420 c 1
  24 426 25 448 29 454 c 1
@@ -12605,11 +12508,11 @@ SplineSet
  260 448 261 426 256 420 c 1
  249 419 218 416 215 408 c 0
  210 395 211 376 211 348 c 2
- 211 230 l 2
+ 211 348 211 230 211 230 c 2
  211 186 211 154 226 120 c 0
  251 64 305 58 338 58 c 0
  386 58 442 107 442 207 c 2
- 442 326 l 2
+ 442 207 442 326 442 326 c 2
  442 361 439 392 435 405 c 0
  431 417 385 419 378 420 c 1
  373 426 374 448 378 454 c 1
@@ -12643,7 +12546,7 @@ SplineSet
  364 215 337 143 284 18 c 0
  279 6 262 -7 254 -7 c 0
  248 -7 244 -3 241 4 c 1
- 78 340 l 2
+ 241 4 78 340 78 340 c 2
  69 359 60 382 54 395 c 0
  46 412 14 416 5 417 c 1
  0 423 1 448 5 454 c 1
@@ -12693,11 +12596,11 @@ SplineSet
  554 232 518 135 482 30 c 0
  476 13 458 -10 450 -10 c 0
  444 -10 440 -3 437 4 c 1
- 337 243 l 1
+ 437 4 337 243 337 243 c 1
  337 243 298 126 266 34 c 0
  263 27 244 -9 236 -9 c 0
  230 -9 222 -3 219 4 c 1
- 73 344 l 2
+ 219 4 73 344 73 344 c 2
  64 364 59 382 53 395 c 0
  45 412 13 416 4 417 c 1
 EndSplineSet
@@ -12719,7 +12622,7 @@ SplineSet
  281 448 282 417 277 417 c 1
  267 417 245 413 244 403 c 0
  244 399 247 391 250 387 c 2
- 315 289 l 1
+ 250 387 315 289 315 289 c 1
  349 333 402 380 402 396 c 0
  402 408 381 417 358 417 c 1
  353 417 353 449 358 454 c 1
@@ -12727,7 +12630,7 @@ SplineSet
  490 448 520 450 540 454 c 1
  543 448 544 417 539 417 c 1
  534 417 485 411 455 377 c 2
- 341 251 l 1
+ 455 377 341 251 341 251 c 1
  399 170 462 72 472 61 c 0
  492 39 540 34 550 34 c 1
  554 26 555 4 550 -4 c 1
@@ -12736,7 +12639,7 @@ SplineSet
  277 1 278 34 283 34 c 0
  291 34 331 40 331 52 c 0
  331 54 330 57 329 59 c 2
- 250 174 l 1
+ 329 59 250 174 250 174 c 1
  238 159 150 66 150 55 c 0
  150 40 182 34 203 34 c 1
  208 27 208 6 205 -4 c 1
@@ -12744,8 +12647,8 @@ SplineSet
  76 2 42 -2 15 -4 c 1
  10 2 10 27 15 34 c 1
  20 34 78 42 100 68 c 2
- 223 213 l 1
- 127 358 l 2
+ 100 68 223 213 223 213 c 1
+ 223 213 127 358 127 358 c 2
  115 376 100 400 90 407 c 0
  80 414 45 417 37 417 c 1
  32 417 32 449 37 454 c 1
@@ -12766,7 +12669,7 @@ Fore
 SplineSet
 330 256 m 0
  326 252 323 244 323 232 c 2
- 323 107 l 2
+ 323 232 323 107 323 107 c 2
  323 79 323 59 328 46 c 0
  331 37 374 35 383 34 c 1
  388 27 387 2 383 -4 c 1
@@ -12775,7 +12678,7 @@ SplineSet
  124 2 123 27 128 34 c 1
  140 35 180 37 185 46 c 0
  192 59 193 79 193 107 c 2
- 193 184 l 2
+ 193 107 193 184 193 184 c 2
  193 194 192 199 187 207 c 0
  154 263 97 358 97 358 c 2
  86 376 70 400 60 407 c 0
@@ -12786,7 +12689,7 @@ SplineSet
  254 448 255 417 250 417 c 1
  240 417 215 413 214 403 c 0
  214 399 218 391 220 387 c 2
- 285 274 l 1
+ 220 387 285 274 285 274 c 1
  320 316 372 380 372 396 c 0
  372 408 353 417 330 417 c 1
  325 417 325 449 330 454 c 1
@@ -12794,7 +12697,7 @@ SplineSet
  460 448 490 450 510 454 c 1
  513 448 514 417 509 417 c 1
  504 417 454 413 425 377 c 2
- 330 256 l 0
+ 425 377 330 256 330 256 c 0
 EndSplineSet
 Validated: 33
 EndChar
@@ -12813,18 +12716,18 @@ SplineSet
  402 1 47 0 47 0 c 1
  43 2 34 14 34 23 c 0
  34 25 34 26 36 29 c 2
- 298 405 l 1
- 176 405 l 0
+ 36 29 298 405 298 405 c 1
+ 298 405 176 405 176 405 c 0
  103 404 93 361 77 324 c 0
  76 322 71 321 64 321 c 0
  56 321 46 322 44 324 c 1
  52 364 62 410 69 454 c 1
  80 450 170 448 180 448 c 2
- 254 448 l 2
+ 180 448 254 448 254 448 c 2
  312 448 390 452 448 458 c 1
  451 457 455 436 455 426 c 1
  454 421 189 44 189 44 c 17
- 333 44 l 2
+ 189 44 333 44 333 44 c 2
  359 44 382 52 398 66 c 0
  412 79 422 92 434 120 c 0
  435 122 443 124 448 124 c 0
@@ -12913,11 +12816,11 @@ SplineSet
 119 -44 m 2
  119 -49 82 -53 80 -53 c 0
  74 -53 76 -50 76 -48 c 2
- 76 484 l 1
+ 76 -48 76 484 76 484 c 1
  76 484 75 488 80 489 c 0
  94 492 110 492 112 492 c 0
  119 492 119 488 119 488 c 1
- 119 -44 l 2
+ 119 488 119 -44 119 -44 c 2
 EndSplineSet
 Validated: 1
 EndChar
@@ -13347,9 +13250,9 @@ Fore
 SplineSet
 439 460 m 17
  446 456 471 443 468 436 c 9
- 126 6 l 17
+ 468 436 126 6 126 6 c 17
  119 10 94 23 97 30 c 9
- 439 460 l 17
+ 97 30 439 460 439 460 c 17
 EndSplineSet
 Refer: 487 -1 N 1 0 0 1 0 0 2
 Validated: 37
@@ -13557,7 +13460,7 @@ SplineSet
  271 30 290 34 300 42 c 0
  304 45 306 48 306 52 c 0
  306 63 298 85 288 105 c 2
- 277 128 l 2
+ 288 105 277 128 277 128 c 2
  276 128 274 130 272 130 c 0
  246 132 230 131 213 131 c 0
  185 131 172 131 148 130 c 0
@@ -13574,15 +13477,15 @@ SplineSet
  135 239 171 311 224 436 c 0
  229 448 246 461 254 461 c 0
  260 461 264 457 267 450 c 2
- 416 114 l 2
+ 267 450 416 114 416 114 c 2
  425 95 437 72 443 59 c 0
  456 33 492 30 497 30 c 1
  502 22 503 0 499 -4 c 1
  496 -3 490 -2 490 -2 c 0
  418 -2 334 -59 334 -101 c 0
 259 174 m 2
- 207 283 l 1
- 158 174 l 2
+ 259 174 207 283 207 283 c 1
+ 207 283 158 174 158 174 c 2
  158 173 159 172 160 172 c 0
  174 170 194 169 210 169 c 0
  231 169 236 169 257 171 c 0
@@ -14157,9 +14060,9 @@ Fore
 SplineSet
 43 127 m 1
  37 134 19 154 24 159 c 1
- 303 353 l 1
+ 24 159 303 353 303 353 c 1
  309 347 328 326 323 321 c 1
- 43 127 l 1
+ 323 321 43 127 43 127 c 1
 EndSplineSet
 Refer: 484 -1 N 1 0 0 1 5 0 2
 Validated: 37
@@ -14228,8 +14131,8 @@ SplineSet
  179 -51 207 -34 229 -34 c 0
  260 -34 289 -97 310 -97 c 0
  348 -97 400 -39 410 52 c 1
- 154 329 l 1
- 154 112 l 2
+ 410 52 154 329 154 329 c 1
+ 154 329 154 112 154 112 c 2
  154 88 155 60 159 49 c 0
  164 36 214 31 219 31 c 1
  225 22 223 2 221 -4 c 1
@@ -14245,7 +14148,7 @@ SplineSet
  70 452 89 448 124 448 c 0
  150 448 182 451 206 454 c 1
  231 402 355 288 435 193 c 1
- 435 338 l 2
+ 435 193 435 338 435 338 c 2
  435 362 434 390 430 401 c 0
  425 414 375 419 370 419 c 1
  364 428 366 448 368 454 c 1
@@ -14716,9 +14619,9 @@ SplineSet
  335 546 310 583 276 583 c 0
  211 583 182 459 182 302 c 0
  182 269 184 239 187 211 c 1
- 349 481 l 1
+ 187 211 349 481 349 481 c 1
 360 404 m 1
- 201 139 l 1
+ 360 404 201 139 201 139 c 1
  218 76 246 39 276 39 c 0
  341 39 363 171 363 328 c 0
  363 355 362 381 360 404 c 1
@@ -14761,16 +14664,16 @@ Back
 Fore
 SplineSet
 134 145 m 6
- 134 482 l 6
+ 134 145 134 482 134 482 c 6
  134 526 129 535 113 535 c 4
  104 535 62 524 41 512 c 5
  33 516 28 525 28 531 c 4
  28 533 27 542 30 543 c 4
  145 592 256 643 259 643 c 6
- 261 643 l 6
+ 259 643 261 643 261 643 c 6
  267 643 272 629 273 624 c 5
  273 624 264 595 264 530 c 6
- 264 145 l 6
+ 264 530 264 145 264 145 c 6
  264 102 264 71 272 51 c 4
  277 38 323 34 336 33 c 5
  341 26 340 2 336 -4 c 5
@@ -14795,7 +14698,7 @@ Fore
 SplineSet
 459 192 m 1
  448 145 405 19 399 0 c 9
- 35 0 l 1
+ 399 0 35 0 35 0 c 1
  30 5 26 13 25 18 c 1
  102 103 163 161 233 271 c 0
  279 344 291 404 291 449 c 4
@@ -14806,7 +14709,7 @@ SplineSet
  345 642 423 582 423 474 c 4
  423 413 393 354 347 300 c 0
  292 236 228 165 159 102 c 1
- 331 102 l 2
+ 159 102 331 102 331 102 c 2
  391 102 409 155 425 191 c 0
  427 196 433 198 439 198 c 0
  446 198 454 196 459 192 c 1
@@ -14860,21 +14763,21 @@ Fore
 SplineSet
 373 644 m 4
  379 644 400 628 400 616 c 14
- 400 242 l 29
- 445 242 l 6
+ 400 616 400 242 400 242 c 29
+ 400 242 445 242 445 242 c 6
  452 242 459 224 459 195 c 4
  459 180 450 174 450 174 c 13
- 400 174 l 29
- 400 4 l 21
+ 450 174 400 174 400 174 c 29
+ 400 174 400 4 400 4 c 21
  400 4 374 -5 332 -5 c 4
  298 -5 274 -1 274 8 c 6
- 274 174 l 29
- 20 174 l 21
+ 274 8 274 174 274 174 c 29
+ 274 174 20 174 20 174 c 21
  12 178 9 186 9 199 c 5
  129 348 247 498 353 630 c 4
  360 638 365 644 373 644 c 4
 274 242 m 5
- 274 466 l 21
+ 274 242 274 466 274 466 c 21
  239 421 114 262 95 242 c 5
  88 242 224 242 274 242 c 5
 EndSplineSet
@@ -14958,11 +14861,11 @@ SplineSet
  391 637 440 641 446 641 c 0
  452 641 454 631 454 626 c 0
  454 617 442 598 426 565 c 2
- 154 -8 l 1
+ 426 565 154 -8 154 -8 c 1
  150 -11 140 -11 138 -11 c 0
  131 -11 94 -6 94 13 c 1
  136 73 279 344 370 536 c 1
- 140 536 l 2
+ 370 536 140 536 140 536 c 2
  90 536 73 490 60 452 c 0
  59 449 58 447 48 446 c 0
  38 445 28 450 24 454 c 1
@@ -15089,10 +14992,10 @@ SplineSet
  823 665 734 632 688 621 c 4
  670 617 648 608 635 592 c 4
  625 580 621 555 621 519 c 2
- 621 291 l 2
+ 621 519 621 291 621 291 c 2
  621 88 508 -5 364 -5 c 0
  213 -5 94 80 94 311 c 2
- 94 522 l 2
+ 94 311 94 522 94 522 c 2
  94 540 93 588 86 600 c 0
  79 612 36 625 24 625 c 0
  22 625 20 636 20 642 c 0
@@ -15103,10 +15006,10 @@ SplineSet
  310 638 309 625 306 625 c 0
  298 625 244 612 241 601 c 0
  234 574 234 549 234 516 c 2
- 234 279 l 2
+ 234 516 234 279 234 279 c 2
  234 158 292 75 388 75 c 0
  474 75 557 122 557 286 c 2
- 557 524 l 2
+ 557 286 557 524 557 524 c 2
  557 541 559 579 544 596 c 0
  530 612 478 625 466 625 c 0
  461 625 459 657 463 662 c 1
@@ -19666,14 +19569,14 @@ SplineSet
  602 -5 590 -12 590 -12 c 1
  590 -12 487 -5 465 17 c 1
  420 101 397 173 363 282 c 1
- 179 249 l 1
- 117 0 l 2
+ 363 282 179 249 179 249 c 1
+ 179 249 117 0 117 0 c 2
  116 -5 98 -10 92 -10 c 1
  61 -4 2 5 -11 23 c 1
 189 304 m 1
- 354 314 l 1
+ 189 304 354 314 354 314 c 1
  323 413 303 497 257 570 c 1
- 189 304 l 1
+ 257 570 189 304 189 304 c 1
 EndSplineSet
 Validated: 33
 EndChar
@@ -19842,7 +19745,7 @@ SplineSet
  59 509 33 518 33 522 c 1
  40 557 65 634 84 662 c 1
  99 660 118 661 142 661 c 0
- 313 661 l 2
+ 142 661 313 661 313 661 c 2
  387 661 425 662 503 672 c 1
  509 668 515 656 515 648 c 1
  513 640 180 49 180 49 c 17
@@ -20271,18 +20174,18 @@ Back
 Fore
 SplineSet
 375 611 m 2
- 330 611 l 1
+ 375 611 330 611 330 611 c 1
  330 554 335 287 336 230 c 0
  337 160 342 22 350 1 c 1
  343 -9 335 -16 325 -16 c 0
  319 -16 224 5 224 20 c 2
- 229 611 l 1
- 117 611 l 2
+ 224 20 229 611 229 611 c 1
+ 229 611 117 611 117 611 c 2
  72 611 53 561 53 495 c 1
  51 491 24 481 17 486 c 1
  7 511 5 627 5 641 c 1
  29 659 70 661 114 661 c 2
- 312 661 l 2
+ 114 661 312 661 312 661 c 2
  374 661 403 661 491 662 c 1
  519 633 557 536 571 502 c 1
  569 492 546 482 537 484 c 1
