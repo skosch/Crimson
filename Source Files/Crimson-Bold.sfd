@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273891947
-ModificationTime: 1413032616
+ModificationTime: 1413033912
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -54,10 +54,9 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2FamilyClass: 258
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 3" { "'onum' Oldstyle Figures in Latin lookup 3-1" ("oldstyle") } ['onum' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'smcp' Lowercase to Small Capitals in Latin lookup 0" { "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ("sc") } ['smcp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'c2sc' Capitals to Small Capitals in Latin lookup 0" { "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable"  } ['c2sc' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"  } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1" [153,0,0] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 118+ 91 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
@@ -278,7 +277,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 33 13
+WinInfo: 759 33 13
 BeginPrivate: 10
 BlueValues 39 [-10 0 442 449 633 645 662 667 695 696]
 OtherBlues 11 [-219 -218]
@@ -380,7 +379,6 @@ SplineSet
  36 650 60 700 98 700 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" quotedbl.sc
 EndChar
 
 StartChar: numbersign
@@ -418,7 +416,6 @@ SplineSet
  214 531 215 530 218 528 c 1
 EndSplineSet
 Validated: 549
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" numbersign.sc
 EndChar
 
 StartChar: dollar
@@ -457,7 +454,6 @@ SplineSet
  288 668 l 17
 EndSplineSet
 Validated: 517
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" dollar.sc
 EndChar
 
 StartChar: percent
@@ -499,7 +495,6 @@ SplineSet
  616 645 623 640 623 635 c 1
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" percent.sc
 EndChar
 
 StartChar: ampersand
@@ -546,7 +541,6 @@ SplineSet
  139 580 201 645 295 645 c 0
 EndSplineSet
 Validated: 545
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ampersand.sc
 EndChar
 
 StartChar: quotesingle
@@ -568,7 +562,6 @@ SplineSet
  33 671 64 711 106 711 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" quotesingle.sc
 EndChar
 
 StartChar: parenleft
@@ -656,7 +649,6 @@ SplineSet
  262 552 255 582 287 618 c 0
 EndSplineSet
 Validated: 545
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" asterisk.sc
 EndChar
 
 StartChar: plus
@@ -688,7 +680,6 @@ SplineSet
  241 474 l 1
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" plus.sc
 EndChar
 
 StartChar: comma
@@ -711,7 +702,6 @@ SplineSet
  42 84 57 139 119 139 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" comma.sc
 EndChar
 
 StartChar: hyphen
@@ -733,7 +723,6 @@ SplineSet
  56 229 64 252 71 267 c 1
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" hyphen.sc
 EndChar
 
 StartChar: period
@@ -753,7 +742,6 @@ SplineSet
  76 -11 42 23 42 66 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" period.sc
 EndChar
 
 StartChar: slash
@@ -798,9 +786,6 @@ SplineSet
  25.5 485 128.5 625 248.5 625 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" zero.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" zero.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" zero.onum
 EndChar
 
 StartChar: one
@@ -834,9 +819,6 @@ SplineSet
  196.387695312 71 196.387695312 102 196.387695312 145 c 2
 EndSplineSet
 Validated: 545
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" one.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" one.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" one.onum
 EndChar
 
 StartChar: two
@@ -868,9 +850,6 @@ SplineSet
  449.5 198 457.5 196 462.5 192 c 1
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" two.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" two.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" two.onum
 EndChar
 
 StartChar: three
@@ -905,9 +884,6 @@ SplineSet
  117 593 182 642 262 642 c 0xf0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" three.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" three.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" three.onum
 EndChar
 
 StartChar: four
@@ -941,9 +917,6 @@ SplineSet
  286 466 l 17
 EndSplineSet
 Validated: 549
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" four.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" four.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" four.onum
 EndChar
 
 StartChar: five
@@ -979,9 +952,6 @@ SplineSet
  169.5 416 213.5 423 250.5 423 c 0xe8
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" five.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" five.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" five.onum
 EndChar
 
 StartChar: six
@@ -1011,9 +981,6 @@ SplineSet
  214.5 395 245.5 405 270.5 405 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" six.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" six.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" six.onum
 EndChar
 
 StartChar: seven
@@ -1042,9 +1009,6 @@ SplineSet
  91.5 636 363.5 637 363.5 637 c 2
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" seven.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" seven.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" seven.onum
 EndChar
 
 StartChar: eight
@@ -1084,9 +1048,6 @@ SplineSet
  51.5 574 149.5 633 243.5 633 c 27
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" eight.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" eight.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" eight.onum
 EndChar
 
 StartChar: nine
@@ -1116,9 +1077,6 @@ SplineSet
  73.5 0 72.5 10 74.5 20 c 1
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" nine.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" nine.sc
-Substitution2: "'onum' Oldstyle Figures in Latin lookup 3-1" nine.onum
 EndChar
 
 StartChar: colon
@@ -1373,7 +1331,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" a.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" a.sc
 EndChar
 
 StartChar: B
@@ -1420,7 +1377,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" b.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" b.sc
 EndChar
 
 StartChar: C
@@ -1450,7 +1406,6 @@ SplineSet
  40 515 196 667 386 667 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" c.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" c.sc
 EndChar
 
@@ -1487,7 +1442,6 @@ SplineSet
  223 657 275 659 334 660 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" d.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" d.sc
 EndChar
 
@@ -1543,7 +1497,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" e.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" e.sc
 EndChar
 
 StartChar: F
@@ -1594,7 +1547,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" f.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" f.sc
 EndChar
 
 StartChar: G
@@ -1634,7 +1586,6 @@ SplineSet
  499 82 499 135 499 183 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" g.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" g.sc
 EndChar
 
@@ -1698,7 +1649,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" h.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" h.sc
 EndChar
 
 StartChar: I
@@ -1733,7 +1683,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" i.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" i.sc
 EndChar
 
 StartChar: J
@@ -1766,7 +1715,6 @@ SplineSet
  71 658 133 655 175 655 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" j.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" j.sc
 EndChar
 
@@ -1822,7 +1770,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" k.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" k.sc
 EndChar
 
 StartChar: L
@@ -1861,7 +1808,6 @@ SplineSet
  250 141 l 2xb0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" l.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" l.sc
 EndChar
 
@@ -1920,7 +1866,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" m.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" m.sc
 EndChar
 
 StartChar: N
@@ -1968,7 +1913,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" n.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" n.sc
 EndChar
 
 StartChar: O
@@ -1993,7 +1937,6 @@ SplineSet
  40 515 204 667 380 667 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" o.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" o.sc
 EndChar
 
@@ -2036,7 +1979,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" p.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" p.sc
 EndChar
 
 StartChar: Q
@@ -2067,7 +2009,6 @@ SplineSet
  560 445 505 624 356 624 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" q.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" q.sc
 EndChar
 
@@ -2117,7 +2058,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" r.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" r.sc
 EndChar
 
 StartChar: S
@@ -2151,7 +2091,6 @@ SplineSet
  54 592 164 670 267 670 c 0xd8
 EndSplineSet
 Validated: 1
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" s.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" s.sc
 EndChar
 
@@ -2195,7 +2134,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" t.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" t.sc
 EndChar
 
 StartChar: U
@@ -2238,7 +2176,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" u.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" u.sc
 EndChar
 
 StartChar: V
@@ -2275,7 +2212,6 @@ SplineSet
  36 658 98 655 140 655 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" v.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" v.sc
 EndChar
 
@@ -2321,7 +2257,6 @@ SplineSet
  37 658 99 655 141 655 c 0
 EndSplineSet
 Validated: 33
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" w.sc
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" w.sc
 EndChar
 
@@ -2375,7 +2310,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" x.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" x.sc
 EndChar
 
 StartChar: Y
@@ -2423,7 +2357,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" y.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" y.sc
 EndChar
 
 StartChar: Z
@@ -2458,7 +2391,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" z.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" z.sc
 EndChar
 
 StartChar: bracketleft
@@ -2486,7 +2418,7 @@ SplineSet
 EndSplineSet
 Validated: 513
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" bracketleft.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" bracketleft.taboldstyle
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" bracketleft.sc
 EndChar
 
 StartChar: backslash
@@ -2507,7 +2439,7 @@ SplineSet
 EndSplineSet
 Validated: 513
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" backslash.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" backslash.taboldstyle
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" backslash.sc
 EndChar
 
 StartChar: bracketright
@@ -2535,7 +2467,7 @@ SplineSet
 EndSplineSet
 Validated: 513
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" bracketright.sc
-Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" bracketright.taboldstyle
+Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" bracketright.sc
 EndChar
 
 StartChar: asciicircum
@@ -3783,7 +3715,6 @@ SplineSet
  338 239 296 259 261 273 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" asciitilde.sc
 EndChar
 
 StartChar: uni00A0
@@ -3853,7 +3784,6 @@ SplineSet
  403 320 425 353 425 382 c 0
 EndSplineSet
 Validated: 517
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" cent.sc
 EndChar
 
 StartChar: sterling
@@ -3895,7 +3825,6 @@ SplineSet
  41 313 58 349 67 349 c 1
 EndSplineSet
 Validated: 549
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" sterling.sc
 EndChar
 
 StartChar: currency
@@ -3992,7 +3921,6 @@ SplineSet
  261 71 261 102 261 145 c 2
 EndSplineSet
 Validated: 549
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" yen.sc
 EndChar
 
 StartChar: brokenbar
@@ -4022,7 +3950,6 @@ SplineSet
  77 -123 79 -119 79 -115 c 2
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" brokenbar.sc
 EndChar
 
 StartChar: section
@@ -4069,7 +3996,6 @@ SplineSet
  342 -5 258 -92 146 -92 c 0
 EndSplineSet
 Validated: 517
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" section.sc
 EndChar
 
 StartChar: dieresis
@@ -4133,7 +4059,6 @@ SplineSet
  175 38 53 160 53 311 c 4
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" copyright.sc
 EndChar
 
 StartChar: ordfeminine
@@ -4175,7 +4100,6 @@ SplineSet
  71 514 137 557 201 557 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ordfeminine.sc
 EndChar
 
 StartChar: guillemotleft
@@ -4206,7 +4130,6 @@ SplineSet
  29 237 26 243 26 248 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" guillemotleft.sc
 EndChar
 
 StartChar: logicalnot
@@ -4287,7 +4210,6 @@ SplineSet
  175 89 53 211 53 362 c 4
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" registered.sc
 EndChar
 
 StartChar: macron
@@ -4334,7 +4256,6 @@ SplineSet
  84 425 34 476 34 537 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" degree.sc
 EndChar
 
 StartChar: plusminus
@@ -4463,7 +4384,7 @@ EndChar
 StartChar: uni00B5
 Encoding: 181 181 115
 Width: 521
-Flags: HW
+Flags: W
 HStem: -8 122<293.892 385.523> -4 108<500.449 579.192> 426 20G<189 200 448 459>
 VStem: 158 103<-204.804 3.83203> 167 107<269.229 424> 424 112<329.63 423.537> 433 53<161.665 276.288>
 LayerCount: 2
@@ -4551,7 +4472,6 @@ SplineSet
  424 304 412 300 404 299 c 1x9d
 EndSplineSet
 Validated: 545
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" paragraph.sc
 EndChar
 
 StartChar: periodcentered
@@ -4657,7 +4577,6 @@ SplineSet
  35 484 108 553 202 553 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" ordmasculine.sc
 EndChar
 
 StartChar: guillemotright
@@ -4688,7 +4607,6 @@ SplineSet
  473 259 476 253 476 248 c 0
 EndSplineSet
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" guillemotright.sc
 EndChar
 
 StartChar: onequarter
@@ -10721,7 +10639,6 @@ Fore
 Refer: 270 780 N 1 0 0 1 92 17 2
 Refer: 65 97 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01CE.sc
 EndChar
 
 StartChar: uni01CF
@@ -10750,7 +10667,6 @@ Fore
 Refer: 270 780 N 1 0 0 1 13 17 2
 Refer: 242 305 N 1 0 0 1 -0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01D0.sc
 EndChar
 
 StartChar: uni01D1
@@ -10779,7 +10695,6 @@ Fore
 Refer: 270 780 N 1 0 0 1 119 17 2
 Refer: 79 111 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01D2.sc
 EndChar
 
 StartChar: uni01D3
@@ -10808,7 +10723,6 @@ Fore
 Refer: 270 780 N 1 0 0 1 192 17 2
 Refer: 85 117 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01D4.sc
 EndChar
 
 StartChar: uni01D5
@@ -10837,7 +10751,6 @@ Fore
 Refer: 246 772 N 1 0 0 1 78 184 2
 Refer: 186 252 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01D6.sc
 EndChar
 
 StartChar: uni01D7
@@ -10866,7 +10779,6 @@ Fore
 Refer: 191 769 N 1 0 0 1 226 192 2
 Refer: 186 252 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01D8.sc
 EndChar
 
 StartChar: uni01D9
@@ -10895,7 +10807,6 @@ Fore
 Refer: 270 780 N 1 0 0 1 122 221 2
 Refer: 186 252 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01DA.sc
 EndChar
 
 StartChar: uni01DB
@@ -10924,7 +10835,6 @@ Fore
 Refer: 190 768 N 1 0 0 1 72 192 2
 Refer: 186 252 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01DC.sc
 EndChar
 
 StartChar: uni01DE
@@ -10981,7 +10891,6 @@ Fore
 Refer: 246 772 N 1 0 0 1 160 -20 2
 Refer: 164 230 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni01E3.sc
 EndChar
 
 StartChar: Gcaron
@@ -11136,7 +11045,6 @@ Fore
 Refer: 191 769 N 1 0 0 1 184 246 2
 Refer: 163 229 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" aringacute.sc
 EndChar
 
 StartChar: AEacute
@@ -11165,7 +11073,6 @@ Fore
 Refer: 191 769 N 1 0 0 1 305 -12 2
 Refer: 164 230 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" aeacute.sc
 EndChar
 
 StartChar: Oslashacute
@@ -11194,7 +11101,6 @@ Fore
 Refer: 191 769 N 1 0 0 1 215 4 2
 Refer: 182 248 N 1 0 0 1 0 0 3
 Validated: 517
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" oslashacute.sc
 EndChar
 
 StartChar: Scommaaccent
@@ -11223,7 +11129,6 @@ Fore
 Refer: 273 806 N 1 0 0 1 116 0 2
 Refer: 83 115 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0219.sc
 EndChar
 
 StartChar: uni021A
@@ -11252,7 +11157,6 @@ Fore
 Refer: 273 806 N 1 0 0 1 113 0 2
 Refer: 84 116 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni021B.sc
 EndChar
 
 StartChar: uni021E
@@ -11478,7 +11382,6 @@ Fore
 Refer: 246 772 N 1 0 0 1 72 -52 2
 Refer: 89 121 N 1 0 0 1 0 0 3
 Validated: 513
-Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 0 subtable" uni0233.sc
 EndChar
 
 StartChar: uni01EA
