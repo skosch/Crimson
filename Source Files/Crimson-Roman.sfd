@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1270926789
-ModificationTime: 1413031081
+ModificationTime: 1418406788
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -871,7 +871,7 @@ AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 14
 WidthSeparation: 78
-WinInfo: 64 32 13
+WinInfo: 32 32 13
 BeginPrivate: 9
 BlueValues 39 [-10 0 429 439 641 644 658 670 693 696]
 OtherBlues 11 [-228 -226]
@@ -4339,6 +4339,7 @@ EndChar
 StartChar: cent
 Encoding: 162 162 96
 Width: 446
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -8 66<197.945 327.563> 394 44<199.28 296.075>
 VStem: 45 78<132.251 288.818> 189 28<-43.416 -0.869301> 272 28<427.956 470.975>
@@ -5421,6 +5422,7 @@ EndChar
 StartChar: Aring
 Encoding: 197 197 130
 Width: 627
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -3 29<-13.6875 43.043 129.585 192.196 402.775 461.559 582.161 631.562> 253 39<199 378.999> 643 20<321.5 327.5> 662 34<283.334 359.973> 807 34<281.895 360.425>
 VStem: 233 33<713.312 790.353> 376 33<712.832 790.822>
@@ -5509,6 +5511,7 @@ EndChar
 StartChar: Ccedilla
 Encoding: 199 199 132
 Width: 674
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -174 28<330.7 406.28> -67 40<380 412.877> -6 33<319.873 490.461> 634 33<315.22 487.001>
 VStem: 49 99<212.479 447.288> 418 44<-139.27 -70.5635> 588 34<485.58 538.617> 601 32<140.38 186.711>
@@ -5644,6 +5647,7 @@ EndChar
 StartChar: Eth
 Encoding: 208 208 141
 Width: 710
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -3 32<43.0862 114.671 213.396 390.374> 311 37<47.3369 366.828> 626 32<45 115.65 210.721 376.678>
 VStem: 119 88<43.3146 622.145> 560 99<197.497 448.749>
@@ -5786,6 +5790,7 @@ EndChar
 StartChar: Oslash
 Encoding: 216 216 149
 Width: 748
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -10 34<312.807 466.307> 633 34<280.332 437.715> 647 20G<552.275 569.5>
 VStem: 49 99<213.913 447.61> 600 99<209.584 443.622>
@@ -6119,6 +6124,7 @@ EndChar
 StartChar: ccedilla
 Encoding: 231 231 164
 Width: 423
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -148 24<199.049 263.387> -57 34<241 268.414> -8 66<191.945 321.563> 394 44<193.28 290.075>
 VStem: 39 78<132.251 288.818> 273 37<-118.34 -60.0801>
@@ -6404,6 +6410,7 @@ EndChar
 StartChar: oslash
 Encoding: 248 248 181
 Width: 509
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -8 21G<125 141.706> -7 33<214.699 321.24> 406 33<190.214 296.584> 417 20G<359.264 375.5>
 VStem: 42 86<120.834 313.837> 383 86<116.337 309.213>
@@ -6879,6 +6886,7 @@ EndChar
 StartChar: Dcroat
 Encoding: 272 272 205
 Width: 710
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -3 32<43.0862 114.671 213.396 390.374> 311 37<47.3369 366.828> 626 32<45 115.65 210.721 376.678>
 VStem: 119 88<43.3146 622.145> 560 99<197.497 448.749>
@@ -6892,6 +6900,7 @@ EndChar
 StartChar: dcroat
 Encoding: 273 273 206
 Width: 515
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -8 62<192.397 289.897> 20 27<438.72 496.784> 396 42<196.789 327.598> 525 35<213.529 489.01> 628 26<283.899 341.828> 674 20<407 430.5>
 VStem: 39 84<130.201 291.813> 351 77<70.6579 374.572 428.007 621.593>
@@ -7288,6 +7297,7 @@ EndChar
 StartChar: Hbar
 Encoding: 294 294 227
 Width: 726
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -3 32<42.5037 113.999 211.001 282.496 443.504 514.999 612.001 683.496> 325 34<208 518> 470 38<81.157 643.843> 630 32<42.5037 113.999 211.001 282.496 443.504 514.999 612.001 683.496>
 VStem: 119 87<35.7426 317 362.001 623.257> 520 87<35.7426 320.999 362.001 623.257>
@@ -7310,6 +7320,7 @@ EndChar
 StartChar: hbar
 Encoding: 295 295 228
 Width: 516
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -3 29<18.4037 83.2898 171.71 236.596 288.404 353.29 441.71 506.596> 380 58<240.761 327.184> 525 35<23.5288 299.01> 628 26<21.8986 79.8281> 674 20<145 168.5>
 VStem: 89 77<32.4189 347.537 363.001 621.593> 359 77<32.4189 346.845>
@@ -7795,6 +7806,7 @@ EndChar
 StartChar: Lslash
 Encoding: 321 321 254
 Width: 564
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -3 29<42.4037 113.252> 0 34<212.612 437.392> 633 29<42.4037 113.252 211.748 282.596>
 VStem: 119 87<44.2685 626.257>
@@ -7816,6 +7828,7 @@ EndChar
 StartChar: lslash
 Encoding: 322 322 255
 Width: 255
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -3 29<18.4037 83.2898 171.71 236.596> 628 26<21.8986 79.8281> 674 20<145 168.5>
 VStem: 89 77<32.4189 621.593>
@@ -8369,6 +8382,7 @@ EndChar
 StartChar: Scedilla
 Encoding: 350 350 282
 Width: 502
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -178 28<199.7 275.28> -71 40<249 281.877> -10 34<181.241 314.943> 632 34<192.457 311.611>
 VStem: 49 37<125.029 184.71> 65 80<454.853 571.394> 287 44<-143.27 -74.5635> 372 87<90.4983 213.651>
@@ -8384,6 +8398,7 @@ EndChar
 StartChar: scedilla
 Encoding: 351 351 283
 Width: 369
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -154 24<145.049 209.387> -63 34<187 214.414> -11 32<128.723 224.223> 406 31<148.772 236.89>
 VStem: 42 27<85.9752 117.421> 51 77<291.129 381.207> 219 37<-124.34 -66.0801> 249 81<55.287 144.678> 283 27<309.164 347.416>
@@ -8429,6 +8444,7 @@ EndChar
 StartChar: uni0162
 Encoding: 354 354 286
 Width: 626
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -171 28<253.7 329.28> -64 40<303 335.877> -3 29<194.404 265.252 363.748 434.596> 626 35<96.8184 271 358 529.71>
 VStem: 13 33<499.771 557.091> 271 87<32.7426 626> 341 44<-136.27 -67.5635> 581 33<499.771 557.091>
@@ -8444,6 +8460,7 @@ EndChar
 StartChar: uni0163
 Encoding: 355 355 287
 Width: 311
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -148 24<136.049 200.387> -57 34<178 205.414> -7 54<177.456 253.292> 391 41<28.9629 84 161 293.375>
 VStem: 84 77<62.1149 391 432 519.684> 210 37<-118.34 -60.0801>
@@ -8489,6 +8506,7 @@ EndChar
 StartChar: Tbar
 Encoding: 358 358 290
 Width: 626
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -3 29<193.404 264.252 362.748 433.596> 311 37<155.337 474.828> 626 35<95.8184 270 357 528.71>
 VStem: 12 33<499.771 557.091> 270 87<32.7426 626> 580 33<499.771 557.091>
@@ -8510,6 +8528,7 @@ EndChar
 StartChar: tbar
 Encoding: 359 359 291
 Width: 311
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -7 54<176.456 252.292> 268 40<22.1905 293.084> 391 41<27.9629 83 160 292.375>
 VStem: 22 272 83 77<62.1149 391 432 519.684>
@@ -8953,6 +8972,7 @@ EndChar
 StartChar: uni0189
 Encoding: 393 393 315
 Width: 717
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -3 32<50.0862 121.671 220.396 397.374> 311 37<54.3369 373.828> 626 32<52 122.65 217.721 383.678>
 VStem: 126 88<43.3146 622.145> 567 99<197.497 448.749>
@@ -12407,7 +12427,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'liga' Ligatures standard lookups7-1" f f
-LCarets2: 1 265 
+LCarets2: 1 265
 EndChar
 
 StartChar: f_i
@@ -12466,7 +12486,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'liga' Ligatures standard lookups7-1" f i
-LCarets2: 1 275 
+LCarets2: 1 275
 EndChar
 
 StartChar: f_f_i
@@ -12556,7 +12576,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f f i
-LCarets2: 2 275 550 
+LCarets2: 2 275 550
 EndChar
 
 StartChar: f_l
@@ -12616,7 +12636,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'liga' Ligatures standard lookups7-1" f l
-LCarets2: 1 280 
+LCarets2: 1 280
 EndChar
 
 StartChar: f_f_l
@@ -12703,7 +12723,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'liga' Ligatures standard lookups7-1" f f l
-LCarets2: 2 280 560 
+LCarets2: 2 280 560
 EndChar
 
 StartChar: f_b
@@ -12771,7 +12791,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f b
-LCarets2: 1 340 
+LCarets2: 1 340
 EndChar
 
 StartChar: f_f_b
@@ -12865,7 +12885,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f f b
-LCarets2: 2 280 600 
+LCarets2: 2 280 600
 EndChar
 
 StartChar: f_k
@@ -12943,7 +12963,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f k
-LCarets2: 1 300 
+LCarets2: 1 300
 EndChar
 
 StartChar: f_f_k
@@ -13047,7 +13067,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f f k
-LCarets2: 2 275 580 
+LCarets2: 2 275 580
 EndChar
 
 StartChar: f_h
@@ -13125,7 +13145,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'liga' Ligatures standard lookups7-1" f h
-LCarets2: 1 300 
+LCarets2: 1 300
 EndChar
 
 StartChar: f_f_h
@@ -13229,7 +13249,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'liga' Ligatures standard lookups7-1" f f h
-LCarets2: 2 275 590 
+LCarets2: 2 275 590
 EndChar
 
 StartChar: f_j
@@ -13288,7 +13308,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'liga' Ligatures standard lookups7-1" f j
-LCarets2: 1 285 
+LCarets2: 1 285
 EndChar
 
 StartChar: f_f_j
@@ -13374,7 +13394,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f f j
-LCarets2: 2 275 565 
+LCarets2: 2 275 565
 EndChar
 
 StartChar: T_h
@@ -13446,7 +13466,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'liga' Ligatures standard lookups7-1" T h
-LCarets2: 1 490 
+LCarets2: 1 490
 EndChar
 
 StartChar: f.short
@@ -14841,6 +14861,7 @@ EndChar
 StartChar: oslashacute
 Encoding: 511 511 531
 Width: 509
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -8 21<125 141.706> -7 33<214.699 321.24> 406 33<190.214 296.584> 417 20<359.264 375.5> 494 160
 VStem: 42 86<120.834 313.837> 216 160 383 86<116.337 309.213>
@@ -17912,7 +17933,7 @@ StartChar: uni1EB0
 Encoding: 7856 7856 712
 Width: 627
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -3 29<-13.6875 43.043 129.585 192.196 402.775 461.559 582.161 631.562> 253 39<199 378.999> 643 20<321.5 327.5> 711 46<259.539 382.461> 794.12 105.07 809.213 106 914 46<-120.461 2.4611>
 VStem: -61.3493 138.016 28 22<998.776 1015.81> 221.78 136.9 408 22<795.776 812.806>
 LayerCount: 2
@@ -17921,8 +17942,6 @@ Fore
 Refer: 487 -1 N 0.74 0 0 0.79 483 219 2
 Refer: 493 -1 N 1 0 0 1 576 -17 2
 Refer: 32 65 N 1 0 0 1 0 0 2
-Refer: 487 -1 S 0.746032 0 0 0.796996 202 229 2
-Refer: 493 -1 N 1 0 0 1 196 186 2
 Validated: 1
 EndChar
 
@@ -17946,7 +17965,7 @@ StartChar: uni1EB2
 Encoding: 7858 7858 714
 Width: 627
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -3 29<-13.6875 43.043 129.585 192.196 402.775 461.559 582.161 631.562> 253 39<199 378.999> 643 20<321.5 327.5> 711 46<256.539 379.461> 784 58<290.359 335.375> 907 21<311.809 349.772> 914 46<-123.461 -0.538904> 1005 58<-208.641 -163.625> 1128 21<-187.191 -149.228>
 VStem: -211 48<1011.21 1053.3> -143 52<1068.09 1127.37> 25 22<998.776 1015.81> 288 48<790.208 832.301> 356 52<847.087 906.367> 405 22<795.776 812.806>
 LayerCount: 2
@@ -17955,9 +17974,7 @@ Fore
 Refer: 498 -1 N 1 0 0 1 580 56 2
 Refer: 493 -1 N 1 0 0 1 573 -17 2
 Refer: 32 65 N 1 0 0 1 0 0 2
-Refer: 493 -1 N 1 0 0 1 193 186 2
-Refer: 498 -1 N 1 0 0 1 81 277 2
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: uni1EB3
@@ -18170,8 +18187,8 @@ VStem: -222 229 -208.349 138.016 118 87<44.2663 310.528 349.429 620.395> 411 32<
 LayerCount: 2
 Back
 Fore
-Refer: 487 -1 S 0.746032 0 0 0.796996 55 223 2
-Refer: 489 -1 S 1 0 0 1 148 -22 2
+Refer: 487 -1 N 0.746032 0 0 0.796996 55 223 2
+Refer: 489 -1 N 1 0 0 1 148 -22 2
 Refer: 36 69 N 1 0 0 1 -1 0 2
 Validated: 5
 EndChar
@@ -18419,7 +18436,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 488 -1 N 0.74 0 0 0.79 705 213 2
-Refer: 489 -1 N 1 0 0 1 628 -23 2
+Refer: 489 -1 S 1 0 0 1 628 -23 2
 Refer: 46 79 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
@@ -18444,16 +18461,16 @@ StartChar: uni1ED2
 Encoding: 7890 7890 746
 Width: 748
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -10 34<312.807 466.307> 633 34<280.332 437.715> 706 132 803.213 106
 VStem: -134 229 -120.349 138.016 49 99<213.913 447.61> 600 99<209.584 443.622>
 LayerCount: 2
 Back
 Fore
-Refer: 487 -1 S 0.746032 0 0 0.796996 143 223 2
-Refer: 489 -1 S 1 0 0 1 236 -22 2
+Refer: 487 -1 N 0.746032 0 0 0.796996 427 223 2
+Refer: 489 -1 N 1 0 0 1 628 -23 2
 Refer: 46 79 N 1 0 0 1 0 0 2
-Validated: 5
+Validated: 1
 EndChar
 
 StartChar: uni1ED3
@@ -20855,6 +20872,7 @@ EndChar
 StartChar: ccedilla.sc
 Encoding: 65636 -1 842
 Width: 518
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -148 24<229.049 293.387> -57 34<271 298.414> -5 33<237.362 380.323> 422 33<237.763 376.852>
 VStem: 49 86<123.601 317.467> 303 37<-118.34 -60.0801> 433 30<326.001 364.981> 444 29<94.8652 128>
@@ -29345,6 +29363,7 @@ EndChar
 StartChar: afii10108
 Encoding: 1115 1115 1148
 Width: 515
+UnlinkRmOvrlpSave: 1
 Flags: W
 HStem: -3 29<18.4037 83.2898 171.71 236.596 288.404 353.29 441.71 506.596> 380 58<240.761 327.184> 525 35<23.5288 299.01> 628 26<21.8986 79.8281> 674 20<145 168.5>
 VStem: 89 77<32.4189 347.537 363.001 621.593> 359 77<32.4189 346.845>
@@ -33430,7 +33449,7 @@ SplineSet
  295 370 276 372 258 372 c 0
 EndSplineSet
 Validated: 33
-LCarets2: 1 498 
+LCarets2: 1 498
 EndChar
 
 StartChar: sigma_pi
