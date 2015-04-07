@@ -3,7 +3,7 @@ The *Crimson Text* Typeface
 
 Crimson Text ("Crimson") is a free and open-source text type family.
 
-For more info, please [check out the website](http://www.aldusleaf.org/crimson.html).
+For more info, please [check out the website](http://aldusleaf.org/crimson.html).
 
 
 Directories and Releases
