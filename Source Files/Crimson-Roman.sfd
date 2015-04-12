@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1270926789
-ModificationTime: 1428774853
+ModificationTime: 1428842982
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -871,7 +871,7 @@ AntiAlias: 1
 FitToEm: 1
 ExtremaBound: 14
 WidthSeparation: 78
-WinInfo: 1024 32 13
+WinInfo: 0 32 13
 BeginPrivate: 9
 BlueValues 47 [-10 0 429 439 448 455 641 644 658 670 693 696]
 OtherBlues 11 [-228 -226]
@@ -1945,13 +1945,14 @@ SplineSet
  199 298 l 1
 EndSplineSet
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" a.sc
+Colour: ff00
 EndChar
 
 StartChar: B
 Encoding: 34 66 33
 Width: 596
 VWidth: 1024
-Flags: W
+Flags: HW
 HStem: -3 29<43.0862 113.252 222.903 367.45> 332 38<206 361.031> 627 32<44.2859 115.468 211.209 337.927>
 VStem: 119 87<47.3571 332 370 616.422> 415 91<435.521 566.855> 453 99<105.284 263.241>
 LayerCount: 2
@@ -1973,8 +1974,8 @@ SplineSet
  403 364 402 362 405 360 c 1
  454 358 552 298 552 199 c 0
  552 142 534 92 485 51 c 0
- 437 11 352 -2 275 -3 c 0
- 242 -3 84 -3 45 -3 c 1xf4
+ 437 11 352 -2 275 -3 c 2
+ 45 -3 l 1xf4
 206 115 m 2
  206 101 208 54 215 47 c 0
  230 31 257 29 294 29 c 0
@@ -1990,8 +1991,8 @@ SplineSet
  206 605 206 572 206 542 c 2
  206 370 l 1
 EndSplineSet
-Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" b.sc
+Colour: ff00
 EndChar
 
 StartChar: C
@@ -2023,6 +2024,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" c.sc
+Colour: ff00
 EndChar
 
 StartChar: D
@@ -2047,8 +2049,8 @@ SplineSet
  86 660 124 657 163 657 c 0
  202 657 264 658 308 658 c 0
  527 658 659 519 659 334 c 0
- 659 164 577 -3 295 -3 c 0
- 251 -3 84 -3 45 -3 c 1
+ 659 164 577 -3 295 -3 c 2
+ 45 -3 l 1
 207 115 m 2
  207 101 208 49 213 43 c 0
  221 32 258 29 295 29 c 0
@@ -2059,34 +2061,35 @@ SplineSet
  207 115 l 2
 EndSplineSet
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" d.sc
+Colour: ff00
 EndChar
 
 StartChar: E
 Encoding: 37 69 36
 Width: 587
 VWidth: 1024
-Flags: W
-HStem: -3 29<42.4037 113.252> 0 34<212.612 435.606> 312 37<206 383.451> 408 20G<423.5 430.5> 624 33<209.721 433.774> 633 29<42.5487 113.252>
-VStem: 119 87<44.2663 310.528 349.429 620.395> 412 32<230.002 289.298 372.014 427.976> 482 32<523.07 571.016>
+Flags: HW
+HStem: -3 29<42.4037 113.252> 0 34<212.612 435.606> 312 37<206 383.451> 408 20G<423.5 430.5> 624 40<209.003 439.259> 624 33<209.721 433.774> 633 29<42.4037 113.252>
+VStem: 119 87<44.2663 310.528 349.476 619.936> 412 32<230.002 289.298 372.014 427.976> 482 32<523.07 571.016>
 LayerCount: 2
 Back
 Fore
 SplineSet
-45 -3 m 1xb380
+45 -3 m 1xb1c0
  40 2 41 21 45 26 c 1
  57 26 111 31 114 42 c 0
  119 58 119 86 119 116 c 2
  119 543 l 2
  119 573 119 601 114 617 c 0
  111 628 57 633 45 633 c 1
- 41 638 40 657 45 662 c 1xb780
- 86 660 124 657 163 657 c 0
+ 41 638 40 657 45 662 c 1xb3c0
+ 86 660 124 657 163 657 c 0x35c0
  257 657 376 664 485 664 c 1
  492 614 505 573 514 528 c 1
  511 525 503 523 496 523 c 0
  489 523 483 525 482 530 c 0
  460 610 419 624 366 624 c 2
- 280 624 l 0
+ 280 624 l 2
  268 624 214 623 211 613 c 0
  206 597 206 569 206 542 c 2
  206 355 l 2
@@ -2110,11 +2113,11 @@ SplineSet
  521 166 527 168 534 168 c 0
  544 168 556 165 559 162 c 1
  540 108 512 40 505 -4 c 1
- 396 -4 297 0 164 0 c 0x7b80
- 117 0 84 -3 45 -3 c 1xb380
+ 396 -4 297 0 164 0 c 0x79c0
+ 117 0 84 -3 45 -3 c 1xb1c0
 EndSplineSet
-Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" e.sc
+Colour: ff00
 EndChar
 
 StartChar: F
@@ -2165,6 +2168,7 @@ SplineSet
  116 2 84 -3 45 -3 c 1xf7
 EndSplineSet
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" f.sc
+Colour: ff00
 EndChar
 
 StartChar: G
@@ -2205,15 +2209,16 @@ SplineSet
  184 -6 48 145 48 322 c 0xf8
 EndSplineSet
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" g.sc
+Colour: ff00
 EndChar
 
 StartChar: H
 Encoding: 40 72 39
 Width: 726
 VWidth: 1024
-Flags: HW
-HStem: -3 32<42.5037 113.999 211.001 282.496 443.504 514.999 612.001 683.496> 325 34<207.196 520> 630 32<42.5037 113.999 211.001 282.496 443.504 514.999 612.001 683.496>
-VStem: 119 87<35.7426 318.953 362.001 623.257> 520 87<35.7426 320.999 362.001 623.257>
+Flags: W
+HStem: -3 32<42.5037 113.999 211.001 282.496 443.504 514.999 612.001 683.496> 325 37<206 520> 630 32<42.5037 113.999 211.001 282.496 443.504 514.999 612.001 683.496>
+VStem: 119 87<36.0745 322.371 361.802 622.925> 520 87<36.0745 321.269 361.903 622.925>
 LayerCount: 2
 Back
 Fore
@@ -2231,11 +2236,11 @@ SplineSet
  285 657 284 635 280 630 c 1
  268 630 214 625 211 614 c 0
  206 598 206 570 206 540 c 2
- 206 365 l 2
- 206 363 208 362 208 362 c 1
- 257 361 309 359 365 359 c 0
- 412 359 473 361 518 362 c 1
- 518 362 520 364 520 366 c 2
+ 206 370 l 2
+ 206 364 211 362 217 362 c 0
+ 266 361 309 359 365 359 c 0
+ 412 359 462 361 502 362 c 0
+ 513 362 520 363 520 370 c 2
  520 540 l 2
  520 570 520 598 515 614 c 0
  512 625 458 630 446 630 c 1
@@ -2254,11 +2259,11 @@ SplineSet
  441 2 442 24 446 29 c 1
  458 29 512 34 515 45 c 0
  520 61 520 89 520 119 c 2
- 520 317 l 2
- 520 319 518 321 518 321 c 1
- 471 322 416 325 365 325 c 0
- 226 325 211 321 207 319 c 1
- 206 318 206 317 206 317 c 9
+ 520 315 l 2
+ 520 319 515 321 509 321 c 0
+ 464 322 416 325 365 325 c 0
+ 242 325 221 322 215 321 c 0
+ 210 320 206 318 206 313 c 2
  206 119 l 2
  206 89 206 61 211 45 c 0
  214 34 268 29 280 29 c 1
@@ -2267,6 +2272,7 @@ SplineSet
  124 2 86 -1 45 -3 c 1
 EndSplineSet
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" h.sc
+Colour: ff00
 EndChar
 
 StartChar: I
@@ -2302,13 +2308,14 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" i.sc
+Colour: ff00
 EndChar
 
 StartChar: J
 Encoding: 42 74 41
 Width: 313
 VWidth: 1024
-Flags: W
+Flags: HW
 HStem: -227 47<-40.5 66.2636> 633 29<37.4037 108.252 206.748 277.596>
 VStem: 114 87<-53.3294 626.257>
 LayerCount: 2
@@ -2317,8 +2324,8 @@ Fore
 SplineSet
 -104 -186 m 0
  -104 -155 -88 -130 -56 -130 c 0
- -38 -130 -22 -146 -8 -159 c 0
- 3 -169 20 -180 37 -180 c 0
+ -39 -130 -24.4323630066 -143.407159681 -11 -156 c 0
+ 5 -171 21 -180 37 -180 c 0
  79 -180 114 -126 114 116 c 2
  114 543 l 2
  114 573 114 601 109 617 c 0
@@ -2334,15 +2341,15 @@ SplineSet
  -48 -227 -84 -218 -96 -209 c 1
  -101 -204 -104 -193 -104 -186 c 0
 EndSplineSet
-Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" j.sc
+Colour: ff00
 EndChar
 
 StartChar: K
 Encoding: 43 75 42
 Width: 657
 VWidth: 1024
-Flags: W
+Flags: HW
 HStem: -3 32<42.5037 113.999 211.001 282.496 589.9 660.782> 630 32<42.5037 113.999 211.001 282.496 402.462 459.18 552.643 628.082>
 VStem: 119 87<35.7426 306.999 341 623.257>
 LayerCount: 2
@@ -2389,8 +2396,8 @@ SplineSet
  239 -1 202 2 163 2 c 0
  124 2 86 -1 45 -3 c 1
 EndSplineSet
-Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" k.sc
+Colour: ff00
 EndChar
 
 StartChar: L
@@ -2431,13 +2438,14 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" l.sc
+Colour: ff00
 EndChar
 
 StartChar: M
 Encoding: 45 77 44
 Width: 907
 VWidth: 1024
-Flags: W
+Flags: HW
 HStem: -3 29<24.1812 102.346 171.148 249.653 632.181 698.416 803.076 873.36> 633 29<57.7476 121.145 787.912 853.014>
 VStem: 119 45<37.5115 289.668> 133 44<371.361 583.939> 693 86<325.272 584.822> 708 81<37.202 383.21>
 LayerCount: 2
@@ -2488,8 +2496,8 @@ SplineSet
  209 -1 187 2 143 2 c 0
  97 2 72 -1 26 -3 c 1xe0
 EndSplineSet
-Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" m.sc
+Colour: ff00
 EndChar
 
 StartChar: N
@@ -2536,6 +2544,7 @@ SplineSet
  102 2 87 -1 41 -3 c 1
 EndSplineSet
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" n.sc
+Colour: ff00
 EndChar
 
 StartChar: O
@@ -2562,13 +2571,14 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" o.sc
+Colour: ff00
 EndChar
 
 StartChar: P
 Encoding: 48 80 47
 Width: 548
 VWidth: 1024
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252 211.748 282.596> 278 28<251.776 345.657> 627 32<44.2859 115.468 211.209 339.676>
 VStem: 119 87<32.7426 616.422> 426 92<383.77 555.24>
 LayerCount: 2
@@ -2589,7 +2599,7 @@ SplineSet
  518 357 429 278 298 278 c 0
  287 278 265 281 255 286 c 0
  252 288 241 296 241 308 c 0
- 241 310 242 314 246 313 c 1
+ 241 310 242 314 246 313 c 0
  257 310 269 306 284 306 c 0
  364 306 426 362 426 462 c 0
  426 561 372 627 261 627 c 0
@@ -2602,15 +2612,15 @@ SplineSet
  239 -1 202 2 163 2 c 0
  124 2 86 -1 45 -3 c 1
 EndSplineSet
-Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" p.sc
+Colour: ff00
 EndChar
 
 StartChar: Q
 Encoding: 49 81 48
 Width: 747
 VWidth: 1024
-Flags: W
+Flags: HW
 HStem: -136 55<579.579 714.391> 633 34<280.332 437.715>
 VStem: 49 99<215.297 447.61> 600 99<206.759 443.622>
 LayerCount: 2
@@ -2621,12 +2631,14 @@ SplineSet
  49 515 197 667 373 667 c 0
  549 667 699 527 699 328 c 0
  699 175 599 46 466 4 c 1
- 562 -42 582 -81 685 -81 c 0
+ 493 -9 516 -22 535 -34 c 0
+ 591 -69 624 -81 685 -81 c 0
  725 -81 749 -77 756 -75 c 1
  763 -75 771 -78 774 -82 c 0
  775 -83 775 -84 775 -85 c 1
  720 -114 670 -136 609 -136 c 0
- 502 -136 423 -33 293 0 c 0
+ 554 -136 507.064015155 -109.896771286 441 -69 c 0
+ 399 -43 348.976231206 -14.0947344764 293 0 c 0
  154 35 49 161 49 328 c 0
 148 350 m 0
  148 195 234 24 389 24 c 0
@@ -2634,8 +2646,8 @@ SplineSet
  600 464 513 633 358 633 c 0
  208 633 148 484 148 350 c 0
 EndSplineSet
-Validated: 1
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" q.sc
+Colour: ff00
 EndChar
 
 StartChar: R
@@ -2684,6 +2696,7 @@ SplineSet
  206 333 l 1
 EndSplineSet
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" r.sc
+Colour: ff00
 EndChar
 
 StartChar: S
@@ -2718,6 +2731,7 @@ SplineSet
  58 78 49 162 49 174 c 1xe8
 EndSplineSet
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" s.sc
+Colour: ff00
 EndChar
 
 StartChar: T
@@ -2759,6 +2773,7 @@ SplineSet
  22 498 15 503 12 506 c 1
 EndSplineSet
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" t.sc
+Colour: ff00
 EndChar
 
 StartChar: U
@@ -2802,6 +2817,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" u.sc
+Colour: ff00
 EndChar
 
 StartChar: V
@@ -2840,13 +2856,14 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" v.sc
+Colour: ff00
 EndChar
 
 StartChar: W
 Encoding: 55 87 54
 Width: 900
 VWidth: 1024
-Flags: W
+Flags: HW
 HStem: -2 21G<258 266.5 620 628.5> 633 29<-5.25244 46.2641 174.204 226.788 699.074 754.21 857.325 904.577>
 LayerCount: 2
 Back
@@ -2857,7 +2874,7 @@ SplineSet
  42 660 72 657 118 657 c 0
  162 657 186 660 226 662 c 1
  228 656 228 634 224 633 c 1
- 216 633 164 628 164 600 c 1
+ 216 633 164 628 164 600 c 0
  164 593 169 570 179 535 c 0
  202 452 253 290 295 148 c 1
  342 303 416 531 446 629 c 0
@@ -2875,7 +2892,7 @@ SplineSet
  825 595 815 572 803 531 c 0
  748 342 713 211 660 32 c 0
  655 14 635 -2 622 -2 c 0
- 618 -2 613 10 612 14 c 1
+ 618 -2 613 10 612 14 c 0
  563 159 448 509 448 508 c 1
  392 324 351 209 298 32 c 0
  293 14 273 -2 260 -2 c 0
@@ -2884,8 +2901,8 @@ SplineSet
  78 572 73 595 54 613 c 0
  40 626 8 633 -4 633 c 1
 EndSplineSet
-Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" w.sc
+Colour: ff00
 EndChar
 
 StartChar: X
@@ -2939,6 +2956,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" x.sc
+Colour: ff00
 EndChar
 
 StartChar: Y
@@ -2986,6 +3004,7 @@ SplineSet
  29 627 2 633 -10 633 c 0
 EndSplineSet
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" y.sc
+Colour: ff00
 EndChar
 
 StartChar: Z
@@ -3021,6 +3040,7 @@ SplineSet
  42 0 31 8 35 14 c 2xb0
 EndSplineSet
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" z.sc
+Colour: ff00
 EndChar
 
 StartChar: bracketleft
@@ -3204,6 +3224,7 @@ SplineSet
  145 180 120 154 120 116 c 0xe8
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" a.sc
+Colour: ff00
 EndChar
 
 StartChar: b
@@ -3244,6 +3265,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" b.sc
+Colour: ff00
 EndChar
 
 StartChar: c
@@ -3273,6 +3295,7 @@ SplineSet
  120 -8 39 90 39 194 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" c.sc
+Colour: ff00
 EndChar
 
 StartChar: d
@@ -3317,6 +3340,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" d.sc
+Colour: ff00
 EndChar
 
 StartChar: e
@@ -3349,6 +3373,7 @@ SplineSet
  136 402 114 285 116 285 c 1xdc
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" e.sc
+Colour: ff00
 EndChar
 
 StartChar: f
@@ -3361,7 +3386,7 @@ VStem: 96 77<32.7426 391 432 545.43>
 LayerCount: 2
 Back
 Fore
-Refer: 473 -1 S 1 0 0 1 0 0 2
+Refer: 473 -1 N 1 0 0 1 0 0 2
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" f.sc
 EndChar
 
@@ -3411,6 +3436,7 @@ SplineSet
  158 409 127 349 127 292 c 27xeb80
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" g.sc
+Colour: ff00
 EndChar
 
 StartChar: h
@@ -3460,6 +3486,7 @@ SplineSet
  88 2 62 -1 21 -3 c 1
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" h.sc
+Colour: ff00
 EndChar
 
 StartChar: i
@@ -3472,7 +3499,7 @@ VStem: 34 154<-3 42 372.106 401.368> 85 100<551.438 634.562> 104 77<32.4189 365.
 LayerCount: 2
 Back
 Fore
-Refer: 238 305 S 1 0 0 1 0 0 2
+Refer: 238 305 N 1 0 0 1 0 0 2
 Refer: 339 775 N 1 0 0 1 135 45 2
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" i.sc
 EndChar
@@ -3540,6 +3567,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" k.sc
+Colour: ff00
 EndChar
 
 StartChar: l
@@ -3573,6 +3601,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" l.sc
+Colour: ff00
 EndChar
 
 StartChar: m
@@ -3637,6 +3666,7 @@ SplineSet
  92 371 41 372 34 372 c 1xdc
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" m.sc
+Colour: ff00
 EndChar
 
 StartChar: n
@@ -3686,6 +3716,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" n.sc
+Colour: ff00
 EndChar
 
 StartChar: o
@@ -3712,6 +3743,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" o.sc
+Colour: ff00
 EndChar
 
 StartChar: p
@@ -3758,6 +3790,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" p.sc
+Colour: ff00
 EndChar
 
 StartChar: q
@@ -3799,6 +3832,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" q.sc
+Colour: ff00
 EndChar
 
 StartChar: r
@@ -3839,6 +3873,7 @@ SplineSet
  92 371 41 372 34 372 c 1xb0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" r.sc
+Colour: ff00
 EndChar
 
 StartChar: s
@@ -3873,6 +3908,7 @@ SplineSet
  50 29 41 86 41 112 c 1xe8
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" s.sc
+Colour: ff00
 EndChar
 
 StartChar: t
@@ -3909,6 +3945,7 @@ SplineSet
  22 391 20 397 20 400 c 0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" t.sc
+Colour: ff00
 EndChar
 
 StartChar: u
@@ -3953,13 +3990,14 @@ SplineSet
  63 392 30 394 17 394 c 1xac
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" u.sc
+Colour: ff00
 EndChar
 
 StartChar: v
 Encoding: 86 118 85
 Width: 473
 VWidth: 1024
-Flags: W
+Flags: HW
 HStem: -11 21G<227 232> 401 29<0.308105 52.9509 149.473 201.887 294.188 347.061 422.157 471.647>
 LayerCount: 2
 Back
@@ -3971,7 +4009,7 @@ SplineSet
  140 425 162 428 202 430 c 1
  204 424 203 401 198 401 c 1
  191 401 149 399 149 384 c 0
- 149 383 149 382 150 380 c 0
+ 149 383 149 382 150 380 c 2
  260 110 l 1
  260 110 311 243 349 337 c 0
  354 349 355 362 355 369 c 0
@@ -3987,8 +4025,8 @@ SplineSet
  155 147 112 268 57 381 c 0
  47 402 14 401 2 401 c 1
 EndSplineSet
-Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" v.sc
+Colour: ff00
 EndChar
 
 StartChar: w
@@ -4039,6 +4077,7 @@ SplineSet
  47 400 14 401 2 401 c 1
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" w.sc
+Colour: ff00
 EndChar
 
 StartChar: x
@@ -4090,6 +4129,7 @@ SplineSet
 EndSplineSet
 Validated: 33
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" x.sc
+Colour: ff00
 EndChar
 
 StartChar: y
@@ -4129,6 +4169,7 @@ SplineSet
  46 402 14 401 2 401 c 1
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" y.sc
+Colour: ff00
 EndChar
 
 StartChar: z
@@ -4164,6 +4205,7 @@ SplineSet
  42 2 34 12 34 20 c 0xb0
 EndSplineSet
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" z.sc
+Colour: ff00
 EndChar
 
 StartChar: braceleft
@@ -5579,7 +5621,7 @@ StartChar: Eacute
 Encoding: 135 201 134
 Width: 587
 VWidth: 1024
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252> 0 34<212.612 435.606> 312 37<206 383.451> 408 20G<423.5 430.5> 624 33<209.721 433.774> 633 29<42.5487 113.252> 720 133
 VStem: 119 87<44.2663 310.528 349.429 620.395> 226 185 412 32<230.002 289.298 372.014 427.976> 482 32<523.07 571.016>
 LayerCount: 2
@@ -5594,7 +5636,7 @@ StartChar: Ecircumflex
 Encoding: 136 202 135
 Width: 587
 VWidth: 1024
-Flags: W
+Flags: HW
 HStem: -3 29<42.4037 113.252> 0 34<212.612 435.606> 312 37<206 383.451> 408 20G<423.5 430.5> 624 33<209.721 433.774> 633 29<42.5487 113.252> 718 132
 VStem: 119 87<44.2663 310.528 349.429 620.395> 186 229 412 32<230.002 289.298 372.014 427.976> 482 32<523.07 571.016>
 LayerCount: 2
@@ -12842,6 +12884,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f i
 LCarets2: 1 275
+Colour: ff00ff
 EndChar
 
 StartChar: f_f_i
@@ -12933,6 +12976,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f f i
 LCarets2: 2 275 550
+Colour: ff00ff
 EndChar
 
 StartChar: f_l
@@ -12994,6 +13038,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f l
 LCarets2: 1 280
+Colour: ff00ff
 EndChar
 
 StartChar: f_f_l
@@ -13082,6 +13127,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f f l
 LCarets2: 2 280 560
+Colour: ff00ff
 EndChar
 
 StartChar: f_b
@@ -13151,6 +13197,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f b
 LCarets2: 1 340
+Colour: ff00ff
 EndChar
 
 StartChar: f_f_b
@@ -13246,6 +13293,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f f b
 LCarets2: 2 280 600
+Colour: ff00ff
 EndChar
 
 StartChar: f_k
@@ -13325,6 +13373,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f k
 LCarets2: 1 300
+Colour: ff00ff
 EndChar
 
 StartChar: f_f_k
@@ -13430,6 +13479,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f f k
 LCarets2: 2 275 580
+Colour: ff00ff
 EndChar
 
 StartChar: f_h
@@ -13509,6 +13559,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f h
 LCarets2: 1 300
+Colour: ff00ff
 EndChar
 
 StartChar: f_f_h
@@ -13614,6 +13665,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f f h
 LCarets2: 2 275 590
+Colour: ff00ff
 EndChar
 
 StartChar: f_j
@@ -13674,6 +13726,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f j
 LCarets2: 1 285
+Colour: ff00ff
 EndChar
 
 StartChar: f_f_j
@@ -13761,6 +13814,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" f f j
 LCarets2: 2 275 565
+Colour: ff00ff
 EndChar
 
 StartChar: T_h
@@ -13834,6 +13888,7 @@ EndSplineSet
 Validated: 33
 Ligature2: "'liga' Ligatures standard lookups7-1" T h
 LCarets2: 1 490
+Colour: ff00ff
 EndChar
 
 StartChar: f.short
@@ -16562,7 +16617,7 @@ StartChar: uni1E14
 Encoding: 643 7700 576
 Width: 587
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -3 29<43.4037 114.252> 0 34<213.612 436.606> 312 37<207 384.451> 408 20G<424.5 431.5> 624 33<210.721 434.774> 633 29<43.5487 114.252> 738 42<157.889 407.521> 808 133
 VStem: 120 87<44.2663 310.528 349.429 620.395> 188 185 413 32<230.002 289.298 372.014 427.976> 483 32<523.07 571.016>
 LayerCount: 2
@@ -16592,7 +16647,7 @@ StartChar: uni1E16
 Encoding: 645 7702 578
 Width: 587
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -3 29<43.4037 114.252> 0 34<213.612 436.606> 312 37<207 384.451> 408 20G<424.5 431.5> 624 33<210.721 434.774> 633 29<43.5487 114.252> 738 42<157.889 407.521> 808 133
 VStem: 120 87<44.2663 310.528 349.429 620.395> 198 185 413 32<230.002 289.298 372.014 427.976> 483 32<523.07 571.016>
 LayerCount: 2
@@ -22719,7 +22774,7 @@ SplineSet
  81 66 60 93 60 103 c 1
 EndSplineSet
 Validated: 1
-Colour: ff00ff
+Colour: ff0000
 EndChar
 
 StartChar: oslash.sc
@@ -22740,7 +22795,7 @@ SplineSet
  132 -9 115 1 118 5 c 9x9c
 EndSplineSet
 Refer: 813 -1 N 1 0 0 1 0 0 2
-Colour: ff0000
+Colour: ff00ff
 EndChar
 
 StartChar: ugrave.sc
@@ -22900,7 +22955,7 @@ SplineSet
 EndSplineSet
 Refer: 339 775 S 1 0 0 1 300 -110 2
 Refer: 339 775 S 1 0 0 1 300 -493 2
-Colour: ff00ff
+Colour: ff0000
 EndChar
 
 StartChar: amacron.sc
@@ -25162,7 +25217,7 @@ Encoding: 1157 8356 973
 Width: 479
 VWidth: 1024
 UnlinkRmOvrlpSave: 1
-Flags: W
+Flags: HW
 HStem: -8 66<238.736 361.199> 49 56<100.375 179.889> 262 36<68.469 379.738> 342 36<68.469 379.738> 590 46<237.671 332.5>
 VStem: 126 77<379.11 509.144> 149 75<188.868 341.187> 428 13<127.679 134.817>
 LayerCount: 2
@@ -25176,7 +25231,7 @@ SplineSet
  122 535 221 636 315 636 c 0
  350 636 363 628 387 612 c 1
  391 608 397 594 397 584 c 0
- 397 548 376 536 359 536 c 1
+ 397 548 376 536 359 536 c 0
  337 536 321 559 306 573 c 0
  291 587 284 590 271 590 c 0
  219 590 203 528 203 459 c 0x7d
@@ -25192,17 +25247,16 @@ SplineSet
  86 49 78 10 61 -6 c 1
  53 -6 45 7 45 16 c 0x7b
 56 262 m 17
- 50 268 70 298 79 298 c 1
- 95 298 371 298 382 298 c 1
+ 50 268 70 298 79 298 c 2
+ 382 298 l 1
  396 287 379 266 373 262 c 1
  56 262 l 17
 56 342 m 17
- 50 348 70 378 79 378 c 1
- 95 378 371 378 382 378 c 1
+ 50 348 70 378 79 378 c 2
+ 382 378 l 1
  396 367 379 346 373 342 c 1
  56 342 l 17
 EndSplineSet
-Validated: 37
 EndChar
 
 StartChar: fraction
@@ -37025,7 +37079,7 @@ StartChar: uni211D
 Encoding: 1163 8477 1416
 Width: 621
 VWidth: 1024
-Flags: W
+Flags: HW
 HStem: -3 29<-14.5012 55.2515 211.748 281.501 486.287 543 586.565 646.782> 2 34<113.057 153.944> 302 31<206 269.716 354 365.621> 616 41<113.057 153.944> 627 32<-13.7141 57.4677 211.209 325.932>
 VStem: 61 49<46.7559 605.244> 157 49<46.7559 302 333 605.244> 383 47<399.287 576.563> 479 49<402.59 555.834>
 LayerCount: 2
@@ -37052,7 +37106,7 @@ SplineSet
  386 73 333 192 270 290 c 0
  264 299 254 302 240 302 c 0
  240 302 215 302 206 302 c 1
- 206 116 l 1
+ 206 116 l 2
  206 86 206 58 211 42 c 0
  214 31 268 26 280 26 c 1
  284 21 285 2 280 -3 c 1xaf80
@@ -37089,7 +37143,6 @@ SplineSet
  423 579 430 523 430 476 c 3
  430 425 399 356 354 331 c 1
 EndSplineSet
-Validated: 33
 EndChar
 
 StartChar: uni2124
@@ -37335,6 +37388,7 @@ LayerCount: 2
 Back
 Fore
 Refer: 1423 -1 N 1 0 0 1 0 0 2
+Colour: ffff00
 EndChar
 EndChars
 EndSplineFont
