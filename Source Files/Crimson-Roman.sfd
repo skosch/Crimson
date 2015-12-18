@@ -20,25 +20,25 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1270926789
-ModificationTime: 1450235986
+ModificationTime: 1450415221
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 0
+LineGap: 256
 VLineGap: 0
 Panose: 2 3 5 3 6 4 6 2 3 4
-OS2TypoAscent: 730
+OS2TypoAscent: 742
 OS2TypoAOffset: 0
-OS2TypoDescent: -270
+OS2TypoDescent: -282
 OS2TypoDOffset: 0
-OS2TypoLinegap: 200
-OS2WinAscent: 830
+OS2TypoLinegap: 256
+OS2WinAscent: 1130
 OS2WinAOffset: 0
-OS2WinDescent: 370
+OS2WinDescent: 427
 OS2WinDOffset: 0
-HheadAscent: 830
+HheadAscent: 1130
 HheadAOffset: 0
-HheadDescent: 370
+HheadDescent: -427
 HheadDOffset: 0
 OS2SubXSize: 665
 OS2SubYSize: 614
@@ -48,12 +48,12 @@ OS2SupXSize: 665
 OS2SupYSize: 614
 OS2SupXOff: 0
 OS2SupYOff: 358
-OS2StrikeYSize: 50
+OS2StrikeYSize: 51
 OS2StrikeYPos: 255
 OS2CapHeight: 658
 OS2XHeight: 429
 OS2FamilyClass: 258
-OS2Vendor: 'SbKo'
+OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' Ligatures standard lookups7" { "'liga' Ligatures standard lookups7-1"  } ['liga' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'ccmp' Turkish i" { "'ccmp' Turkish i-1"  } ['ccmp' ('latn' <'TRK ' > ) ]
 Lookup: 1 0 0 "'c2sc' Capitals to Small Capitals in Latin lookup 0" { "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ("sc") } ['c2sc' ('DFLT' <'dflt' > 'latn' <'TRK ' 'dflt' > ) ]
