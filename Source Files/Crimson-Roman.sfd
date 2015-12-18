@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1270926789
-ModificationTime: 1450415221
+ModificationTime: 1450459390
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -55,6 +55,7 @@ OS2XHeight: 429
 OS2FamilyClass: 258
 OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' Ligatures standard lookups7" { "'liga' Ligatures standard lookups7-1"  } ['liga' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'TRK ' 'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures lookup 8" { "'dlig' Discretionary Ligatures lookup 8-1"  } ['dlig' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'ccmp' Turkish i" { "'ccmp' Turkish i-1"  } ['ccmp' ('latn' <'TRK ' > ) ]
 Lookup: 1 0 0 "'c2sc' Capitals to Small Capitals in Latin lookup 0" { "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" ("sc") } ['c2sc' ('DFLT' <'dflt' > 'latn' <'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'smcp' Lowercase to Small Capitals lookup 2" { "'smcp' Lowercase to Small Capitals lookup 2-1" ("sc") } ['smcp' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'TRK ' 'dflt' > ) ]
@@ -12822,7 +12823,7 @@ SplineSet
  172 432 l 9
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f f
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f f
 LCarets2: 1 265
 EndChar
 
@@ -12882,7 +12883,7 @@ SplineSet
  95 2 69 -1 28 -3 c 1xda
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f i
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f i
 LCarets2: 1 275
 Colour: ff00ff
 EndChar
@@ -12974,7 +12975,7 @@ SplineSet
  175 424 l 2
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f f i
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f f i
 LCarets2: 2 275 550
 Colour: ff00ff
 EndChar
@@ -13036,7 +13037,7 @@ SplineSet
  97 2 70 -1 29 -3 c 1
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f l
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f l
 LCarets2: 1 280
 Colour: ff00ff
 EndChar
@@ -13125,7 +13126,7 @@ SplineSet
  174 424 l 2
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f f l
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f f l
 LCarets2: 2 280 560
 Colour: ff00ff
 EndChar
@@ -13195,7 +13196,7 @@ SplineSet
  466 98 l 2
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f b
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f b
 LCarets2: 1 340
 Colour: ff00ff
 EndChar
@@ -13291,7 +13292,7 @@ SplineSet
  744 98 l 2
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f f b
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f f b
 LCarets2: 2 280 600
 Colour: ff00ff
 EndChar
@@ -13371,7 +13372,7 @@ SplineSet
  29 -1 27 6 27 12 c 0xd6
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f k
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f k
 LCarets2: 1 300
 Colour: ff00ff
 EndChar
@@ -13477,7 +13478,7 @@ SplineSet
  174 424 l 2
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f f k
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f f k
 LCarets2: 2 275 580
 Colour: ff00ff
 EndChar
@@ -13557,7 +13558,7 @@ SplineSet
  30 -1 28 6 28 12 c 0xde
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f h
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f h
 LCarets2: 1 300
 Colour: ff00ff
 EndChar
@@ -13663,7 +13664,7 @@ SplineSet
  174 424 l 2
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f f h
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f f h
 LCarets2: 2 275 590
 Colour: ff00ff
 EndChar
@@ -13724,7 +13725,7 @@ SplineSet
  30 -1 28 6 28 12 c 0xdc
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f j
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f j
 LCarets2: 1 285
 Colour: ff00ff
 EndChar
@@ -13812,7 +13813,7 @@ SplineSet
  174 424 l 2
 EndSplineSet
 Validated: 33
-Ligature2: "'liga' Ligatures standard lookups7-1" f f j
+Ligature2: "'dlig' Discretionary Ligatures lookup 8-1" f f j
 LCarets2: 2 275 565
 Colour: ff00ff
 EndChar
