@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1270926789
-ModificationTime: 1450542305
+ModificationTime: 1450726200
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -7957,19 +7957,23 @@ Width: 564
 VWidth: 1024
 UnlinkRmOvrlpSave: 1
 Flags: HW
-HStem: -3 29<42.4037 113.252> 0 34<212.612 437.392> 633 29<42.4037 113.252 211.748 282.596>
-VStem: 119 87<44.2685 626.257>
+HStem: 210 63<80.002 314.131>
+VStem: 58 261
 LayerCount: 2
 Back
 Fore
 SplineSet
-34 207 m 9x30
- 384 447 l 1
- 389 442 406 419 402 416 c 9
- 51 178 l 1
- 45 184 30 204 34 207 c 9x30
+35 196 m 6
+ 30 192 30 237 35 242 c 2
+ 143 312.925373134 l 1
+ 175 322.940429688 l 1
+ 370 451 l 2
+ 376 455 371 411 366 407 c 6
+ 176 279.223632812 l 5
+ 147 272.178710938 l 5
+ 35 196 l 6
 EndSplineSet
-Refer: 43 76 S 1 0 0 1 0 0 2
+Refer: 43 76 N 1 0 0 1 0 0 2
 Substitution2: "'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" lslash.sc
 EndChar
 

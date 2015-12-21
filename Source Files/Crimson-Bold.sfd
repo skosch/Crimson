@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1273891947
-ModificationTime: 1450235986
+ModificationTime: 1450726200
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -10245,14 +10245,17 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-40 180 m 5x30
- 34 187 16 207 21 212 c 5
- 373 456 l 5
- 379 450 398 429 393 424 c 5
- 40 180 l 5x30
+15 187 m 6
+ 10 183 10 237 15 242 c 2
+ 148 329.544303797 l 1
+ 191 346.84765625 l 1
+ 410 491 l 2
+ 416 495 415 440 410 436 c 6
+ 202 296.088867188 l 5
+ 164 283.076171875 l 5
+ 15 187 l 6
 EndSplineSet
 Refer: 44 76 N 1 0 0 1 5 0 2
-Validated: 37
 EndChar
 
 StartChar: lslash
