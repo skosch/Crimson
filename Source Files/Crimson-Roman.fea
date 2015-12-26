@@ -4,6 +4,422 @@ languagesystem grek dflt;
 languagesystem latn dflt;
 languagesystem latn TRK ;
 
+@smallcaps = [
+	\a.sc \b.sc \c.sc \d.sc \e.sc \f.sc \g.sc \h.sc \i.sc \j.sc \k.sc \l.sc \m.sc
+	\n.sc \o.sc \p.sc \q.sc \r.sc \s.sc \t.sc \u.sc \v.sc \w.sc \x.sc \y.sc \z.sc
+	\agrave.sc
+	\aacute.sc
+	\acircumflex.sc
+	\atilde.sc
+	\adieresis.sc
+	\aring.sc
+	\ae.sc # XXX: placeholder
+	\ccedilla.sc
+	\egrave.sc
+	\eacute.sc
+	\ecircumflex.sc
+	\edieresis.sc
+	\igrave.sc
+	\iacute.sc
+	\icircumflex.sc
+	\idieresis.sc
+	\eth.sc
+	\ntilde.sc
+	\ograve.sc
+	\oacute.sc
+	\ocircumflex.sc
+	\otilde.sc
+	\odieresis.sc
+	\oslash.sc
+	\ugrave.sc
+	\uacute.sc
+	\ucircumflex.sc
+	\udieresis.sc
+	\yacute.sc
+	\thorn.sc
+	\amacron.sc
+	\abreve.sc
+	\aogonek.sc
+	\cacute.sc
+	\ccircumflex.sc
+	\cdotaccent.sc
+	\ccaron.sc
+	\dcaron.sc
+	\dcroat.sc
+	\emacron.sc
+	\ebreve.sc
+	\edotaccent.sc
+	\eogonek.sc
+	\ecaron.sc
+	\gcircumflex.sc
+	\gbreve.sc
+	\gdotaccent.sc
+	\uni0123.sc
+	\hcircumflex.sc
+	\hbar.sc
+	\itilde.sc
+	\imacron.sc
+	\ibreve.sc
+	\iogonek.sc
+	\ij.sc
+	\jcircumflex.sc
+	\uni0137.sc
+	\lacute.sc
+	\uni013C.sc
+	\lcaron.sc
+	\ldot.sc
+	\lslash.sc
+	\nacute.sc
+	\uni0146.sc
+	\ncaron.sc
+	\eng.sc
+	\omacron.sc
+	\obreve.sc
+	\ohungarumlaut.sc
+	\oe.sc # XXX: placeholder
+	\racute.sc
+	\uni0157.sc
+	\rcaron.sc
+	\sacute.sc
+	\scircumflex.sc
+	\scedilla.sc
+	\scaron.sc
+	\uni0163.sc
+	\tcaron.sc
+	\tbar.sc
+	\utilde.sc
+	\umacron.sc
+	\ubreve.sc
+	\uring.sc
+	\uhungarumlaut.sc
+	\uogonek.sc
+	\wcircumflex.sc
+	\ycircumflex.sc
+	\ydieresis.sc
+	\zacute.sc
+	\zdotaccent.sc
+	\uni0219.sc
+	\uni021B.sc
+	\uni01CE.sc
+	\uni01D0.sc
+	\uni01D2.sc
+	\uni01D4.sc
+	\uni01D6.sc
+	\uni01D8.sc
+	\uni01DA.sc
+	\uni01DC.sc
+	\uni01E3.sc # XXX: placeholder
+	\aringacute.sc
+	\aeacute.sc # XXX: placeholder
+	\oslashacute.sc
+	\uni0233.sc
+];
+
+@uppercase = [
+	\A \B \C \D \E \F \G \H \I \J \K \L \M
+	\N \O \P \Q \R \S \T \U \V \W \X \Y \Z
+	\Agrave
+	\Aacute
+	\Acircumflex
+	\Atilde
+	\Adieresis
+	\Aring
+	\AE
+	\Ccedilla
+	\Egrave
+	\Eacute
+	\Ecircumflex
+	\Edieresis
+	\Igrave
+	\Iacute
+	\Icircumflex
+	\Idieresis
+	\Eth
+	\Ntilde
+	\Ograve
+	\Oacute
+	\Ocircumflex
+	\Otilde
+	\Odieresis
+	\Oslash
+	\Ugrave
+	\Uacute
+	\Ucircumflex
+	\Udieresis
+	\Yacute
+	\Thorn
+	\Amacron
+	\Abreve
+	\Aogonek
+	\Cacute
+	\Ccircumflex
+	\Cdotaccent
+	\Ccaron
+	\Dcaron
+	\Dcroat
+	\Emacron
+	\Ebreve
+	\Edotaccent
+	\Eogonek
+	\Ecaron
+	\Gcircumflex
+	\Gbreve
+	\Gdotaccent
+	\uni0122
+	\Hcircumflex
+	\Hbar
+	\Itilde
+	\Imacron
+	\Ibreve
+	\Iogonek
+	\IJ
+	\Jcircumflex
+	\uni0136
+	\Lacute
+	\uni013B
+	\Lcaron
+	\Ldot
+	\Lslash
+	\Nacute
+	\uni0145
+	\Ncaron
+	\Eng
+	\Omacron
+	\Obreve
+	\Ohungarumlaut
+	\OE
+	\Racute
+	\uni0156
+	\Rcaron
+	\Sacute
+	\Scircumflex
+	\Scedilla
+	\Scaron
+	\uni0162
+	\Tcaron
+	\Tbar
+	\Utilde
+	\Umacron
+	\Ubreve
+	\Uring
+	\Uhungarumlaut
+	\Uogonek
+	\Wcircumflex
+	\Ycircumflex
+	\Ydieresis
+	\Zacute
+	\Zdotaccent
+	\uni0218
+	\uni021A
+	\uni01CD
+	\uni01CF
+	\uni01D1
+	\uni01D3
+	\uni01D5
+	\uni01D7
+	\uni01D9
+	\uni01DB
+	\uni01E2
+	\Aringacute
+	\AEacute
+	\Oslashacute
+	\uni0232
+];
+
+@lowercase = [
+	\a \b \c \d \e \f \g \h \i \j \k \l \m
+	\n \o \p \q \r \s \t \u \v \w \x \y \z
+	\agrave
+	\aacute
+	\acircumflex
+	\atilde
+	\adieresis
+	\aring
+	\ae
+	\ccedilla
+	\egrave
+	\eacute
+	\ecircumflex
+	\edieresis
+	\igrave
+	\iacute
+	\icircumflex
+	\idieresis
+	\eth
+	\ntilde
+	\ograve
+	\oacute
+	\ocircumflex
+	\otilde
+	\odieresis
+	\oslash
+	\ugrave
+	\uacute
+	\ucircumflex
+	\udieresis
+	\yacute
+	\thorn
+	\amacron
+	\abreve
+	\aogonek
+	\cacute
+	\ccircumflex
+	\cdotaccent
+	\ccaron
+	\dcaron
+	\dcroat
+	\emacron
+	\ebreve
+	\edotaccent
+	\eogonek
+	\ecaron
+	\gcircumflex
+	\gbreve
+	\gdotaccent
+	\uni0123
+	\hcircumflex
+	\hbar
+	\itilde
+	\imacron
+	\ibreve
+	\iogonek
+	\ij
+	\jcircumflex
+	\uni0137
+	\lacute
+	\uni013C
+	\lcaron
+	\ldot
+	\lslash
+	\nacute
+	\uni0146
+	\ncaron
+	\eng
+	\omacron
+	\obreve
+	\ohungarumlaut
+	\oe
+	\racute
+	\uni0157
+	\rcaron
+	\sacute
+	\scircumflex
+	\scedilla
+	\scaron
+	\uni0163
+	\tcaron
+	\tbar
+	\utilde
+	\umacron
+	\ubreve
+	\uring
+	\uhungarumlaut
+	\uogonek
+	\wcircumflex
+	\ycircumflex
+	\ydieresis
+	\zacute
+	\zdotaccent
+	\uni0219
+	\uni021B
+	\uni01CE
+	\uni01D0
+	\uni01D2
+	\uni01D4
+	\uni01D6
+	\uni01D8
+	\uni01DA
+	\uni01DC
+	\uni01E3
+	\aringacute
+	\aeacute
+	\oslashacute
+	\uni0233
+];
+
+@punct.sc = [
+	\exclam.sc
+	\ampersand.sc
+	\quotesingle.sc
+	\parenleft.sc
+	\parenright.sc
+	\slash.sc
+	\colon.sc
+	\semicolon.sc
+	\less.sc
+	\equal.sc
+	\greater.sc
+	\question.sc
+	\at.sc
+
+	\bracketleft.sc
+	\backslash.sc
+	\bracketright.sc
+	\asciicircum.sc
+	\braceleft.sc
+	\bar.sc
+	\braceright.sc
+	\asciitilde.sc
+	\exclamdown.sc
+	\questiondown.sc
+
+	\multiply.sc # XXX: unused
+	\divide.sc   # XXX: unused
+	\comma.sc    # XXX: unused
+	\period.sc   # XXX: unused
+];
+
+@punct = [
+	\exclam
+	\ampersand
+	\quotesingle
+	\parenleft
+	\parenright
+	\slash
+	\colon
+	\semicolon
+	\less
+	\equal
+	\greater
+	\question
+	\at
+
+	\bracketleft
+	\backslash
+	\bracketright
+	\asciicircum
+	\braceleft
+	\bar
+	\braceright
+	\asciitilde
+	\exclamdown
+	\questiondown
+
+	\multiply
+	\divide
+	\comma
+	\period
+];
+
+@digits = [
+	\zero \one \two \three \four \five \six \seven \eight \nine
+];
+
+@digits.prop = [
+	\zero.prop \one.prop \two.prop \three.prop \four.prop
+	\five.prop \six.prop \seven.prop \eight.prop \nine.prop
+];
+
+@digits.onum = [
+	\zero.onum \one.onum \two.onum \three.onum \four.onum
+	\five.onum \six.onum \seven.onum \eight.onum \nine.onum
+];
+
+@digits.ordn = [
+	\zero.ordn \one.ordn \two.ordn \three.ordn \four.ordn
+	\five.ordn \six.ordn \seven.ordn \eight.ordn \nine.ordn
+];
+
 lookup ligaLigaturesstandardlookups7 {
   lookupflag 0;
     sub \T \h  by \T_h;
@@ -28,334 +444,24 @@ lookup dligDiscretionaryLigatureslooku {
 
 lookup c2scCapitalstoSmallCapitalsinLa {
   lookupflag 0;
-    sub \exclam by \exclam.sc ;
-    sub \ampersand by \ampersand.sc ;
-    sub \quotesingle by \quotesingle.sc ;
-    sub \parenleft by \parenleft.sc ;
-    sub \parenright by \parenright.sc ;
-    sub \comma by \comma.sc ;
-    sub \slash by \slash.sc ;
-    sub \colon by \colon.sc ;
-    sub \semicolon by \semicolon.sc ;
-    sub \less by \less.sc ;
-    sub \equal by \equal.sc ;
-    sub \greater by \greater.sc ;
-    sub \question by \question.sc ;
-    sub \at by \at.sc ;
-    sub \A by \a.sc ;
-    sub \B by \b.sc ;
-    sub \C by \c.sc ;
-    sub \D by \d.sc ;
-    sub \E by \e.sc ;
-    sub \F by \f.sc ;
-    sub \G by \g.sc ;
-    sub \H by \h.sc ;
-    sub \I by \i.sc ;
-    sub \J by \j.sc ;
-    sub \K by \k.sc ;
-    sub \L by \l.sc ;
-    sub \M by \m.sc ;
-    sub \N by \n.sc ;
-    sub \O by \o.sc ;
-    sub \P by \p.sc ;
-    sub \Q by \q.sc ;
-    sub \R by \r.sc ;
-    sub \S by \s.sc ;
-    sub \T by \t.sc ;
-    sub \U by \u.sc ;
-    sub \V by \v.sc ;
-    sub \W by \w.sc ;
-    sub \X by \x.sc ;
-    sub \Y by \y.sc ;
-    sub \Z by \z.sc ;
-    sub \bracketleft by \bracketleft.sc ;
-    sub \backslash by \backslash.sc ;
-    sub \bracketright by \bracketright.sc ;
-    sub \asciicircum by \asciicircum.sc ;
-    sub \braceleft by \braceleft.sc ;
-    sub \bar by \bar.sc ;
-    sub \braceright by \braceright.sc ;
-    sub \asciitilde by \asciitilde.sc ;
-    sub \exclamdown by \exclamdown.sc ;
-    sub \questiondown by \questiondown.sc ;
-    sub \Agrave by \agrave.sc ;
-    sub \Aacute by \aacute.sc ;
-    sub \Acircumflex by \acircumflex.sc ;
-    sub \Atilde by \atilde.sc ;
-    sub \Adieresis by \adieresis.sc ;
-    sub \Aring by \aring.sc ;
-    sub \Ccedilla by \ccedilla.sc ;
-    sub \Egrave by \egrave.sc ;
-    sub \Eacute by \eacute.sc ;
-    sub \Ecircumflex by \ecircumflex.sc ;
-    sub \Edieresis by \edieresis.sc ;
-    sub \Igrave by \igrave.sc ;
-    sub \Iacute by \iacute.sc ;
-    sub \Icircumflex by \icircumflex.sc ;
-    sub \Idieresis by \idieresis.sc ;
-    sub \Eth by \eth.sc ;
-    sub \Ntilde by \ntilde.sc ;
-    sub \Ograve by \ograve.sc ;
-    sub \Oacute by \oacute.sc ;
-    sub \Ocircumflex by \ocircumflex.sc ;
-    sub \Otilde by \otilde.sc ;
-    sub \Odieresis by \odieresis.sc ;
-    sub \Oslash by \oslash.sc ;
-    sub \Ugrave by \ugrave.sc ;
-    sub \Uacute by \uacute.sc ;
-    sub \Ucircumflex by \ucircumflex.sc ;
-    sub \Udieresis by \udieresis.sc ;
-    sub \Yacute by \yacute.sc ;
-    sub \Thorn by \thorn.sc ;
-    sub \Amacron by \amacron.sc ;
-    sub \Abreve by \abreve.sc ;
-    sub \Aogonek by \aogonek.sc ;
-    sub \Cacute by \cacute.sc ;
-    sub \Ccircumflex by \ccircumflex.sc ;
-    sub \Cdotaccent by \cdotaccent.sc ;
-    sub \Ccaron by \ccaron.sc ;
-    sub \Dcaron by \dcaron.sc ;
-    sub \Emacron by \emacron.sc ;
-    sub \Ebreve by \ebreve.sc ;
-    sub \Edotaccent by \edotaccent.sc ;
-    sub \Eogonek by \eogonek.sc ;
-    sub \Ecaron by \ecaron.sc ;
-    sub \Gcircumflex by \gcircumflex.sc ;
-    sub \Gbreve by \gbreve.sc ;
-    sub \Gdotaccent by \gdotaccent.sc ;
-    sub \uni0122 by \uni0123.sc ;
-    sub \Hcircumflex by \hcircumflex.sc ;
-    sub \Itilde by \itilde.sc ;
-    sub \Imacron by \imacron.sc ;
-    sub \Ibreve by \ibreve.sc ;
-    sub \Iogonek by \iogonek.sc ;
-    sub \Idotaccent by \Idotaccent.sc ;
-    sub \Jcircumflex by \jcircumflex.sc ;
-    sub \uni0136 by \uni0137.sc ;
-    sub \Lacute by \lacute.sc ;
-    sub \uni013B by \uni013C.sc ;
-    sub \Lcaron by \lcaron.sc ;
-    sub \Ldot by \ldot.sc ;
-    sub \Lslash by \lslash.sc ;
-    sub \Nacute by \nacute.sc ;
-    sub \uni0145 by \uni0146.sc ;
-    sub \Ncaron by \ncaron.sc ;
-    sub \Eng by \eng.sc ;
-    sub \Omacron by \omacron.sc ;
-    sub \Obreve by \obreve.sc ;
-    sub \Ohungarumlaut by \ohungarumlaut.sc ;
-    sub \Racute by \racute.sc ;
-    sub \uni0156 by \uni0157.sc ;
-    sub \Rcaron by \rcaron.sc ;
-    sub \Sacute by \sacute.sc ;
-    sub \Scircumflex by \scircumflex.sc ;
-    sub \Scedilla by \scedilla.sc ;
-    sub \Scaron by \scaron.sc ;
-    sub \uni0162 by \uni0163.sc ;
-    sub \Tcaron by \tcaron.sc ;
-    sub \Tbar by \tbar.sc ;
-    sub \Utilde by \utilde.sc ;
-    sub \Umacron by \umacron.sc ;
-    sub \Ubreve by \ubreve.sc ;
-    sub \Uring by \uring.sc ;
-    sub \Uhungarumlaut by \uhungarumlaut.sc ;
-    sub \Uogonek by \uogonek.sc ;
-    sub \Wcircumflex by \wcircumflex.sc ;
-    sub \Ycircumflex by \ycircumflex.sc ;
-    sub \Ydieresis by \ydieresis.sc ;
-    sub \Zacute by \zacute.sc ;
-    sub \Zdotaccent by \zdotaccent.sc ;
-    sub \uni0218 by \uni0219.sc ;
-    sub \uni021A by \uni021B.sc ;
-    sub \uni01CD by \uni01CE.sc ;
-    sub \uni01CF by \uni01D0.sc ;
-    sub \uni01D1 by \uni01D2.sc ;
-    sub \uni01D3 by \uni01D4.sc ;
-    sub \Aringacute by \aringacute.sc ;
-    sub \Oslashacute by \oslashacute.sc ;
-    sub \uni0232 by \uni0233.sc ;
-    sub \period by \period.sc ;
+	sub @uppercase  by @smallcaps;
+	sub @punct      by @punct.sc;
+	sub \Idotaccent by \Idotaccent.sc;
 } c2scCapitalstoSmallCapitalsinLa;
 
 lookup smcpLowercasetoSmallCapitalsloo {
   lookupflag 0;
-    sub \exclam by \exclam.sc ;
-    sub \ampersand by \ampersand.sc ;
-    sub \quotesingle by \quotesingle.sc ;
-    sub \parenleft by \parenleft.sc ;
-    sub \parenright by \parenright.sc ;
-    sub \comma by \comma.sc ;
-    sub \slash by \slash.sc ;
-    sub \colon by \colon.sc ;
-    sub \semicolon by \semicolon.sc ;
-    sub \less by \less.sc ;
-    sub \equal by \equal.sc ;
-    sub \greater by \greater.sc ;
-    sub \question by \question.sc ;
-    sub \at by \at.sc ;
-    sub \bracketleft by \bracketleft.sc ;
-    sub \backslash by \backslash.sc ;
-    sub \bracketright by \bracketright.sc ;
-    sub \asciicircum by \asciicircum.sc ;
-    sub \a by \a.sc ;
-    sub \b by \b.sc ;
-    sub \c by \c.sc ;
-    sub \d by \d.sc ;
-    sub \e by \e.sc ;
-    sub \f by \f.sc ;
-    sub \g by \g.sc ;
-    sub \h by \h.sc ;
-    sub \i by \i.sc ;
-    sub \j by \j.sc ;
-    sub \k by \k.sc ;
-    sub \l by \l.sc ;
-    sub \m by \m.sc ;
-    sub \n by \n.sc ;
-    sub \o by \o.sc ;
-    sub \p by \p.sc ;
-    sub \q by \q.sc ;
-    sub \r by \r.sc ;
-    sub \s by \s.sc ;
-    sub \t by \t.sc ;
-    sub \u by \u.sc ;
-    sub \v by \v.sc ;
-    sub \w by \w.sc ;
-    sub \x by \x.sc ;
-    sub \y by \y.sc ;
-    sub \z by \z.sc ;
-    sub \braceleft by \braceleft.sc ;
-    sub \bar by \bar.sc ;
-    sub \braceright by \braceright.sc ;
-    sub \asciitilde by \asciitilde.sc ;
-    sub \exclamdown by \exclamdown.sc ;
-    sub \questiondown by \questiondown.sc ;
-    sub \multiply by \multiply.sc ;
-    sub \germandbls by \germandbls.sc ;
-    sub \agrave by \agrave.sc ;
-    sub \aacute by \aacute.sc ;
-    sub \acircumflex by \acircumflex.sc ;
-    sub \atilde by \atilde.sc ;
-    sub \adieresis by \adieresis.sc ;
-    sub \aring by \aring.sc ;
-    sub \ae by \ae.sc ;
-    sub \ccedilla by \ccedilla.sc ;
-    sub \egrave by \egrave.sc ;
-    sub \eacute by \eacute.sc ;
-    sub \ecircumflex by \ecircumflex.sc ;
-    sub \edieresis by \edieresis.sc ;
-    sub \igrave by \igrave.sc ;
-    sub \iacute by \iacute.sc ;
-    sub \icircumflex by \icircumflex.sc ;
-    sub \idieresis by \idieresis.sc ;
-    sub \eth by \eth.sc ;
-    sub \ntilde by \ntilde.sc ;
-    sub \ograve by \ograve.sc ;
-    sub \oacute by \oacute.sc ;
-    sub \ocircumflex by \ocircumflex.sc ;
-    sub \otilde by \otilde.sc ;
-    sub \odieresis by \odieresis.sc ;
-    sub \divide by \divide.sc ;
-    sub \oslash by \oslash.sc ;
-    sub \ugrave by \ugrave.sc ;
-    sub \uacute by \uacute.sc ;
-    sub \ucircumflex by \ucircumflex.sc ;
-    sub \udieresis by \udieresis.sc ;
-    sub \yacute by \yacute.sc ;
-    sub \thorn by \thorn.sc ;
-    sub \ydieresis by \ydieresis.sc ;
-    sub \amacron by \amacron.sc ;
-    sub \abreve by \abreve.sc ;
-    sub \aogonek by \aogonek.sc ;
-    sub \cacute by \cacute.sc ;
-    sub \ccircumflex by \ccircumflex.sc ;
-    sub \cdotaccent by \cdotaccent.sc ;
-    sub \ccaron by \ccaron.sc ;
-    sub \dcaron by \dcaron.sc ;
-    sub \dcroat by \dcroat.sc ;
-    sub \emacron by \emacron.sc ;
-    sub \ebreve by \ebreve.sc ;
-    sub \edotaccent by \edotaccent.sc ;
-    sub \eogonek by \eogonek.sc ;
-    sub \ecaron by \ecaron.sc ;
-    sub \gcircumflex by \gcircumflex.sc ;
-    sub \gbreve by \gbreve.sc ;
-    sub \gdotaccent by \gdotaccent.sc ;
-    sub \uni0123 by \uni0123.sc ;
-    sub \hcircumflex by \hcircumflex.sc ;
-    sub \hbar by \hbar.sc ;
-    sub \itilde by \itilde.sc ;
-    sub \imacron by \imacron.sc ;
-    sub \ibreve by \ibreve.sc ;
-    sub \iogonek by \iogonek.sc ;
-    sub \Idotaccent by \Idotaccent.sc ;
-    sub \dotlessi by \dotlessi.sc ;
-    sub \ij by \ij.sc ;
-    sub \jcircumflex by \jcircumflex.sc ;
-    sub \uni0137 by \uni0137.sc ;
-    sub \kgreenlandic by \kgreenlandic.sc ;
-    sub \lacute by \lacute.sc ;
-    sub \uni013C by \uni013C.sc ;
-    sub \lcaron by \lcaron.sc ;
-    sub \ldot by \ldot.sc ;
-    sub \lslash by \lslash.sc ;
-    sub \nacute by \nacute.sc ;
-    sub \uni0146 by \uni0146.sc ;
-    sub \ncaron by \ncaron.sc ;
-    sub \eng by \eng.sc ;
-    sub \omacron by \omacron.sc ;
-    sub \obreve by \obreve.sc ;
-    sub \ohungarumlaut by \ohungarumlaut.sc ;
-    sub \oe by \oe.sc ;
-    sub \racute by \racute.sc ;
-    sub \uni0157 by \uni0157.sc ;
-    sub \rcaron by \rcaron.sc ;
-    sub \sacute by \sacute.sc ;
-    sub \scircumflex by \scircumflex.sc ;
-    sub \scedilla by \scedilla.sc ;
-    sub \scaron by \scaron.sc ;
-    sub \uni0163 by \uni0163.sc ;
-    sub \tcaron by \tcaron.sc ;
-    sub \tbar by \tbar.sc ;
-    sub \utilde by \utilde.sc ;
-    sub \umacron by \umacron.sc ;
-    sub \ubreve by \ubreve.sc ;
-    sub \uring by \uring.sc ;
-    sub \uhungarumlaut by \uhungarumlaut.sc ;
-    sub \uogonek by \uogonek.sc ;
-    sub \wcircumflex by \wcircumflex.sc ;
-    sub \ycircumflex by \ycircumflex.sc ;
-    sub \zacute by \zacute.sc ;
-    sub \zdotaccent by \zdotaccent.sc ;
-    sub \uni0219 by \uni0219.sc ;
-    sub \uni021B by \uni021B.sc ;
-    sub \uni01CE by \uni01CE.sc ;
-    sub \uni01D0 by \uni01D0.sc ;
-    sub \uni01D2 by \uni01D2.sc ;
-    sub \uni01D4 by \uni01D4.sc ;
-    sub \uni01D6 by \uni01D6.sc ;
-    sub \uni01D8 by \uni01D8.sc ;
-    sub \uni01DA by \uni01DA.sc ;
-    sub \uni01DC by \uni01DC.sc ;
-    sub \uni01E3 by \uni01E3.sc ;
-    sub \aringacute by \aringacute.sc ;
-    sub \aeacute by \aeacute.sc ;
-    sub \oslashacute by \oslashacute.sc ;
-    sub \uni0233 by \uni0233.sc ;
-    sub \period by \period.sc ;
+	sub @lowercase    by @smallcaps;
+	sub @punct        by @punct.sc;
+	sub \dotlessi     by \dotlessi.sc;
+	sub \uni0237      by \j.sc; # TODO: \dotlessj.sc
+	sub \kgreenlandic by \kgreenlandic.sc;
+	sub \germandbls   by \germandbls.sc;
 } smcpLowercasetoSmallCapitalsloo;
 
 lookup pnumProportionalNumberslookup12 {
   lookupflag 0;
-    sub \zero by \zero.prop ;
-    sub \one by \one.prop ;
-    sub \two by \two.prop ;
-    sub \three by \three.prop ;
-    sub \four by \four.prop ;
-    sub \five by \five.prop ;
-    sub \six by \six.prop ;
-    sub \seven by \seven.prop ;
-    sub \eight by \eight.prop ;
-    sub \nine by \nine.prop ;
+    sub @digits by @digits.prop;
 } pnumProportionalNumberslookup12;
 
 lookup zeroSlashedZerolookup11 {
@@ -365,29 +471,12 @@ lookup zeroSlashedZerolookup11 {
 
 lookup onumOldstyleFigureslookup3 {
   lookupflag 0;
-    sub \zero by \zero.onum ;
-    sub \one by \one.onum ;
-    sub \two by \two.onum ;
-    sub \three by \three.onum ;
-    sub \four by \four.onum ;
-    sub \five by \five.onum ;
-    sub \six by \six.onum ;
-    sub \seven by \seven.onum ;
-    sub \eight by \eight.onum ;
-    sub \nine by \nine.onum ;
+    sub @digits by @digits.onum;
 } onumOldstyleFigureslookup3;
 
 lookup ordnOrdinalslookup0 {
   lookupflag 0;
-    sub \zero by \zero.ordn ;
-    sub \one by \one.ordn ;
-    sub \two by \two.ordn ;
-    sub \three by \three.ordn ;
-    sub \four by \four.ordn ;
-    sub \five by \five.ordn ;
-    sub \six by \six.ordn ;
-    sub \seven by \seven.ordn ;
-    sub \eight by \eight.ordn ;
+    sub @digits by @digits.ordn;
 } ordnOrdinalslookup0;
 
 feature liga {

@@ -3,18 +3,18 @@ languagesystem grek dflt;
 languagesystem latn dflt;
 languagesystem latn TRK ;
 
+@digits = [
+	\zero \one \two \three \four \five \six \seven \eight \nine
+];
+
+@digits.prop = [
+	\zero.prop \one.prop \two.prop \three.prop \four.prop
+	\five.prop \six.prop \seven.prop \eight.prop \nine.prop
+];
+
 lookup pnumProportionalNumberslookup12 {
   lookupflag 0;
-    sub \zero by \zero.prop ;
-    sub \one by \one.prop ;
-    sub \two by \two.prop ;
-    sub \three by \three.prop ;
-    sub \four by \four.prop ;
-    sub \five by \five.prop ;
-    sub \six by \six.prop ;
-    sub \seven by \seven.prop ;
-    sub \eight by \eight.prop ;
-    sub \nine by \nine.prop ;
+	sub @digits by @digits.prop;
 } pnumProportionalNumberslookup12;
 
 feature pnum {
