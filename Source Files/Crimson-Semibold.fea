@@ -18,19 +18,9 @@ lookup pnumProportionalNumberslookup12 {
 } pnumProportionalNumberslookup12;
 
 feature pnum {
+	language dflt;
+	lookup pnumProportionalNumberslookup12;
 
- script DFLT;
-     language dflt ;
-      lookup pnumProportionalNumberslookup12;
-
- script grek;
-     language dflt ;
-      lookup pnumProportionalNumberslookup12;
-
- script latn;
-     language dflt ;
-      lookup pnumProportionalNumberslookup12;
-     language TRK  exclude_dflt;
-      lookup pnumProportionalNumberslookup12;
+	language TRK exclude_dflt;
 } pnum;
 

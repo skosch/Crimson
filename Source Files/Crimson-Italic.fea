@@ -437,94 +437,41 @@ lookup c2scCapitalstoSmallCapitalslook {
 } c2scCapitalstoSmallCapitalslook;
 
 feature liga {
+	language dflt;
+	lookup ligaLigaturesstandardlookups5;
 
- script DFLT;
-     language dflt ;
-      lookup ligaLigaturesstandardlookups5;
-
- script cyrl;
-     language dflt ;
-      lookup ligaLigaturesstandardlookups5;
-
- script grek;
-     language dflt ;
-      lookup ligaLigaturesstandardlookups5;
-
- script latn;
-     language dflt ;
-      lookup ligaLigaturesstandardlookups5;
-     language TRK  exclude_dflt;
-      lookup ligaLigaturesstandardlookups5;
+	language TRK exclude_dflt;
 } liga;
 
 feature ccmp {
-
- script latn;
-     language TRK  exclude_dflt;
-      lookup ccmpTurkishi;
+	language TRK exclude_dflt;
 } ccmp;
 
 feature onum {
+	language dflt;
+	lookup onumOldstyleFiguresinLatinlooku;
 
- script DFLT;
-     language dflt ;
-      lookup onumOldstyleFiguresinLatinlooku;
-
- script latn;
-     language dflt ;
-      lookup onumOldstyleFiguresinLatinlooku;
-     language TRK  exclude_dflt;
-      lookup onumOldstyleFiguresinLatinlooku;
+	language TRK exclude_dflt;
 } onum;
 
 feature pnum {
+	language dflt;
+	lookup pnumProportionalNumberslookup12;
 
- script DFLT;
-     language dflt ;
-      lookup pnumProportionalNumberslookup12;
-
- script grek;
-     language dflt ;
-      lookup pnumProportionalNumberslookup12;
-
- script latn;
-     language dflt ;
-      lookup pnumProportionalNumberslookup12;
-     language TRK  exclude_dflt;
-      lookup pnumProportionalNumberslookup12;
+	language TRK exclude_dflt;
 } pnum;
 
 feature smcp {
+	language dflt;
+	lookup smcpLowercasetoSmallCapitalsinL;
 
- script DFLT;
-     language dflt ;
-      lookup smcpLowercasetoSmallCapitalsinL;
-
- script latn;
-     language dflt ;
-      lookup smcpLowercasetoSmallCapitalsinL;
-     language TRK  exclude_dflt;
-      lookup smcpLowercasetoSmallCapitalsinL;
+	language TRK exclude_dflt;
 } smcp;
 
 feature c2sc {
+	language dflt;
+	lookup c2scCapitalstoSmallCapitalslook;
 
- script DFLT;
-     language dflt ;
-      lookup c2scCapitalstoSmallCapitalslook;
-
- script cyrl;
-     language dflt ;
-      lookup c2scCapitalstoSmallCapitalslook;
-
- script grek;
-     language dflt ;
-      lookup c2scCapitalstoSmallCapitalslook;
-
- script latn;
-     language dflt ;
-      lookup c2scCapitalstoSmallCapitalslook;
-     language TRK  exclude_dflt;
-      lookup c2scCapitalstoSmallCapitalslook;
+	language TRK exclude_dflt;
 } c2sc;
 

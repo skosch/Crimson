@@ -480,142 +480,58 @@ lookup ordnOrdinalslookup0 {
 } ordnOrdinalslookup0;
 
 feature liga {
+	language dflt ;
+	lookup ligaLigaturesstandardlookups7;
 
- script DFLT;
-     language dflt ;
-      lookup ligaLigaturesstandardlookups7;
-
- script cyrl;
-     language dflt ;
-      lookup ligaLigaturesstandardlookups7;
-
- script grek;
-     language dflt ;
-      lookup ligaLigaturesstandardlookups7;
-
- script latn;
-     language dflt ;
-      lookup ligaLigaturesstandardlookups7;
-     language TRK  exclude_dflt;
-      lookup ligaLigaturesstandardlookups7;
+	language TRK exclude_dflt;
 } liga;
 
 feature dlig {
+	language dflt;
+	lookup dligDiscretionaryLigatureslooku;
 
- script DFLT;
-     language dflt ;
-      lookup dligDiscretionaryLigatureslooku;
-
- script cyrl;
-     language dflt ;
-      lookup dligDiscretionaryLigatureslooku;
-
- script grek;
-     language dflt ;
-      lookup dligDiscretionaryLigatureslooku;
-
- script latn;
-     language dflt ;
-      lookup dligDiscretionaryLigatureslooku;
-     language TRK  exclude_dflt;
-      lookup dligDiscretionaryLigatureslooku;
+	language TRK exclude_dflt;
 } dlig;
 
 feature c2sc {
+	language dflt;
+	lookup c2scCapitalstoSmallCapitalsinLa;
 
- script DFLT;
-     language dflt ;
-      lookup c2scCapitalstoSmallCapitalsinLa;
-
- script latn;
-     language dflt ;
-      lookup c2scCapitalstoSmallCapitalsinLa;
-     language TRK  exclude_dflt;
-      lookup c2scCapitalstoSmallCapitalsinLa;
+	language TRK exclude_dflt;
 } c2sc;
 
 feature smcp {
+	language dflt;
+	lookup smcpLowercasetoSmallCapitalsloo;
 
- script DFLT;
-     language dflt ;
-      lookup smcpLowercasetoSmallCapitalsloo;
-
- script grek;
-     language dflt ;
-      lookup smcpLowercasetoSmallCapitalsloo;
-
- script latn;
-     language dflt ;
-      lookup smcpLowercasetoSmallCapitalsloo;
-     language TRK  exclude_dflt;
-      lookup smcpLowercasetoSmallCapitalsloo;
+	language TRK exclude_dflt;
 } smcp;
 
 feature pnum {
+	language dflt;
+	lookup pnumProportionalNumberslookup12;
 
- script DFLT;
-     language dflt ;
-      lookup pnumProportionalNumberslookup12;
-
- script grek;
-     language dflt ;
-      lookup pnumProportionalNumberslookup12;
-
- script latn;
-     language dflt ;
-      lookup pnumProportionalNumberslookup12;
-     language TRK  exclude_dflt;
-      lookup pnumProportionalNumberslookup12;
+	language TRK exclude_dflt;
 } pnum;
 
 feature zero {
+	language dflt;
+	lookup zeroSlashedZerolookup11;
 
- script DFLT;
-     language dflt ;
-      lookup zeroSlashedZerolookup11;
-
- script grek;
-     language dflt ;
-      lookup zeroSlashedZerolookup11;
-
- script latn;
-     language dflt ;
-      lookup zeroSlashedZerolookup11;
-     language TRK  exclude_dflt;
-      lookup zeroSlashedZerolookup11;
+	language TRK exclude_dflt;
 } zero;
 
 feature onum {
+	language dflt;
+	lookup onumOldstyleFigureslookup3;
 
- script DFLT;
-     language dflt ;
-      lookup onumOldstyleFigureslookup3;
-
- script grek;
-     language dflt ;
-      lookup onumOldstyleFigureslookup3;
-
- script latn;
-     language dflt ;
-      lookup onumOldstyleFigureslookup3;
-     language TRK  exclude_dflt;
-      lookup onumOldstyleFigureslookup3;
+	language TRK exclude_dflt;
 } onum;
 
 feature ordn {
+	language dflt;
+	lookup ordnOrdinalslookup0;
 
- script DFLT;
-     language dflt ;
-      lookup ordnOrdinalslookup0;
-
- script grek;
-     language dflt ;
-      lookup ordnOrdinalslookup0;
-
- script latn;
-     language dflt ;
-      lookup ordnOrdinalslookup0;
-     language TRK  exclude_dflt;
-      lookup ordnOrdinalslookup0;
+	language TRK exclude_dflt;
 } ordn;
 

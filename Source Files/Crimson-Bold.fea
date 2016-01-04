@@ -371,24 +371,12 @@ lookup c2scCapitalstoSmallCapitalsinLa {
 } c2scCapitalstoSmallCapitalsinLa;
 
 feature smcp {
-
- script DFLT;
-     language dflt ;
-      lookup smcpLowercasetoSmallCapitalsinL;
-
- script latn;
-     language dflt ;
-      lookup smcpLowercasetoSmallCapitalsinL;
+	language dflt;
+	lookup smcpLowercasetoSmallCapitalsinL;
 } smcp;
 
 feature c2sc {
-
- script DFLT;
-     language dflt ;
-      lookup c2scCapitalstoSmallCapitalsinLa;
-
- script latn;
-     language dflt ;
-      lookup c2scCapitalstoSmallCapitalsinLa;
+	language dflt;
+	lookup c2scCapitalstoSmallCapitalsinLa;
 } c2sc;
 
