@@ -388,72 +388,60 @@ languagesystem latn TRK;
 
 feature liga {
 	language dflt;
-	lookup ligaLigaturesstandardlookups5 {
-		sub \f \f  by \f_f;
-		sub \f \i  by \f_i;
-		sub \f \f \i  by \f_f_i;
-		sub \f \l  by \f_l;
-		sub \f \f \l  by \f_f_l;
-		sub \f \b  by \f_b;
-		sub \f \f \b  by \f_f_b;
-		sub \f \k  by \f_k;
-		sub \f \f \k  by \f_f_k;
-		sub \f \h  by \f_h;
-		sub \f \f \h  by \f_f_h;
-		sub \f \j  by \f_j;
-		sub \f \f \j  by \f_f_j;
-		sub \T \h  by \T_h;
-	} ligaLigaturesstandardlookups5;
+	sub \f \f  by \f_f;
+	sub \f \i  by \f_i;
+	sub \f \f \i  by \f_f_i;
+	sub \f \l  by \f_l;
+	sub \f \f \l  by \f_f_l;
+	sub \f \b  by \f_b;
+	sub \f \f \b  by \f_f_b;
+	sub \f \k  by \f_k;
+	sub \f \f \k  by \f_f_k;
+	sub \f \h  by \f_h;
+	sub \f \f \h  by \f_f_h;
+	sub \f \j  by \f_j;
+	sub \f \f \j  by \f_f_j;
+	sub \T \h  by \T_h;
 
 	language TRK exclude_dflt;
 } liga;
 
 feature ccmp {
 	language TRK exclude_dflt;
-	lookup ccmpTurkishi {
-		sub \i by \i.TRK;
-	} ccmpTurkishi;
+	sub \i by \i.TRK;
 } ccmp;
 
 feature onum {
 	language dflt;
-	lookup onumOldstyleFiguresinLatinlooku {
-		sub @digits by @digits.onum;
-	} onumOldstyleFiguresinLatinlooku;
+	sub @digits by @digits.onum;
 
 	language TRK exclude_dflt;
 } onum;
 
 feature pnum {
 	language dflt;
-	lookup pnumProportionalNumberslookup12 {
-		sub @digits by @digits.prop;
-	} pnumProportionalNumberslookup12;
+	sub @digits by @digits.prop;
 
 	language TRK exclude_dflt;
 } pnum;
 
 feature smcp {
 	language dflt;
-	lookup smcpLowercasetoSmallCapitalsinL {
-		sub @lowercase    by @smallcaps;
-		sub @punct        by @punct.sc;
-		sub \dotlessi     by \dotlessi.sc;
-		sub \uni0237      by \j.sc; # TODO: \dotlessj.sc
-		sub \kgreenlandic by \kgreenlandic.sc;
-		sub \germandbls   by \germandbls.sc;
-	} smcpLowercasetoSmallCapitalsinL;
+	sub @lowercase    by @smallcaps;
+	sub @punct        by @punct.sc;
+	sub \dotlessi     by \dotlessi.sc;
+	sub \uni0237      by \j.sc; # TODO: \dotlessj.sc
+	sub \kgreenlandic by \kgreenlandic.sc;
+	sub \germandbls   by \germandbls.sc;
 
 	language TRK exclude_dflt;
 } smcp;
 
 feature c2sc {
 	language dflt;
-	lookup c2scCapitalstoSmallCapitalslook {
-		sub @uppercase  by @smallcaps;
-		sub @punct      by @punct.sc;
-		sub \Idotaccent by \Idotaccent.sc;
-	} c2scCapitalstoSmallCapitalslook;
+	sub @uppercase  by @smallcaps;
+	sub @punct      by @punct.sc;
+	sub \Idotaccent by \Idotaccent.sc;
 
 	language TRK exclude_dflt;
 } c2sc;

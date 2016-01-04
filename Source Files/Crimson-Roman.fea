@@ -422,91 +422,75 @@ languagesystem latn TRK;
 
 feature liga {
 	language dflt;
-	lookup ligaLigaturesstandardlookups7 {
-		sub \T \h  by \T_h;
-	} ligaLigaturesstandardlookups7;
+	sub \T \h  by \T_h;
 
 	language TRK exclude_dflt;
 } liga;
 
 feature dlig {
 	language dflt;
-	lookup dligDiscretionaryLigatureslooku {
-		sub \f \f  by \f_f;
-		sub \f \i  by \f_i;
-		sub \f \f \i  by \f_f_i;
-		sub \f \l  by \f_l;
-		sub \f \f \l  by \f_f_l;
-		sub \f \b  by \f_b;
-		sub \f \f \b  by \f_f_b;
-		sub \f \k  by \f_k;
-		sub \f \f \k  by \f_f_k;
-		sub \f \h  by \f_h;
-		sub \f \f \h  by \f_f_h;
-		sub \f \j  by \f_j;
-		sub \f \f \j  by \f_f_j;
-	} dligDiscretionaryLigatureslooku;
+	sub \f \f  by \f_f;
+	sub \f \i  by \f_i;
+	sub \f \f \i  by \f_f_i;
+	sub \f \l  by \f_l;
+	sub \f \f \l  by \f_f_l;
+	sub \f \b  by \f_b;
+	sub \f \f \b  by \f_f_b;
+	sub \f \k  by \f_k;
+	sub \f \f \k  by \f_f_k;
+	sub \f \h  by \f_h;
+	sub \f \f \h  by \f_f_h;
+	sub \f \j  by \f_j;
+	sub \f \f \j  by \f_f_j;
 
 	language TRK exclude_dflt;
 } dlig;
 
 feature c2sc {
 	language dflt;
-	lookup c2scCapitalstoSmallCapitalsinLa {
-		sub @uppercase  by @smallcaps;
-		sub @punct      by @punct.sc;
-		sub \Idotaccent by \Idotaccent.sc;
-	} c2scCapitalstoSmallCapitalsinLa;
+	sub @uppercase  by @smallcaps;
+	sub @punct      by @punct.sc;
+	sub \Idotaccent by \Idotaccent.sc;
 
 	language TRK exclude_dflt;
 } c2sc;
 
 feature smcp {
 	language dflt;
-	lookup smcpLowercasetoSmallCapitalsloo {
-		sub @lowercase    by @smallcaps;
-		sub @punct        by @punct.sc;
-		sub \dotlessi     by \dotlessi.sc;
-		sub \uni0237      by \j.sc; # TODO: \dotlessj.sc
-		sub \kgreenlandic by \kgreenlandic.sc;
-		sub \germandbls   by \germandbls.sc;
-	} smcpLowercasetoSmallCapitalsloo;
+	sub @lowercase    by @smallcaps;
+	sub @punct        by @punct.sc;
+	sub \dotlessi     by \dotlessi.sc;
+	sub \uni0237      by \j.sc; # TODO: \dotlessj.sc
+	sub \kgreenlandic by \kgreenlandic.sc;
+	sub \germandbls   by \germandbls.sc;
 
 	language TRK exclude_dflt;
 } smcp;
 
 feature pnum {
 	language dflt;
-	lookup pnumProportionalNumberslookup12 {
-		sub @digits by @digits.prop;
-	} pnumProportionalNumberslookup12;
+	sub @digits by @digits.prop;
 
 	language TRK exclude_dflt;
 } pnum;
 
 feature zero {
 	language dflt;
-	lookup zeroSlashedZerolookup11 {
-		sub \zero by \zero.slash;
-	} zeroSlashedZerolookup11;
+	sub \zero by \zero.slash;
 
 	language TRK exclude_dflt;
 } zero;
 
 feature onum {
 	language dflt;
-	lookup onumOldstyleFigureslookup3 {
-		sub @digits by @digits.onum;
-	} onumOldstyleFigureslookup3;
+	sub @digits by @digits.onum;
 
 	language TRK exclude_dflt;
 } onum;
 
 feature ordn {
 	language dflt;
-	lookup ordnOrdinalslookup0 {
-		sub @digits by @digits.ordn;
-	} ordnOrdinalslookup0;
+	sub @digits by @digits.ordn;
 
 	language TRK exclude_dflt;
 } ordn;

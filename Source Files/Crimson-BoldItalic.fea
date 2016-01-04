@@ -20,47 +20,39 @@ languagesystem latn TRK;
 
 feature ccmp {
 	language TRK exclude_dflt;
-	lookup ccmpTurkishi {
-		sub \i by \i.TRK;
-	} ccmpTurkishi;
+	sub \i by \i.TRK;
 } ccmp;
 
 feature onum {
 	language dflt;
-	lookup onumOldstyleFigureslookup3 {
-		sub @digits by @digits.onum;
-	} onumOldstyleFigureslookup3;
+	sub @digits by @digits.onum;
 
 	language TRK exclude_dflt;
 } onum;
 
 feature pnum {
 	language dflt;
-	lookup pnumProportionalNumberslookup12 {
-		sub @digits by @digits.prop;
-	} pnumProportionalNumberslookup12;
+	sub @digits by @digits.prop;
 
 	language TRK exclude_dflt;
 } pnum;
 
 feature liga {
 	language dflt;
-	lookup ligaStandardLigatureslookup0 {
-		sub \f \f  by \f_f;
-		sub \f \i  by \f_i;
-		sub \f \f \i  by \f_f_i;
-		sub \f \l  by \f_l;
-		sub \f \f \l  by \f_f_l;
-		sub \f \b  by \f_b;
-		sub \f \f \b  by \f_f_b;
-		sub \f \k  by \f_k;
-		sub \f \f \k  by \f_f_k;
-		sub \f \h  by \f_h;
-		sub \f \f \h  by \f_f_h;
-		sub \f \j  by \f_j;
-		sub \f \f \j  by \f_f_j;
-		sub \T \h  by \T_h;
-	} ligaStandardLigatureslookup0;
+	sub \f \f  by \f_f;
+	sub \f \i  by \f_i;
+	sub \f \f \i  by \f_f_i;
+	sub \f \l  by \f_l;
+	sub \f \f \l  by \f_f_l;
+	sub \f \b  by \f_b;
+	sub \f \f \b  by \f_f_b;
+	sub \f \k  by \f_k;
+	sub \f \f \k  by \f_f_k;
+	sub \f \h  by \f_h;
+	sub \f \f \h  by \f_f_h;
+	sub \f \j  by \f_j;
+	sub \f \f \j  by \f_f_j;
+	sub \T \h  by \T_h;
 
 	language TRK exclude_dflt;
 } liga;

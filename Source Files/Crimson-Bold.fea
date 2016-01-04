@@ -358,19 +358,15 @@ languagesystem latn dflt;
 
 feature smcp {
 	language dflt;
-	lookup smcpLowercasetoSmallCapitalsinL {
-		sub @lowercase  by @smallcaps;
-		sub @punct      by @punct.sc;
-		sub \dotlessi   by \dotlessi.sc;
-		sub \germandbls by \germandbls.sc;
-	} smcpLowercasetoSmallCapitalsinL;
+	sub @lowercase  by @smallcaps;
+	sub @punct      by @punct.sc;
+	sub \dotlessi   by \dotlessi.sc;
+	sub \germandbls by \germandbls.sc;
 } smcp;
 
 feature c2sc {
 	language dflt;
-	lookup c2scCapitalstoSmallCapitalsinLa {
-		sub @uppercase by @smallcaps;
-		sub @punct     by @punct.sc;
-	} c2scCapitalstoSmallCapitalsinLa;
+	sub @uppercase by @smallcaps;
+	sub @punct     by @punct.sc;
 } c2sc;
 

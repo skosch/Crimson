@@ -14,16 +14,12 @@ languagesystem latn TRK;
 
 feature ccmp {
 	language TRK exclude_dflt;
-	lookup ccmpTurkishi {
-		sub \i by \i.TRK;
-	} ccmpTurkishi;
+	sub \i by \i.TRK;
 } ccmp;
 
 feature pnum {
 	language dflt;
-	lookup pnumProportionalNumberslookup12 {
-		sub @digits by @digits.prop;
-	} pnumProportionalNumberslookup12;
+	sub @digits by @digits.prop;
 
 	language TRK exclude_dflt;
 } pnum;

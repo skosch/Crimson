@@ -14,9 +14,7 @@ languagesystem latn TRK;
 
 feature pnum {
 	language dflt;
-	lookup pnumProportionalNumberslookup12 {
-		sub @digits by @digits.prop;
-	} pnumProportionalNumberslookup12;
+	sub @digits by @digits.prop;
 
 	language TRK exclude_dflt;
 } pnum;
