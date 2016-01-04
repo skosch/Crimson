@@ -12,13 +12,11 @@ languagesystem latn TRK ;
 	\five.prop \six.prop \seven.prop \eight.prop \nine.prop
 ];
 
-lookup pnumProportionalNumberslookup12 {
-	sub @digits by @digits.prop;
-} pnumProportionalNumberslookup12;
-
 feature pnum {
 	language dflt;
-	lookup pnumProportionalNumberslookup12;
+	lookup pnumProportionalNumberslookup12 {
+		sub @digits by @digits.prop;
+	} pnumProportionalNumberslookup12;
 
 	language TRK exclude_dflt;
 } pnum;

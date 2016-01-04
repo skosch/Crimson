@@ -356,25 +356,21 @@ languagesystem latn dflt;
 # XXX: missing subs for .prop
 # XXX: missing sub for slashedzero
 
-lookup smcpLowercasetoSmallCapitalsinL {
-	sub @lowercase  by @smallcaps;
-	sub @punct      by @punct.sc;
-	sub \dotlessi   by \dotlessi.sc;
-	sub \germandbls by \germandbls.sc;
-} smcpLowercasetoSmallCapitalsinL;
-
-lookup c2scCapitalstoSmallCapitalsinLa {
-	sub @uppercase by @smallcaps;
-	sub @punct     by @punct.sc;
-} c2scCapitalstoSmallCapitalsinLa;
-
 feature smcp {
 	language dflt;
-	lookup smcpLowercasetoSmallCapitalsinL;
+	lookup smcpLowercasetoSmallCapitalsinL {
+		sub @lowercase  by @smallcaps;
+		sub @punct      by @punct.sc;
+		sub \dotlessi   by \dotlessi.sc;
+		sub \germandbls by \germandbls.sc;
+	} smcpLowercasetoSmallCapitalsinL;
 } smcp;
 
 feature c2sc {
 	language dflt;
-	lookup c2scCapitalstoSmallCapitalsinLa;
+	lookup c2scCapitalstoSmallCapitalsinLa {
+		sub @uppercase by @smallcaps;
+		sub @punct     by @punct.sc;
+	} c2scCapitalstoSmallCapitalsinLa;
 } c2sc;
 
