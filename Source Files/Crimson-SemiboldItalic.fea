@@ -1,7 +1,7 @@
 languagesystem DFLT dflt;
 languagesystem grek dflt;
 languagesystem latn dflt;
-languagesystem latn TRK ;
+languagesystem latn TRK;
 
 @digits = [
 	\zero \one \two \three \four \five \six \seven \eight \nine
@@ -15,7 +15,7 @@ languagesystem latn TRK ;
 feature ccmp {
 	language TRK exclude_dflt;
 	lookup ccmpTurkishi {
-		sub \i by \i.TRK ;
+		sub \i by \i.TRK;
 	} ccmpTurkishi;
 } ccmp;
 

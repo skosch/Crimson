@@ -2,7 +2,7 @@ languagesystem DFLT dflt;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
 languagesystem latn dflt;
-languagesystem latn TRK ;
+languagesystem latn TRK;
 
 @digits = [
 	\zero \one \two \three \four \five \six \seven \eight \nine
@@ -35,7 +35,7 @@ feature onum {
 } onum;
 
 feature pnum {
-	language dflt ;
+	language dflt;
 	lookup pnumProportionalNumberslookup12 {
 		sub @digits by @digits.prop;
 	} pnumProportionalNumberslookup12;
@@ -44,7 +44,7 @@ feature pnum {
 } pnum;
 
 feature liga {
-	language dflt ;
+	language dflt;
 	lookup ligaStandardLigatureslookup0 {
 		sub \f \f  by \f_f;
 		sub \f \i  by \f_i;

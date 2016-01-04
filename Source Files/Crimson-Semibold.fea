@@ -1,7 +1,7 @@
 languagesystem DFLT dflt;
 languagesystem grek dflt;
 languagesystem latn dflt;
-languagesystem latn TRK ;
+languagesystem latn TRK;
 
 @digits = [
 	\zero \one \two \three \four \five \six \seven \eight \nine

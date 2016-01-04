@@ -2,7 +2,7 @@ languagesystem DFLT dflt;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
 languagesystem latn dflt;
-languagesystem latn TRK ;
+languagesystem latn TRK;
 
 @smallcaps = [
 	\a.sc \b.sc \c.sc \d.sc \e.sc \f.sc \g.sc \h.sc \i.sc \j.sc \k.sc \l.sc \m.sc
@@ -421,7 +421,7 @@ languagesystem latn TRK ;
 ];
 
 feature liga {
-	language dflt ;
+	language dflt;
 	lookup ligaLigaturesstandardlookups7 {
 		sub \T \h  by \T_h;
 	} ligaLigaturesstandardlookups7;
@@ -487,7 +487,7 @@ feature pnum {
 feature zero {
 	language dflt;
 	lookup zeroSlashedZerolookup11 {
-		sub \zero by \zero.slash ;
+		sub \zero by \zero.slash;
 	} zeroSlashedZerolookup11;
 
 	language TRK exclude_dflt;

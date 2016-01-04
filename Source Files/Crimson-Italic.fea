@@ -2,7 +2,7 @@ languagesystem DFLT dflt;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
 languagesystem latn dflt;
-languagesystem latn TRK ;
+languagesystem latn TRK;
 
 @smallcaps = [
 	\a.sc \b.sc \c.sc \d.sc \e.sc \f.sc \g.sc \h.sc \i.sc \j.sc \k.sc \l.sc \m.sc
@@ -411,7 +411,7 @@ feature liga {
 feature ccmp {
 	language TRK exclude_dflt;
 	lookup ccmpTurkishi {
-		sub \i by \i.TRK ;
+		sub \i by \i.TRK;
 	} ccmpTurkishi;
 } ccmp;
 
