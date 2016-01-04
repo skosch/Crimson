@@ -5,409 +5,409 @@ languagesystem latn dflt;
 languagesystem latn TRK;
 
 @smallcaps = [
-	\a.sc \b.sc \c.sc \d.sc \e.sc \f.sc \g.sc \h.sc \i.sc \j.sc \k.sc \l.sc \m.sc
-	\n.sc \o.sc \p.sc \q.sc \r.sc \s.sc \t.sc \u.sc \v.sc \w.sc \x.sc \y.sc \z.sc
-	\agrave.sc
-	\aacute.sc
-	\acircumflex.sc
-	\atilde.sc
-	\adieresis.sc
-	\aring.sc
-	\ae.sc # XXX: placeholder
-	\ccedilla.sc
-	\egrave.sc
-	\eacute.sc
-	\ecircumflex.sc
-	\edieresis.sc
-	\igrave.sc
-	\iacute.sc
-	\icircumflex.sc
-	\idieresis.sc
-	\eth.sc
-	\ntilde.sc
-	\ograve.sc
-	\oacute.sc
-	\ocircumflex.sc
-	\otilde.sc
-	\odieresis.sc
-	\oslash.sc
-	\ugrave.sc
-	\uacute.sc
-	\ucircumflex.sc
-	\udieresis.sc
-	\yacute.sc
-	\thorn.sc
-	\amacron.sc
-	\abreve.sc
-	\aogonek.sc
-	\cacute.sc
-	\ccircumflex.sc
-	\cdotaccent.sc
-	\ccaron.sc
-	\dcaron.sc
-	\dcroat.sc
-	\emacron.sc
-	\ebreve.sc
-	\edotaccent.sc
-	\eogonek.sc
-	\ecaron.sc
-	\gcircumflex.sc
-	\gbreve.sc
-	\gdotaccent.sc
-	\gcommaaccent.sc
-	\hcircumflex.sc
-	\hbar.sc
-	\itilde.sc
-	\imacron.sc
-	\ibreve.sc
-	\iogonek.sc
-	\ij.sc
-	\jcircumflex.sc
-	\kcommaaccent.sc
-	\lacute.sc
-	\lcommaaccent.sc
-	\lcaron.sc
-	\ldot.sc
-	\lslash.sc
-	\nacute.sc
-	\ncommaaccent.sc
-	\ncaron.sc
-	\eng.sc
-	\omacron.sc
-	\obreve.sc
-	\ohungarumlaut.sc
-	\oe.sc
-	\racute.sc
-	\rcommaaccent.sc
-	\rcaron.sc
-	\sacute.sc
-	\scircumflex.sc
-	\scedilla.sc
-	\scaron.sc
-	\uni0163.sc
-	\tcaron.sc
-	\tbar.sc
-	\utilde.sc
-	\umacron.sc
-	\ubreve.sc
-	\uring.sc
-	\uhungarumlaut.sc
-	\uogonek.sc
-	\wcircumflex.sc
-	\ycircumflex.sc
-	\ydieresis.sc
-	\zacute.sc
-	\zdotaccent.sc
-	\zcaron.sc
-#	\uni01CE.sc # XXX: no corresponding glyph
-#	\uni01D0.sc # XXX: no corresponding glyph
-#	\uni01D2.sc # XXX: no corresponding glyph
-#	\uni01D4.sc # XXX: no corresponding glyph
-#	\uni01D6.sc # XXX: no corresponding glyph
-#	\uni01D8.sc # XXX: no corresponding glyph
-#	\uni01DA.sc # XXX: no corresponding glyph
-#	\uni01DC.sc # XXX: no corresponding glyph
-#	\uni01E3.sc # XXX: placeholder
-#	\aringacute.sc # XXX: no corresponding glyph
-#	\aeacute.sc # XXX: placeholder
-#	\oslashacute.sc
-	\uni0219.sc
-	\uni021B.sc
-#	\uni0233.sc # XXX: no corresponding glyph
+	a.sc b.sc c.sc d.sc e.sc f.sc g.sc h.sc i.sc j.sc k.sc l.sc m.sc
+	n.sc o.sc p.sc q.sc r.sc s.sc t.sc u.sc v.sc w.sc x.sc y.sc z.sc
+	agrave.sc
+	aacute.sc
+	acircumflex.sc
+	atilde.sc
+	adieresis.sc
+	aring.sc
+	ae.sc # XXX: placeholder
+	ccedilla.sc
+	egrave.sc
+	eacute.sc
+	ecircumflex.sc
+	edieresis.sc
+	igrave.sc
+	iacute.sc
+	icircumflex.sc
+	idieresis.sc
+	eth.sc
+	ntilde.sc
+	ograve.sc
+	oacute.sc
+	ocircumflex.sc
+	otilde.sc
+	odieresis.sc
+	oslash.sc
+	ugrave.sc
+	uacute.sc
+	ucircumflex.sc
+	udieresis.sc
+	yacute.sc
+	thorn.sc
+	amacron.sc
+	abreve.sc
+	aogonek.sc
+	cacute.sc
+	ccircumflex.sc
+	cdotaccent.sc
+	ccaron.sc
+	dcaron.sc
+	dcroat.sc
+	emacron.sc
+	ebreve.sc
+	edotaccent.sc
+	eogonek.sc
+	ecaron.sc
+	gcircumflex.sc
+	gbreve.sc
+	gdotaccent.sc
+	gcommaaccent.sc
+	hcircumflex.sc
+	hbar.sc
+	itilde.sc
+	imacron.sc
+	ibreve.sc
+	iogonek.sc
+	ij.sc
+	jcircumflex.sc
+	kcommaaccent.sc
+	lacute.sc
+	lcommaaccent.sc
+	lcaron.sc
+	ldot.sc
+	lslash.sc
+	nacute.sc
+	ncommaaccent.sc
+	ncaron.sc
+	eng.sc
+	omacron.sc
+	obreve.sc
+	ohungarumlaut.sc
+	oe.sc
+	racute.sc
+	rcommaaccent.sc
+	rcaron.sc
+	sacute.sc
+	scircumflex.sc
+	scedilla.sc
+	scaron.sc
+	uni0163.sc
+	tcaron.sc
+	tbar.sc
+	utilde.sc
+	umacron.sc
+	ubreve.sc
+	uring.sc
+	uhungarumlaut.sc
+	uogonek.sc
+	wcircumflex.sc
+	ycircumflex.sc
+	ydieresis.sc
+	zacute.sc
+	zdotaccent.sc
+	zcaron.sc
+#	uni01CE.sc # XXX: no corresponding glyph
+#	uni01D0.sc # XXX: no corresponding glyph
+#	uni01D2.sc # XXX: no corresponding glyph
+#	uni01D4.sc # XXX: no corresponding glyph
+#	uni01D6.sc # XXX: no corresponding glyph
+#	uni01D8.sc # XXX: no corresponding glyph
+#	uni01DA.sc # XXX: no corresponding glyph
+#	uni01DC.sc # XXX: no corresponding glyph
+#	uni01E3.sc # XXX: placeholder
+#	aringacute.sc # XXX: no corresponding glyph
+#	aeacute.sc # XXX: placeholder
+#	oslashacute.sc
+	uni0219.sc
+	uni021B.sc
+#	uni0233.sc # XXX: no corresponding glyph
 ];
 
 @uppercase = [
-	\A \B \C \D \E \F \G \H \I \J \K \L \M
-	\N \O \P \Q \R \S \T \U \V \W \X \Y \Z
-	\Agrave
-	\Aacute
-	\Acircumflex
-	\Atilde
-	\Adieresis
-	\Aring
-	\AE
-	\Ccedilla
-	\Egrave
-	\Eacute
-	\Ecircumflex
-	\Edieresis
-	\Igrave
-	\Iacute
-	\Icircumflex
-	\Idieresis
-	\Eth
-	\Ntilde
-	\Ograve
-	\Oacute
-	\Ocircumflex
-	\Otilde
-	\Odieresis
-	\Oslash
-	\Ugrave
-	\Uacute
-	\Ucircumflex
-	\Udieresis
-	\Yacute
-	\Thorn
-	\Amacron
-	\Abreve
-	\Aogonek
-	\Cacute
-	\Ccircumflex
-	\Cdotaccent
-	\Ccaron
-	\Dcaron
-	\Dcroat
-	\Emacron
-	\Ebreve
-	\Edotaccent
-	\Eogonek
-	\Ecaron
-	\Gcircumflex
-	\Gbreve
-	\Gdotaccent
-	\Gcommaaccent
-	\Hcircumflex
-	\Hbar
-	\Itilde
-	\Imacron
-	\Ibreve
-	\Iogonek
-	\IJ
-	\Jcircumflex
-	\Kcommaaccent
-	\Lacute
-	\Lcommaaccent
-	\Lcaron
-	\Ldot
-	\Lslash
-	\Nacute
-	\Ncommaaccent
-	\Ncaron
-	\Eng
-	\Omacron
-	\Obreve
-	\Ohungarumlaut
-	\OE
-	\Racute
-	\Rcommaaccent
-	\Rcaron
-	\Sacute
-	\Scircumflex
-	\Scedilla
-	\Scaron
-	\Tcommaaccent
-	\Tcaron
-	\Tbar
-	\Utilde
-	\Umacron
-	\Ubreve
-	\Uring
-	\Uhungarumlaut
-	\Uogonek
-	\Wcircumflex
-	\Ycircumflex
-	\Ydieresis
-	\Zacute
-	\Zdotaccent
-	\Zcaron
-	\Scommaaccent
-	\uni021A
+	A B C D E F G H I J K L M
+	N O P Q R S T U V W X Y Z
+	Agrave
+	Aacute
+	Acircumflex
+	Atilde
+	Adieresis
+	Aring
+	AE
+	Ccedilla
+	Egrave
+	Eacute
+	Ecircumflex
+	Edieresis
+	Igrave
+	Iacute
+	Icircumflex
+	Idieresis
+	Eth
+	Ntilde
+	Ograve
+	Oacute
+	Ocircumflex
+	Otilde
+	Odieresis
+	Oslash
+	Ugrave
+	Uacute
+	Ucircumflex
+	Udieresis
+	Yacute
+	Thorn
+	Amacron
+	Abreve
+	Aogonek
+	Cacute
+	Ccircumflex
+	Cdotaccent
+	Ccaron
+	Dcaron
+	Dcroat
+	Emacron
+	Ebreve
+	Edotaccent
+	Eogonek
+	Ecaron
+	Gcircumflex
+	Gbreve
+	Gdotaccent
+	Gcommaaccent
+	Hcircumflex
+	Hbar
+	Itilde
+	Imacron
+	Ibreve
+	Iogonek
+	IJ
+	Jcircumflex
+	Kcommaaccent
+	Lacute
+	Lcommaaccent
+	Lcaron
+	Ldot
+	Lslash
+	Nacute
+	Ncommaaccent
+	Ncaron
+	Eng
+	Omacron
+	Obreve
+	Ohungarumlaut
+	OE
+	Racute
+	Rcommaaccent
+	Rcaron
+	Sacute
+	Scircumflex
+	Scedilla
+	Scaron
+	Tcommaaccent
+	Tcaron
+	Tbar
+	Utilde
+	Umacron
+	Ubreve
+	Uring
+	Uhungarumlaut
+	Uogonek
+	Wcircumflex
+	Ycircumflex
+	Ydieresis
+	Zacute
+	Zdotaccent
+	Zcaron
+	Scommaaccent
+	uni021A
 ];
 
 @lowercase = [
-	\a \b \c \d \e \f \g \h \i \j \k \l \m
-	\n \o \p \q \r \s \t \u \v \w \x \y \z
-	\agrave
-	\aacute
-	\acircumflex
-	\atilde
-	\adieresis
-	\aring
-	\ae
-	\ccedilla
-	\egrave
-	\eacute
-	\ecircumflex
-	\edieresis
-	\igrave
-	\iacute
-	\icircumflex
-	\idieresis
-	\eth
-	\ntilde
-	\ograve
-	\oacute
-	\ocircumflex
-	\otilde
-	\odieresis
-	\oslash
-	\ugrave
-	\uacute
-	\ucircumflex
-	\udieresis
-	\yacute
-	\thorn
-	\amacron
-	\abreve
-	\aogonek
-	\cacute
-	\ccircumflex
-	\cdotaccent
-	\ccaron
-	\dcaron
-	\dcroat
-	\emacron
-	\ebreve
-	\edotaccent
-	\eogonek
-	\ecaron
-	\gcircumflex
-	\gbreve
-	\gdotaccent
-	\gcommaaccent
-	\hcircumflex
-	\hbar
-	\itilde
-	\imacron
-	\ibreve
-	\iogonek
-	\ij
-	\jcircumflex
-	\kcommaaccent
-	\lacute
-	\lcommaaccent
-	\lcaron
-	\ldot
-	\lslash
-	\nacute
-	\ncommaaccent
-	\ncaron
-	\eng
-	\omacron
-	\obreve
-	\ohungarumlaut
-	\oe
-	\racute
-	\rcommaaccent
-	\rcaron
-	\sacute
-	\scircumflex
-	\scedilla
-	\scaron
-	\uni0163
-	\tcaron
-	\tbar
-	\utilde
-	\umacron
-	\ubreve
-	\uring
-	\uhungarumlaut
-	\uogonek
-	\wcircumflex
-	\ycircumflex
-	\ydieresis
-	\zacute
-	\zdotaccent
-	\zcaron
-	\scommaaccent
-	\tcommaaccent
+	a b c d e f g h i j k l m
+	n o p q r s t u v w x y z
+	agrave
+	aacute
+	acircumflex
+	atilde
+	adieresis
+	aring
+	ae
+	ccedilla
+	egrave
+	eacute
+	ecircumflex
+	edieresis
+	igrave
+	iacute
+	icircumflex
+	idieresis
+	eth
+	ntilde
+	ograve
+	oacute
+	ocircumflex
+	otilde
+	odieresis
+	oslash
+	ugrave
+	uacute
+	ucircumflex
+	udieresis
+	yacute
+	thorn
+	amacron
+	abreve
+	aogonek
+	cacute
+	ccircumflex
+	cdotaccent
+	ccaron
+	dcaron
+	dcroat
+	emacron
+	ebreve
+	edotaccent
+	eogonek
+	ecaron
+	gcircumflex
+	gbreve
+	gdotaccent
+	gcommaaccent
+	hcircumflex
+	hbar
+	itilde
+	imacron
+	ibreve
+	iogonek
+	ij
+	jcircumflex
+	kcommaaccent
+	lacute
+	lcommaaccent
+	lcaron
+	ldot
+	lslash
+	nacute
+	ncommaaccent
+	ncaron
+	eng
+	omacron
+	obreve
+	ohungarumlaut
+	oe
+	racute
+	rcommaaccent
+	rcaron
+	sacute
+	scircumflex
+	scedilla
+	scaron
+	uni0163
+	tcaron
+	tbar
+	utilde
+	umacron
+	ubreve
+	uring
+	uhungarumlaut
+	uogonek
+	wcircumflex
+	ycircumflex
+	ydieresis
+	zacute
+	zdotaccent
+	zcaron
+	scommaaccent
+	tcommaaccent
 ];
 
 @punct.sc = [
-	\exclam.sc
-	\parenleft.sc
-	\parenright.sc
-	\period.sc
-	\slash.sc
-	\colon.sc
-	\semicolon.sc
-	\less.sc
-	\equal.sc
-	\greater.sc
-	\question.sc
-	\at.sc
+	exclam.sc
+	parenleft.sc
+	parenright.sc
+	period.sc
+	slash.sc
+	colon.sc
+	semicolon.sc
+	less.sc
+	equal.sc
+	greater.sc
+	question.sc
+	at.sc
 
-	\bracketleft.sc
-	\backslash.sc
-	\bracketright.sc
-	\asciicircum.sc
-	\braceleft.sc
-	\bar.sc
-	\braceright.sc
-	\asciitilde.sc
-	\exclamdown.sc
-	\questiondown.sc
+	bracketleft.sc
+	backslash.sc
+	bracketright.sc
+	asciicircum.sc
+	braceleft.sc
+	bar.sc
+	braceright.sc
+	asciitilde.sc
+	exclamdown.sc
+	questiondown.sc
 
-	\multiply.sc
-	\divide.sc
+	multiply.sc
+	divide.sc
 ];
 
 @punct = [
-	\exclam
-	\parenleft
-	\parenright
-	\period
-	\slash
-	\colon
-	\semicolon
-	\less
-	\equal
-	\greater
-	\question
-	\at
+	exclam
+	parenleft
+	parenright
+	period
+	slash
+	colon
+	semicolon
+	less
+	equal
+	greater
+	question
+	at
 
-	\bracketleft
-	\backslash
-	\bracketright
-	\asciicircum
-	\braceleft
-	\bar
-	\braceright
-	\asciitilde
-	\exclamdown
-	\questiondown
+	bracketleft
+	backslash
+	bracketright
+	asciicircum
+	braceleft
+	bar
+	braceright
+	asciitilde
+	exclamdown
+	questiondown
 
-	\multiply
-	\divide
+	multiply
+	divide
 ];
 
 @digits = [
-	\zero \one \two \three \four \five \six \seven \eight \nine
+	zero one two three four five six seven eight nine
 ];
 
 @digits.prop = [
-	\zero.prop \one.prop \two.prop \three.prop \four.prop
-	\five.prop \six.prop \seven.prop \eight.prop \nine.prop
+	zero.prop one.prop two.prop three.prop four.prop
+	five.prop six.prop seven.prop eight.prop nine.prop
 ];
 
 @digits.onum = [
-	\zero.onum \one.onum \two.onum \three.onum \four.onum
-	\five.onum \six.onum \seven.onum \eight.onum \nine.onum
+	zero.onum one.onum two.onum three.onum four.onum
+	five.onum six.onum seven.onum eight.onum nine.onum
 ];
 
 feature liga {
-	sub \f \f  by \f_f;
-	sub \f \i  by \f_i;
-	sub \f \f \i  by \f_f_i;
-	sub \f \l  by \f_l;
-	sub \f \f \l  by \f_f_l;
-	sub \f \b  by \f_b;
-	sub \f \f \b  by \f_f_b;
-	sub \f \k  by \f_k;
-	sub \f \f \k  by \f_f_k;
-	sub \f \h  by \f_h;
-	sub \f \f \h  by \f_f_h;
-	sub \f \j  by \f_j;
-	sub \f \f \j  by \f_f_j;
-	sub \T \h  by \T_h;
+	sub f f   by f_f;
+	sub f i   by f_i;
+	sub f f i by f_f_i;
+	sub f l   by f_l;
+	sub f f l by f_f_l;
+	sub f b   by f_b;
+	sub f f b by f_f_b;
+	sub f k   by f_k;
+	sub f f k by f_f_k;
+	sub f h   by f_h;
+	sub f f h by f_f_h;
+	sub f j   by f_j;
+	sub f f j by f_f_j;
+	sub T h   by T_h;
 
 	language TRK exclude_dflt;
 } liga;
 
 feature ccmp {
 	language TRK exclude_dflt;
-	sub \i by \i.TRK;
+	sub i by i.TRK;
 } ccmp;
 
 feature onum {
@@ -423,20 +423,20 @@ feature pnum {
 } pnum;
 
 feature smcp {
-	sub @lowercase    by @smallcaps;
-	sub @punct        by @punct.sc;
-	sub \dotlessi     by \dotlessi.sc;
-	sub \uni0237      by \j.sc; # TODO: \dotlessj.sc
-	sub \kgreenlandic by \kgreenlandic.sc;
-	sub \germandbls   by \germandbls.sc;
+	sub @lowercase   by @smallcaps;
+	sub @punct       by @punct.sc;
+	sub dotlessi     by dotlessi.sc;
+	sub uni0237      by j.sc; # TODO: dotlessj.sc
+	sub kgreenlandic by kgreenlandic.sc;
+	sub germandbls   by germandbls.sc;
 
 	language TRK exclude_dflt;
 } smcp;
 
 feature c2sc {
-	sub @uppercase  by @smallcaps;
-	sub @punct      by @punct.sc;
-	sub \Idotaccent by \Idotaccent.sc;
+	sub @uppercase by @smallcaps;
+	sub @punct     by @punct.sc;
+	sub Idotaccent by Idotaccent.sc;
 
 	language TRK exclude_dflt;
 } c2sc;

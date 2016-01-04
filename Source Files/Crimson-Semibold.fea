@@ -4,12 +4,12 @@ languagesystem latn dflt;
 languagesystem latn TRK;
 
 @digits = [
-	\zero \one \two \three \four \five \six \seven \eight \nine
+	zero one two three four five six seven eight nine
 ];
 
 @digits.prop = [
-	\zero.prop \one.prop \two.prop \three.prop \four.prop
-	\five.prop \six.prop \seven.prop \eight.prop \nine.prop
+	zero.prop one.prop two.prop three.prop four.prop
+	five.prop six.prop seven.prop eight.prop nine.prop
 ];
 
 feature pnum {
