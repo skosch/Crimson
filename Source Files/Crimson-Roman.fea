@@ -421,14 +421,12 @@ languagesystem latn TRK;
 ];
 
 feature liga {
-	language dflt;
 	sub \T \h  by \T_h;
 
 	language TRK exclude_dflt;
 } liga;
 
 feature dlig {
-	language dflt;
 	sub \f \f  by \f_f;
 	sub \f \i  by \f_i;
 	sub \f \f \i  by \f_f_i;
@@ -447,7 +445,6 @@ feature dlig {
 } dlig;
 
 feature c2sc {
-	language dflt;
 	sub @uppercase  by @smallcaps;
 	sub @punct      by @punct.sc;
 	sub \Idotaccent by \Idotaccent.sc;
@@ -456,7 +453,6 @@ feature c2sc {
 } c2sc;
 
 feature smcp {
-	language dflt;
 	sub @lowercase    by @smallcaps;
 	sub @punct        by @punct.sc;
 	sub \dotlessi     by \dotlessi.sc;
@@ -468,28 +464,24 @@ feature smcp {
 } smcp;
 
 feature pnum {
-	language dflt;
 	sub @digits by @digits.prop;
 
 	language TRK exclude_dflt;
 } pnum;
 
 feature zero {
-	language dflt;
 	sub \zero by \zero.slash;
 
 	language TRK exclude_dflt;
 } zero;
 
 feature onum {
-	language dflt;
 	sub @digits by @digits.onum;
 
 	language TRK exclude_dflt;
 } onum;
 
 feature ordn {
-	language dflt;
 	sub @digits by @digits.ordn;
 
 	language TRK exclude_dflt;

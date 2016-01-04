@@ -24,21 +24,18 @@ feature ccmp {
 } ccmp;
 
 feature onum {
-	language dflt;
 	sub @digits by @digits.onum;
 
 	language TRK exclude_dflt;
 } onum;
 
 feature pnum {
-	language dflt;
 	sub @digits by @digits.prop;
 
 	language TRK exclude_dflt;
 } pnum;
 
 feature liga {
-	language dflt;
 	sub \f \f  by \f_f;
 	sub \f \i  by \f_i;
 	sub \f \f \i  by \f_f_i;

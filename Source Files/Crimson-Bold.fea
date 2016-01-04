@@ -357,7 +357,6 @@ languagesystem latn dflt;
 # XXX: missing sub for slashedzero
 
 feature smcp {
-	language dflt;
 	sub @lowercase  by @smallcaps;
 	sub @punct      by @punct.sc;
 	sub \dotlessi   by \dotlessi.sc;
@@ -365,7 +364,6 @@ feature smcp {
 } smcp;
 
 feature c2sc {
-	language dflt;
 	sub @uppercase by @smallcaps;
 	sub @punct     by @punct.sc;
 } c2sc;

@@ -18,7 +18,6 @@ feature ccmp {
 } ccmp;
 
 feature pnum {
-	language dflt;
 	sub @digits by @digits.prop;
 
 	language TRK exclude_dflt;
