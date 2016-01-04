@@ -387,7 +387,6 @@ languagesystem latn TRK ;
 ];
 
 lookup ligaLigaturesstandardlookups5 {
-  lookupflag 0;
     sub \f \f  by \f_f;
     sub \f \i  by \f_i;
     sub \f \f \i  by \f_f_i;
@@ -405,22 +404,18 @@ lookup ligaLigaturesstandardlookups5 {
 } ligaLigaturesstandardlookups5;
 
 lookup ccmpTurkishi {
-  lookupflag 0;
     sub \i by \i.TRK ;
 } ccmpTurkishi;
 
 lookup onumOldstyleFiguresinLatinlooku {
-  lookupflag 0;
 	sub @digits by @digits.onum;
 } onumOldstyleFiguresinLatinlooku;
 
 lookup pnumProportionalNumberslookup12 {
-  lookupflag 0;
 	sub @digits by @digits.prop;
 } pnumProportionalNumberslookup12;
 
 lookup smcpLowercasetoSmallCapitalsinL {
-  lookupflag 0;
 	sub @lowercase    by @smallcaps;
 	sub @punct        by @punct.sc;
 	sub \dotlessi     by \dotlessi.sc;
@@ -430,7 +425,6 @@ lookup smcpLowercasetoSmallCapitalsinL {
 } smcpLowercasetoSmallCapitalsinL;
 
 lookup c2scCapitalstoSmallCapitalslook {
-  lookupflag 0;
 	sub @uppercase  by @smallcaps;
 	sub @punct      by @punct.sc;
 	sub \Idotaccent by \Idotaccent.sc;

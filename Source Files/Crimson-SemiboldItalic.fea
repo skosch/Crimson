@@ -13,12 +13,10 @@ languagesystem latn TRK ;
 ];
 
 lookup ccmpTurkishi {
-  lookupflag 0;
     sub \i by \i.TRK ;
 } ccmpTurkishi;
 
 lookup pnumProportionalNumberslookup12 {
-  lookupflag 0;
 	sub @digits by @digits.prop;
 } pnumProportionalNumberslookup12;
 

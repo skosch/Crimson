@@ -421,12 +421,10 @@ languagesystem latn TRK ;
 ];
 
 lookup ligaLigaturesstandardlookups7 {
-  lookupflag 0;
     sub \T \h  by \T_h;
 } ligaLigaturesstandardlookups7;
 
 lookup dligDiscretionaryLigatureslooku {
-  lookupflag 0;
     sub \f \f  by \f_f;
     sub \f \i  by \f_i;
     sub \f \f \i  by \f_f_i;
@@ -443,14 +441,12 @@ lookup dligDiscretionaryLigatureslooku {
 } dligDiscretionaryLigatureslooku;
 
 lookup c2scCapitalstoSmallCapitalsinLa {
-  lookupflag 0;
 	sub @uppercase  by @smallcaps;
 	sub @punct      by @punct.sc;
 	sub \Idotaccent by \Idotaccent.sc;
 } c2scCapitalstoSmallCapitalsinLa;
 
 lookup smcpLowercasetoSmallCapitalsloo {
-  lookupflag 0;
 	sub @lowercase    by @smallcaps;
 	sub @punct        by @punct.sc;
 	sub \dotlessi     by \dotlessi.sc;
@@ -460,22 +456,18 @@ lookup smcpLowercasetoSmallCapitalsloo {
 } smcpLowercasetoSmallCapitalsloo;
 
 lookup pnumProportionalNumberslookup12 {
-  lookupflag 0;
     sub @digits by @digits.prop;
 } pnumProportionalNumberslookup12;
 
 lookup zeroSlashedZerolookup11 {
-  lookupflag 0;
     sub \zero by \zero.slash ;
 } zeroSlashedZerolookup11;
 
 lookup onumOldstyleFigureslookup3 {
-  lookupflag 0;
     sub @digits by @digits.onum;
 } onumOldstyleFigureslookup3;
 
 lookup ordnOrdinalslookup0 {
-  lookupflag 0;
     sub @digits by @digits.ordn;
 } ordnOrdinalslookup0;
 

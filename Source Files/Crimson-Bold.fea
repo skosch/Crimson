@@ -357,7 +357,6 @@ languagesystem latn dflt;
 # XXX: missing sub for slashedzero
 
 lookup smcpLowercasetoSmallCapitalsinL {
-  lookupflag 0;
 	sub @lowercase  by @smallcaps;
 	sub @punct      by @punct.sc;
 	sub \dotlessi   by \dotlessi.sc;
@@ -365,7 +364,6 @@ lookup smcpLowercasetoSmallCapitalsinL {
 } smcpLowercasetoSmallCapitalsinL;
 
 lookup c2scCapitalstoSmallCapitalsinLa {
-  lookupflag 0;
 	sub @uppercase by @smallcaps;
 	sub @punct     by @punct.sc;
 } c2scCapitalstoSmallCapitalsinLa;

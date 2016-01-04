@@ -19,22 +19,18 @@ languagesystem latn TRK ;
 ];
 
 lookup ccmpTurkishi {
-  lookupflag 0;
     sub \i by \i.TRK ;
 } ccmpTurkishi;
 
 lookup onumOldstyleFigureslookup3 {
-  lookupflag 0;
 	sub @digits by @digits.onum;
 } onumOldstyleFigureslookup3;
 
 lookup pnumProportionalNumberslookup12 {
-  lookupflag 0;
 	sub @digits by @digits.prop;
 } pnumProportionalNumberslookup12;
 
 lookup ligaStandardLigatureslookup0 {
-  lookupflag 0;
     sub \f \f  by \f_f;
     sub \f \i  by \f_i;
     sub \f \f \i  by \f_f_i;

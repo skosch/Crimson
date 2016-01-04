@@ -13,7 +13,6 @@ languagesystem latn TRK ;
 ];
 
 lookup pnumProportionalNumberslookup12 {
-  lookupflag 0;
 	sub @digits by @digits.prop;
 } pnumProportionalNumberslookup12;
 
