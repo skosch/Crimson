@@ -359,8 +359,8 @@ languagesystem latn dflt;
 feature smcp {
 	sub @lowercase  by @smallcaps;
 	sub @punct      by @punct.sc;
-	sub dotlessi   by dotlessi.sc;
-	sub germandbls by germandbls.sc;
+	sub dotlessi    by dotlessi.sc;
+	sub germandbls  by germandbls.sc;
 } smcp;
 
 feature c2sc {
