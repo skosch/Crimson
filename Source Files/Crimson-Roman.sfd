@@ -527,7 +527,7 @@ KernClass2: 11+ 129 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 4
  98 f germandbls longs uni1E1F f_f f_i f_f_i f_l f_f_l f_b f_f_b f_k f_f_k f_h f_f_h f_j f_f_j f.short
  105 h k hcircumflex hbar kcommaaccent uni1E23 uni1E25 uni1E27 uni1E29 uni1E2B uni1E31 uni1E33 uni1E35 uni1E96
  119 i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi ij uni01D0 uni1E2D uni1E2F uni1EC9 uni1ECB
- 21 j jcircumflex uni0237
+ 21 j jcircumflex dotlessj
  72 l lacute lcommaaccent lcaron ldot lslash uni1E37 uni1E39 uni1E3B uni1E3D
  171 m n r ntilde kgreenlandic nacute ncommaaccent ncaron eng racute rcommaaccent rcaron uni1E3F uni1E41 uni1E43 uni1E45 uni1E47 uni1E49 uni1E4B uni1E59 uni1E5B uni1E5D uni1E5F
  17 x uni1E8B uni1E8D
@@ -606,7 +606,7 @@ KernClass2: 29+ 45 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 3"
  21 f uni1E1F f_f f.short
  52 g gcircumflex gbreve gdotaccent gcommaaccent uni1E21
  126 i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi uni01D0 uni1E2D uni1E2F uni1EC9 uni1ECB f_i f_f_i
- 34 j ij jcircumflex uni0237 f_j f_f_j
+ 34 j ij jcircumflex dotlessj f_j f_f_j
  61 k kcommaaccent kgreenlandic uni1E31 uni1E33 uni1E35 f_k f_f_k
  77 l lacute lcommaaccent lcaron lslash uni1E37 uni1E39 uni1E3B uni1E3D f_l f_f_l
  174 h m n ntilde hcircumflex hbar nacute ncommaaccent ncaron uni1E23 uni1E25 uni1E27 uni1E29 uni1E2B uni1E3F uni1E41 uni1E43 uni1E45 uni1E47 uni1E49 uni1E4B uni1E96 f_h f_f_h T_h
@@ -661,7 +661,7 @@ KernClass2: 29+ 45 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 3"
  10 braceright
  105 h k hcircumflex hbar kcommaaccent uni1E23 uni1E25 uni1E27 uni1E29 uni1E2B uni1E31 uni1E33 uni1E35 uni1E96
  72 l lacute lcommaaccent lcaron ldot lslash uni1E37 uni1E39 uni1E3B uni1E3D
- 21 j jcircumflex uni0237
+ 21 j jcircumflex dotlessj
  9 ampersand
  49 comma period quotesinglbase quotedblbase ellipsis
  5 slash
@@ -743,7 +743,7 @@ KernClass2: 26+ 79 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 2"
  98 f germandbls longs uni1E1F f_f f_i f_f_i f_l f_f_l f_b f_f_b f_k f_f_k f_h f_f_h f_j f_f_j f.short
  105 h k hcircumflex hbar kcommaaccent uni1E23 uni1E25 uni1E27 uni1E29 uni1E2B uni1E31 uni1E33 uni1E35 uni1E96
  119 i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi ij uni01D0 uni1E2D uni1E2F uni1EC9 uni1ECB
- 21 j jcircumflex uni0237
+ 21 j jcircumflex dotlessj
  72 l lacute lcommaaccent lcaron ldot lslash uni1E37 uni1E39 uni1E3B uni1E3D
  171 m n r ntilde kgreenlandic nacute ncommaaccent ncaron eng racute rcommaaccent rcaron uni1E3F uni1E41 uni1E43 uni1E45 uni1E47 uni1E49 uni1E4B uni1E59 uni1E5B uni1E5D uni1E5F
  17 x uni1E8B uni1E8D
@@ -9251,7 +9251,7 @@ Refer: 83 116 S 1 0 0 1 0 0 2
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 2-1" uni021B.sc
 EndChar
 
-StartChar: uni0237
+StartChar: dotlessj
 Encoding: 357 567 320
 Width: 239
 VWidth: 1024

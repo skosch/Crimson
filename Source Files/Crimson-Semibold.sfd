@@ -97,7 +97,7 @@ KernClass2: 72+ 56 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
  1 f
  44 g gcircumflex gbreve gdotaccent gcommaaccent
  76 i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi
- 24 j ij jcircumflex uni0237
+ 24 j ij jcircumflex dotlessj
  27 k kcommaaccent kgreenlandic
  35 l lacute lcommaaccent lcaron lslash
  56 h m n ntilde hcircumflex hbar nacute ncommaaccent ncaron
@@ -154,7 +154,7 @@ KernClass2: 72+ 56 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
  47 c ccedilla cacute ccircumflex cdotaccent ccaron
  15 d dcaron dcroat
  44 g gcircumflex gbreve gdotaccent gcommaaccent
- 21 j jcircumflex uni0237
+ 21 j jcircumflex dotlessj
  178 e o egrave eacute ecircumflex edieresis eth ograve oacute ocircumflex otilde odieresis oslash emacron ebreve edotaccent eogonek ecaron omacron obreve ohungarumlaut oe oslashacute
  1 q
  49 s sacute scircumflex scedilla scaron scommaaccent
@@ -9023,7 +9023,7 @@ Refer: 90 122 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
-StartChar: uni0237
+StartChar: dotlessj
 Encoding: 567 567 359
 Width: 257
 Flags: W

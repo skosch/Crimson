@@ -486,7 +486,7 @@ KernClass2: 11+ 126 "Crimson-Italic-'kern' Horizontal Kerning in Latin lookup 0 
  69 Y Yacute Ycircumflex Ydieresis uni1E8E Ygrave uni1EF4 uni1EF6 uni1EF8
  50 Z Zacute Zdotaccent Zcaron uni1E90 uni1E92 uni1E94
  84 f germandbls uni1E1F f_f f_i f_f_i f_l f_f_l f_b f_f_b f_k f_f_k f_h f_f_h f_j f_f_j
- 21 j jcircumflex uni0237
+ 21 j jcircumflex dotlessj
  74 t tcommaaccent tcaron tbar uni021B uni1E6B uni1E6D uni1E6F uni1E71 uni1E97
  50 z zacute zdotaccent zcaron uni1E91 uni1E93 uni1E95
  4 Zeta
@@ -589,7 +589,7 @@ KernClass2: 27+ 38 "Crimson-Italic-'kern' Horizontal Kerning in Latin lookup 0 k
  27 f longs uni1E1F f_f f.short
  52 g gcircumflex gbreve gdotaccent gcommaaccent uni1E21
  102 i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi uni1E2D uni1E2F f_i f_f_i
- 34 j ij jcircumflex uni0237 f_j f_f_j
+ 34 j ij jcircumflex dotlessj f_j f_f_j
  61 k kcommaaccent kgreenlandic uni1E31 uni1E33 uni1E35 f_k f_f_k
  77 l lacute lcommaaccent lcaron lslash uni1E37 uni1E39 uni1E3B uni1E3D f_l f_f_l
  174 h m n ntilde hcircumflex hbar nacute ncommaaccent ncaron uni1E23 uni1E25 uni1E27 uni1E29 uni1E2B uni1E3F uni1E41 uni1E43 uni1E45 uni1E47 uni1E49 uni1E4B uni1E96 f_h f_f_h T_h
@@ -640,7 +640,7 @@ KernClass2: 27+ 38 "Crimson-Italic-'kern' Horizontal Kerning in Latin lookup 0 k
  53 W Wcircumflex Wgrave Wacute Wdieresis uni1E86 uni1E88
  69 Y Yacute Ycircumflex Ydieresis uni1E8E Ygrave uni1EF4 uni1EF6 uni1EF8
  9 afii57929
- 21 j jcircumflex uni0237
+ 21 j jcircumflex dotlessj
  9 ampersand
  5 slash
  52 g gcircumflex gbreve gdotaccent gcommaaccent uni1E21
@@ -692,7 +692,7 @@ KernClass2: 26+ 71 "Crimson-Italic-'kern' Horizontal Kerning in Latin lookup 0 k
  55 c ccedilla cacute ccircumflex cdotaccent ccaron uni1E09
  90 f germandbls longs uni1E1F f_f f_i f_f_i f_l f_f_l f_b f_f_b f_k f_f_k f_h f_f_h f_j f_f_j
  52 g gcircumflex gbreve gdotaccent gcommaaccent uni1E21
- 21 j jcircumflex uni0237
+ 21 j jcircumflex dotlessj
  328 e o egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis oslash emacron ebreve edotaccent eogonek ecaron omacron obreve ohungarumlaut oe ohorn uni1E15 uni1E17 uni1E19 uni1E1B uni1E4D uni1E4F uni1E51 uni1E53 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3
  74 t tcommaaccent tcaron tbar uni021B uni1E6B uni1E6D uni1E6F uni1E71 uni1E97
  79 v w wcircumflex uni1E7D uni1E7F wgrave wacute wdieresis uni1E87 uni1E89 uni1E98
@@ -11974,7 +11974,7 @@ Validated: 1
 Substitution2: "'smcp' Lowercase to Small Capitals in Latin lookup 3-1" eng.sc
 EndChar
 
-StartChar: uni0237
+StartChar: dotlessj
 Encoding: 567 567 416
 Width: 249
 Flags: W

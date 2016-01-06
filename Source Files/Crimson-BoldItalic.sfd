@@ -101,7 +101,7 @@ KernClass2: 75+ 59 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
  19 f longs uni1E1F f_f
  52 g gcircumflex gbreve gdotaccent gcommaaccent uni1E21
  124 i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi uni1E2D uni1E2F uni1EC9 uni1ECB f_i f_f_i i.TRK
- 34 j ij jcircumflex uni0237 f_j f_f_j
+ 34 j ij jcircumflex dotlessj f_j f_f_j
  61 k kcommaaccent kgreenlandic uni1E31 uni1E33 uni1E35 f_k f_f_k
  77 l lacute lcommaaccent lcaron lslash uni1E37 uni1E39 uni1E3B uni1E3D f_l f_f_l
  186 h m n ntilde hcircumflex hbar nacute ncommaaccent ncaron napostrophe uni1E23 uni1E25 uni1E27 uni1E29 uni1E2B uni1E3F uni1E41 uni1E43 uni1E45 uni1E47 uni1E49 uni1E4B uni1E96 f_h f_f_h T_h
@@ -160,7 +160,7 @@ KernClass2: 75+ 59 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 1"
  55 c ccedilla cacute ccircumflex cdotaccent ccaron uni1E09
  52 g gcircumflex gbreve gdotaccent gcommaaccent uni1E21
  111 i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek dotlessi ij uni1E2D uni1E2F uni1EC9 uni1ECB
- 21 j jcircumflex uni0237
+ 21 j jcircumflex dotlessj
  72 l lacute lcommaaccent lcaron ldot lslash uni1E37 uni1E39 uni1E3B uni1E3D
  183 m n r ntilde kgreenlandic nacute ncommaaccent ncaron napostrophe eng racute rcommaaccent rcaron uni1E3F uni1E41 uni1E43 uni1E45 uni1E47 uni1E49 uni1E4B uni1E59 uni1E5B uni1E5D uni1E5F
  360 e o egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis oslash emacron ebreve edotaccent eogonek ecaron omacron obreve ohungarumlaut oe ohorn uni1E15 uni1E17 uni1E19 uni1E1B uni1EB9 uni1EBB uni1EBD uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3
@@ -10275,7 +10275,7 @@ Refer: 73 105 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
-StartChar: uni0237
+StartChar: dotlessj
 Encoding: 567 567 391
 Width: 286
 VWidth: 0
