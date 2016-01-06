@@ -459,6 +459,7 @@ feature smcp {
 	sub uni0237      by j.sc; # TODO: dotlessj.sc
 	sub kgreenlandic by kgreenlandic.sc;
 	sub germandbls   by germandbls.sc;
+	sub longs        by s.sc;
 
 	language TRK exclude_dflt;
 } smcp;
