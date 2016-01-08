@@ -4,6 +4,8 @@ languagesystem grek dflt;
 languagesystem latn dflt;
 languagesystem latn TRK;
 
+include(ik/Crimson-BoldItalic#00_ik.fea);
+
 @digits = [
 	zero one two three four five six seven eight nine
 ];

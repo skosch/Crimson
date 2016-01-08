@@ -1,6 +1,8 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
+include(ik/Crimson-Bold#00_ik.fea);
+
 @smallcaps = [
 	a.sc b.sc c.sc d.sc e.sc f.sc g.sc h.sc i.sc j.sc k.sc l.sc m.sc
 	n.sc o.sc p.sc q.sc r.sc s.sc t.sc u.sc v.sc w.sc x.sc y.sc z.sc
