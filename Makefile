@@ -1,6 +1,7 @@
 
 # bmake syntax. Packaged as "pmake" for some systems, "bmake" for others,
-# native make(1) for BSDs.
+# native make(1) for BSDs. Or if you don't have a package, get it here:
+# http://www.crufty.net/help/sjg/bmake.html
 
 FAMILY?= Crimson
 
