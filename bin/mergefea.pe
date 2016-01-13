@@ -1,0 +1,8 @@
+#!/usr/bin/env fontforge
+
+Open($1);
+MergeFeature($1:r+".fea");
+Save($1);
+
+Quit(0);
+
