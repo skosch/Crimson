@@ -1,0 +1,9 @@
+#!/usr/bin/env fontforge
+
+Open($2);
+
+# XXX: generate to a particular directory
+Generate($2:r+"."+$1);
+
+Quit(0);
+

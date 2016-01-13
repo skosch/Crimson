@@ -11,15 +11,33 @@ FACES+= Roman
 FACES+= Semibold
 FACES+= SemiboldItalic
 
+EXTS+= otf
+EXTS+= ttf
+EXTS+= woff
+EXTS+= eot
+EXTS+= svg
+
 SRC?= Source Files
+OUT?= Desktop Fonts
 
 AWK?=       awk
 GREP?=      grep
 FONTFORGE?= fontforge
 GSED?=      sed
 ESED?=      ${GSED} -E
+MOVE?=      mv
+MKDIR?=     mkdir -p
 
+# XXX: depend on ${OUT}/OTF for mkdir, but spaces in filename
+# XXX: generate in-situ, and get rid of ${MOVE}
+.for face in ${FACES}
+. for ext in ${EXTS}
 all::
+	bin/generate.pe ${ext} "${SRC}/${FAMILY}-${face}.sfd"
+	${MKDIR} "${OUT}/${ext:tu}"
+	${MOVE} "${SRC}/${FAMILY}-${face}.${ext}" "${OUT}/${ext:tu}"
+. endfor
+.endfor
 
 clean::
 
