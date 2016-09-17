@@ -1,3 +1,14 @@
+# :rotating_light: :rotating_light: Help Wanted :rotating_light: :rotating_light:
+
+I know very little about producing bug-free font files that work across all systems and browsers, but there are many open issues that require expertise in that area.
+
+If you are interested in helping out, let me know – I'm generous with commit rights :)
+
+<br/>
+<hr />
+<br/>
+
+
 The *Crimson Text* Typeface
 ===========================
 
