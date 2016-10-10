@@ -24,6 +24,8 @@ The `Desktop Fonts` and `Web Fonts` directories above always contain the most up
 
 `Web Fonts` contains subsetted (!) TTF, EOF and WOFF files. If the provided files do not meet the requirements of your website, which may well be the case, you will need to generate the webfonts yourself – using either a font editor like Fontforge or an online service such as fontsquirrel.com.
 
+For TeX users, two packages are available: [Crimson](https://www.ctan.org/pkg/crimson) and [Cochineal](https://www.ctan.org/tex-archive/fonts/cochineal), maintained by Bob Tennent and Michael Sharpe, respectively. The latter doesn't include the Semibolds, but has been extended by a ton of glyphs and adjusted to work well in math environments (a remarkable effort in its own right!).
+
 Background
 ----------
 The font is designed in the tradition of beautiful oldstyle type, and inspired particularly by the fantastic work of people like Jan Tschichold (Sabon), Robert Slimbach (Arno, Minion) and Jonathan Hoefler (Hoefler Text). It features
@@ -35,7 +37,7 @@ The font is designed in the tradition of beautiful oldstyle type, and inspired p
 
 Naming confusion
 ----------------
-The full name of the font is *Crimson Text*, since I had originally planned to follow up with a *Crimson Display* as well. That never came to pass, and laziness on my part and that of most users led to the *Text* casually falling by the wayside. To add to the confusion, two distinct Crimsons exist, since the original font was completely redrawn two years after its release. While you are looking at the new, improved version, Google Fonts continues to offer the clumsy-looking original via and has not heeded the repeated pleas for an upgrade.
+The full name of the font is *Crimson Text*, since I had originally planned to follow up with a *Crimson Display* as well. That never came to pass, and laziness on my part and that of most users led to the *Text* casually falling by the wayside. To add to the confusion, two distinct Crimsons exist, since the original font was completely redrawn two years after its release. While you are looking at the new, improved version, Google Fonts continues to offer the clumsy-looking original via and has not heeded the repeated pleas for an upgrade. If you want to stick with Google Fonts, I recommend you switch to [Amiri](https://fonts.google.com/specimen/Amiri) in the meantime – it uses the new Crimson for its Roman characters.
 
 Credits
 -------
