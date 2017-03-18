@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot" format="1">
+  <advance width="588"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="518" y="420" type="line"/>
+      <point x="518" y="169" type="line"/>
+      <point x="517" y="168"/>
+      <point x="486" y="157"/>
+      <point x="465" y="157" type="curve" smooth="yes"/>
+      <point x="460" y="157"/>
+      <point x="454" y="161"/>
+      <point x="452" y="164" type="curve"/>
+      <point x="452" y="175"/>
+      <point x="452" y="305"/>
+      <point x="452" y="363" type="curve"/>
+      <point x="52" y="363" type="line"/>
+      <point x="52" y="363"/>
+      <point x="46" y="363"/>
+      <point x="46" y="373" type="curve"/>
+      <point x="46" y="373"/>
+      <point x="50" y="420"/>
+      <point x="60" y="420" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>363</integer>
+            <key>width</key>
+            <integer>57</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>452</integer>
+            <key>width</key>
+            <integer>66</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

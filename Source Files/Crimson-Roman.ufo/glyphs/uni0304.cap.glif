@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0304.cap" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-126" y="744" type="line"/>
+      <point x="-136" y="748"/>
+      <point x="-129" y="780"/>
+      <point x="-120" y="786" type="curve"/>
+      <point x="126" y="786" type="line"/>
+      <point x="133" y="781"/>
+      <point x="130" y="755"/>
+      <point x="120" y="744" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>744</integer>
+            <key>width</key>
+            <integer>42</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

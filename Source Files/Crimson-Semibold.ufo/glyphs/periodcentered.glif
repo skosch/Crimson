@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="periodcentered" format="1">
+  <advance width="234"/>
+  <unicode hex="00B7"/>
+  <outline>
+    <contour>
+      <point x="51" y="264" type="curve" smooth="yes"/>
+      <point x="51" y="300"/>
+      <point x="81" y="330"/>
+      <point x="117" y="330" type="curve"/>
+      <point x="153" y="330"/>
+      <point x="183" y="300"/>
+      <point x="183" y="264" type="curve" smooth="yes"/>
+      <point x="183" y="228"/>
+      <point x="154" y="197"/>
+      <point x="118" y="197" type="curve"/>
+      <point x="81" y="197"/>
+      <point x="51" y="228"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>197</integer>
+            <key>width</key>
+            <integer>133</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>51</integer>
+            <key>width</key>
+            <integer>132</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

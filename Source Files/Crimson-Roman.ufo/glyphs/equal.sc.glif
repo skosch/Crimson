@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal.sc" format="1">
+  <advance width="564"/>
+  <outline>
+    <contour>
+      <point x="73" y="120" type="curve"/>
+      <point x="61" y="120"/>
+      <point x="75" y="170"/>
+      <point x="89" y="175" type="curve"/>
+      <point x="492" y="175" type="line"/>
+      <point x="506" y="175"/>
+      <point x="493" y="127"/>
+      <point x="479" y="120" type="curve"/>
+      <point x="318" y="120"/>
+      <point x="245" y="120"/>
+    </contour>
+    <contour>
+      <point x="73" y="264" type="curve"/>
+      <point x="61" y="264"/>
+      <point x="75" y="314"/>
+      <point x="89" y="319" type="curve"/>
+      <point x="492" y="319" type="line"/>
+      <point x="506" y="319"/>
+      <point x="493" y="271"/>
+      <point x="479" y="264" type="curve"/>
+      <point x="318" y="264"/>
+      <point x="245" y="264"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>120</integer>
+            <key>width</key>
+            <integer>55</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>264</integer>
+            <key>width</key>
+            <integer>55</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

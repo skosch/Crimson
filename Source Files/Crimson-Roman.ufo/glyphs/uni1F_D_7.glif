@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1FD7" format="1">
+  <advance width="227"/>
+  <unicode hex="1FD7"/>
+  <outline>
+    <contour>
+      <point x="-15" y="540" type="curve" smooth="yes"/>
+      <point x="-15" y="563"/>
+      <point x="3" y="580"/>
+      <point x="24" y="580" type="curve" smooth="yes"/>
+      <point x="47" y="580"/>
+      <point x="65" y="563"/>
+      <point x="65" y="540" type="curve" smooth="yes"/>
+      <point x="65" y="518"/>
+      <point x="47" y="500"/>
+      <point x="24" y="500" type="curve" smooth="yes"/>
+      <point x="3" y="500"/>
+      <point x="-15" y="518"/>
+    </contour>
+    <contour>
+      <point x="136" y="540" type="curve" smooth="yes"/>
+      <point x="136" y="563"/>
+      <point x="153" y="580"/>
+      <point x="176" y="580" type="curve" smooth="yes"/>
+      <point x="199" y="580"/>
+      <point x="217" y="563"/>
+      <point x="217" y="540" type="curve" smooth="yes"/>
+      <point x="217" y="518"/>
+      <point x="199" y="500"/>
+      <point x="176" y="500" type="curve" smooth="yes"/>
+      <point x="153" y="500"/>
+      <point x="136" y="518"/>
+    </contour>
+    <component base="iota"/>
+    <component base="tildecomb" xOffset="99" yOffset="108"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-3</integer>
+            <key>width</key>
+            <integer>60</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>413</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>500</integer>
+            <key>width</key>
+            <integer>80</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>614</integer>
+            <key>width</key>
+            <integer>45</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>661</integer>
+            <key>width</key>
+            <integer>45</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-28</integer>
+            <key>width</key>
+            <integer>255</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-15</integer>
+            <key>width</key>
+            <integer>80</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>67</integer>
+            <key>width</key>
+            <integer>59</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>67</integer>
+            <key>width</key>
+            <integer>78</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>136</integer>
+            <key>width</key>
+            <integer>81</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hbar.sc" format="1">
+  <advance width="522"/>
+  <outline>
+    <contour>
+      <point x="500" y="321" type="curve"/>
+      <point x="480" y="321"/>
+      <point x="90" y="321"/>
+      <point x="80" y="321" type="curve"/>
+      <point x="77" y="321"/>
+      <point x="80" y="341"/>
+      <point x="86" y="348" type="curve"/>
+      <point x="106" y="348"/>
+      <point x="496" y="348"/>
+      <point x="506" y="348" type="curve"/>
+      <point x="509" y="348"/>
+      <point x="504" y="328"/>
+    </contour>
+    <component base="h.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-3</integer>
+            <key>width</key>
+            <integer>29</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>215</integer>
+            <key>width</key>
+            <integer>34</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>321</integer>
+            <key>width</key>
+            <integer>27</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>422</integer>
+            <key>width</key>
+            <integer>29</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

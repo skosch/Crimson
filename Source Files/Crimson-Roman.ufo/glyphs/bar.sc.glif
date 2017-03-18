@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar.sc" format="1">
+  <advance width="226"/>
+  <outline>
+    <contour>
+      <point x="94" y="-79" type="curve" smooth="yes"/>
+      <point x="94" y="515" type="line"/>
+      <point x="94" y="515"/>
+      <point x="94" y="519"/>
+      <point x="98" y="520" type="curve" smooth="yes"/>
+      <point x="111" y="523"/>
+      <point x="122" y="525"/>
+      <point x="125" y="525" type="curve" smooth="yes"/>
+      <point x="132" y="525"/>
+      <point x="131" y="521"/>
+      <point x="131" y="521" type="curve"/>
+      <point x="132" y="-73" type="line" smooth="yes"/>
+      <point x="132" y="-78"/>
+      <point x="100" y="-85"/>
+      <point x="98" y="-85" type="curve" smooth="yes"/>
+      <point x="93" y="-85"/>
+      <point x="94" y="-82"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>94</integer>
+            <key>width</key>
+            <integer>38</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

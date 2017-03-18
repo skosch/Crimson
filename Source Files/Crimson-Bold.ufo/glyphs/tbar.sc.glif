@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tbar.sc" format="1">
+  <advance width="528"/>
+  <outline>
+    <contour>
+      <point x="409" y="203" type="curve"/>
+      <point x="380" y="203"/>
+      <point x="131" y="203"/>
+      <point x="117" y="203" type="curve"/>
+      <point x="113" y="203"/>
+      <point x="112" y="231"/>
+      <point x="118" y="240" type="curve"/>
+      <point x="147" y="240"/>
+      <point x="395" y="240"/>
+      <point x="409" y="240" type="curve"/>
+      <point x="413" y="240"/>
+      <point x="413" y="212"/>
+    </contour>
+    <component base="t.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-4</integer>
+            <key>width</key>
+            <integer>34</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>203</integer>
+            <key>width</key>
+            <integer>37</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>409</integer>
+            <key>width</key>
+            <integer>41</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>15</integer>
+            <key>width</key>
+            <integer>36</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>204</integer>
+            <key>width</key>
+            <integer>130</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>477</integer>
+            <key>width</key>
+            <integer>36</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

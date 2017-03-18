@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cent" format="1">
+  <advance width="381"/>
+  <unicode hex="00A2"/>
+  <outline>
+    <contour>
+      <point x="270" y="474" type="line"/>
+      <point x="277" y="474"/>
+      <point x="303" y="473"/>
+      <point x="302" y="466" type="curve"/>
+      <point x="126" y="-45" type="line"/>
+      <point x="118" y="-45"/>
+      <point x="93" y="-43"/>
+      <point x="94" y="-36" type="curve"/>
+    </contour>
+    <component base="c" xOffset="3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-6</integer>
+            <key>width</key>
+            <integer>71</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>396</integer>
+            <key>width</key>
+            <integer>46</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>23</integer>
+            <key>width</key>
+            <integer>102</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

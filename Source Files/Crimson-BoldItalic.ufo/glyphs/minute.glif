@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minute" format="1">
+  <advance width="141"/>
+  <unicode hex="2032"/>
+  <outline>
+    <contour>
+      <point x="220" y="699" type="curve" smooth="yes"/>
+      <point x="239" y="699"/>
+      <point x="259" y="687"/>
+      <point x="255" y="667" type="curve" smooth="yes"/>
+      <point x="246" y="620"/>
+      <point x="180" y="528"/>
+      <point x="149" y="494" type="curve" smooth="yes"/>
+      <point x="144" y="489"/>
+      <point x="138" y="484"/>
+      <point x="134" y="484" type="curve" smooth="yes"/>
+      <point x="128" y="484"/>
+      <point x="125" y="489"/>
+      <point x="126" y="496" type="curve" smooth="yes"/>
+      <point x="127" y="499"/>
+      <point x="155" y="612"/>
+      <point x="173" y="666" type="curve" smooth="yes"/>
+      <point x="177" y="678"/>
+      <point x="202" y="699"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>484</integer>
+            <key>width</key>
+            <integer>215</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>173</integer>
+            <key>width</key>
+            <integer>82</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

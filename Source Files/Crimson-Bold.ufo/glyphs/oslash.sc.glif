@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oslash.sc" format="1">
+  <advance width="609"/>
+  <outline>
+    <contour>
+      <point x="439" y="460" type="line"/>
+      <point x="446" y="456"/>
+      <point x="471" y="443"/>
+      <point x="468" y="436" type="curve"/>
+      <point x="126" y="6" type="line"/>
+      <point x="119" y="10"/>
+      <point x="94" y="23"/>
+      <point x="97" y="30" type="curve"/>
+    </contour>
+    <component base="o.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-9</integer>
+            <key>width</key>
+            <integer>38</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>421</integer>
+            <key>width</key>
+            <integer>38</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>39</integer>
+            <key>width</key>
+            <integer>149</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>421</integer>
+            <key>width</key>
+            <integer>149</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

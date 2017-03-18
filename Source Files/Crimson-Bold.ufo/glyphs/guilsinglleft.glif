@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglleft" format="1">
+  <advance width="315"/>
+  <unicode hex="2039"/>
+  <outline>
+    <contour>
+      <point x="26" y="248" type="curve" smooth="yes"/>
+      <point x="26" y="253"/>
+      <point x="29" y="259"/>
+      <point x="33" y="263" type="curve"/>
+      <point x="164" y="342"/>
+      <point x="238" y="419"/>
+      <point x="243" y="423" type="curve"/>
+      <point x="249" y="422"/>
+      <point x="266" y="414"/>
+      <point x="270" y="404" type="curve"/>
+      <point x="266" y="398"/>
+      <point x="173" y="284"/>
+      <point x="136" y="248" type="curve"/>
+      <point x="173" y="212"/>
+      <point x="266" y="98"/>
+      <point x="270" y="92" type="curve"/>
+      <point x="266" y="82"/>
+      <point x="249" y="74"/>
+      <point x="243" y="73" type="curve"/>
+      <point x="238" y="77"/>
+      <point x="164" y="154"/>
+      <point x="33" y="233" type="curve"/>
+      <point x="29" y="237"/>
+      <point x="26" y="243"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>26</integer>
+            <key>width</key>
+            <integer>244</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

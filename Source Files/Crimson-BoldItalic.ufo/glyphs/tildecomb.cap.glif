@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb.cap" format="1">
+  <advance width="374"/>
+  <outline>
+    <contour>
+      <point x="286" y="820" type="curve" smooth="yes"/>
+      <point x="311" y="820"/>
+      <point x="327" y="817"/>
+      <point x="349" y="804" type="curve" smooth="yes"/>
+      <point x="371" y="791"/>
+      <point x="392" y="778"/>
+      <point x="424" y="778" type="curve" smooth="yes"/>
+      <point x="459" y="778"/>
+      <point x="485" y="812"/>
+      <point x="491" y="820" type="curve"/>
+      <point x="494" y="819"/>
+      <point x="500" y="814"/>
+      <point x="500" y="806" type="curve" smooth="yes"/>
+      <point x="500" y="791"/>
+      <point x="490" y="775"/>
+      <point x="481" y="765" type="curve" smooth="yes"/>
+      <point x="455" y="738"/>
+      <point x="430" y="728"/>
+      <point x="400" y="728" type="curve" smooth="yes"/>
+      <point x="375" y="728"/>
+      <point x="359" y="731"/>
+      <point x="337" y="744" type="curve" smooth="yes"/>
+      <point x="315" y="757"/>
+      <point x="294" y="770"/>
+      <point x="262" y="770" type="curve" smooth="yes"/>
+      <point x="227" y="770"/>
+      <point x="201" y="736"/>
+      <point x="195" y="728" type="curve"/>
+      <point x="192" y="729"/>
+      <point x="186" y="734"/>
+      <point x="186" y="742" type="curve" smooth="yes"/>
+      <point x="186" y="757"/>
+      <point x="196" y="773"/>
+      <point x="205" y="783" type="curve" smooth="yes"/>
+      <point x="231" y="810"/>
+      <point x="256" y="820"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>728</integer>
+            <key>width</key>
+            <integer>50</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>770</integer>
+            <key>width</key>
+            <integer>50</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>186</integer>
+            <key>width</key>
+            <integer>314</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
