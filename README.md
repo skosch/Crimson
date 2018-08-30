@@ -1,23 +1,24 @@
-# :rotating_light: :rotating_light: Help Wanted :rotating_light: :rotating_light:
+Crimson is a free and open-source text type family.
 
-I know very little about producing bug-free font files that work across all systems and browsers, but there are many open issues that require expertise in that area.
+Versions/History
+----------------
 
-If you are interested in helping out, let me know – I'm generous with commit rights :)
+Crimson was first released in 2010 (as *Crimson Text*) and has undergone major
+revisions since then.
 
-<br/>
-<hr />
-<br/>
+| Version                                                             | Specimen | Info                                                                                                                                                                                                                                                                                                                                                                                                                |
+| -------                                                             | -------- | ----                                                                                                                                                                                                                                                                                                                                                                                                                |
+| <p>**2010**</p><p>:link: [Google Fonts](https://fonts.google.com/specimen/Crimson+Text)</p>  | <img src="https://raw.githubusercontent.com/skosch/Crimson/master/specimen1.png" width="500">   | <p>First release.</p><p>At a time when quality libre text fonts were scarce (unlike today), Crimson Text was intended to serve as a workhorse font for the masses, inspired by the fantastic work of designers like Jan Tschichold (Sabon), Robert Slimbach (Arno, Minion) and Jonathan Hoefler (Hoefler Text).</p><p>The *Crimson Text* family was meant to be accompanied by a *Crimson Display* family, which never came to be.</p> |                                                                                                                                                                                                                                                                                                                                                    
+| <p>**2012**<br/>(current&nbsp;`master`&nbsp;branch)</p><p>:link: [Google Fonts (Amiri)](https://fonts.google.com/specimen/Amiri)<br/>:link: [Fontsquirrel](https://www.fontsquirrel.com/fonts/crimson)</p>                                    |   <img src="https://raw.githubusercontent.com/skosch/Crimson/master/specimen2.png" width="300"> | <p>A complete overhaul to take care of the wonky outlines and inconsistent spacing of the first version.</p><p>Adaptation of this version has been slow, because Google Fonts continues to provide the 2010 version.</p><p>However, this font is available as the Latin character set of Khaled Hosny's lovely Amiri font (also available on Google Fonts).</p><p>Similarity to Minion is rather coincidental (it's certainly not an intentional clone). Nevertheless, this version works well with LaTeX packages like `minionmath` (TeX users, check out `cochineal` as well).</p><p>:rotating_light: There are a good number of production issues still – if you are willing to help maintain this generation of Crimson, please let me know; I am generous with commit rights! :rotating_light:</p> 
+| <p>**2018**</br>("Crimson Prime")</p><p>Available soon!<br/>:link: [Discussion](https://groups.google.com/forum/#!topic/googlefonts-discuss/lZGJqeigS3I)</p>  | <img src="https://raw.githubusercontent.com/skosch/Crimson/master/specimen3.png" width="300">  |  A professionally produced redesign by Jacques Le Bailly ([@Fonthausen](https://github.com/Fonthausen)), commissioned by Google, this new Crimson is a fresh take on the first version and the result of months of painstaking work to perfect colour, glyph balance and legibility. |
 
-
-The *Crimson Text* Typeface
-===========================
-
-Crimson Text ("Crimson") is a free and open-source text type family.
-
-<img src="https://raw.githubusercontent.com/skosch/Crimson/master/specimen1.png" width="500" >
 
 Directories and Releases
 ------------------------
+**Note:** The current directory structure will be replaced with the release of
+Crimson Prime. The 2012 version will likely be kept (though not maintained) in a
+separate branch.
+
 The `Desktop Fonts` and `Web Fonts` directories above always contain the most up-to-date binaries, respectively.
 
 `Desktop Fonts` contains both OTF and TTF versions of the font. While OTF is generally regarded as the more modern and powerful format, some Windows users may prefer the rendered appearance of the TTF files, at least for screen use.
@@ -35,13 +36,10 @@ The font is designed in the tradition of beautiful oldstyle type, and inspired p
 * spacing/kerning done by Igino Marini's spectacular [iKern](http://www.ikern.com)
 * an unbeatable price of zero!
 
-Naming confusion
-----------------
-The full name of the font is *Crimson Text*, since I had originally planned to follow up with a *Crimson Display* as well. That never came to pass, and laziness on my part and that of most users led to the *Text* casually falling by the wayside. To add to the confusion, two distinct Crimsons exist, since the original font was completely redrawn two years after its release. While you are looking at the new, improved version, Google Fonts continues to offer the clumsy-looking original via and has not heeded the repeated pleas for an upgrade. If you want to stick with Google Fonts, I recommend you switch to [Amiri](https://fonts.google.com/specimen/Amiri) in the meantime – it uses the new Crimson for its Roman characters.
-
-Credits
+Contributors
 -------
 This project owes its success to (in no particular order)
+
 * Google's generous funding,
 * a handful of anonymous donors,
 * Adrien Tétar, for tirelessly fixing bugs,
@@ -55,12 +53,5 @@ This project owes its success to (in no particular order)
 
 Contributing
 ------------
-Contributions to the project in any form are very much welcome, and indeed encouraged! We always need help with:
-* Improving/tidying up glyph outlines
-* Correcting wrongly placed accents, messed up encodings, or making other language-specific fixes
-* Writing comprehensive OpenType features
-* Adding new glyphs to expand the coverage of languages, symbol sets, typographic niceties, etc.
-* Ironing out spacing and kerning wrinkles
-* Streamlining the build process from SFD (or UFO) to binary files.
-
-I'm looking forward to your pull requests!
+Contributions to the project in any form are very much welcome. I am generous
+with commit rights – if you would like to help maintain this project, gimme a shout!
